@@ -11,6 +11,31 @@ present in the input JSON is ever rendered — nothing is invented. Where a
 business has no formal service list, the site shows their real call to
 action (call, DM, email) instead of a fabricated pricing/booking flow.
 
+## Design system
+
+- **Type**: Playfair Display (editorial serif, headings) + Inter (body),
+  loaded from Google Fonts with a system-font fallback if that request is
+  blocked or offline. This pairing and the layout patterns below
+  (bento-grid gallery, an editorial pull-quote for the top review, oversized
+  hero type) come from querying the `ui-ux-pro-max` design-data skill
+  (`--design-system`, `--domain style/typography/landing/gsap`) rather than
+  being guessed — see that skill's own data for the full rule set.
+- **Color**: one brand accent color on a near-black/white base (not a
+  wash of tinted backgrounds everywhere) — closer to an agency/editorial
+  site than a generic "beige template."
+- **Motion**: a hand-rolled scroll-reveal (no GSAP/Framer Motion — both
+  need a bundler or React, which would break the "one file, no install"
+  point of this tool). Its timing (duration, easing, stagger cap) is
+  ported from that skill's GSAP "Scroll Reveal — Standard" preset. Content
+  is `opacity: 1` by default in the CSS — the script only *arms* the
+  hidden-until-in-view behavior, and skips that entirely under
+  `prefers-reduced-motion` — so no-JS clients, crawlers, and
+  reduced-motion users always see full content immediately, never
+  something stuck invisible.
+- Buttons and booking choices have real press/hover feedback
+  (`active:scale(0.97)`, hover lift + shadow) instead of static flat
+  rectangles.
+
 ## Usage
 
 ```sh
@@ -129,7 +154,10 @@ present.
   and `<script>` are hashed (SHA-256) at generation time and the exact
   hash is put in the `Content-Security-Policy` meta tag — so inline code
   runs, but nothing else does. There are no inline `style="..."`
-  attributes or inline event handlers anywhere in the output.
+  attributes or inline event handlers anywhere in the output. The only
+  extra hosts allowed are `fonts.googleapis.com`/`fonts.gstatic.com`
+  (the display font) and, only if you turn on `analytics`, that one
+  provider's domain — nothing else can load.
 - Every phone number, email, and Instagram handle is validated before
   being written into a `tel:`/`mailto:`/`https://instagram.com/...` link;
   anything malformed is dropped (with a warning) instead of emitted.

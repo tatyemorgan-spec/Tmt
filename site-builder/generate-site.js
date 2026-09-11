@@ -272,10 +272,22 @@ function buildBookingConfig(business, services) {
 // Shared document chrome (used by every generated HTML page)
 // ---------------------------------------------------------------------------
 
-function buildCsp({ scriptHash, styleHash, analytics }) {
+// Google Fonts: Playfair Display (editorial display serif) + Inter (clean
+// body sans) — sourced from the ui-ux-pro-max design-data skill's "Classic
+// Elegant" pairing, tagged for spa/beauty/editorial work, which fits a
+// local-service business far better than a generic system-font stack.
+const FONTS_PRECONNECT = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap">`;
+
+function buildCsp({ scriptHash, styleHash, analytics, webFonts }) {
   const scriptSrc = ["'self'"];
   const connectSrc = ["'none'"];
+  const styleSrc = ["'self'"];
+  const fontSrc = ["'self'"];
   if (scriptHash) scriptSrc.push(`'sha256-${scriptHash}'`);
+  if (webFonts) {
+    styleSrc.push("https://fonts.googleapis.com");
+    fontSrc.push("https://fonts.gstatic.com");
+  }
   if (analytics && analytics.provider === "plausible") {
     scriptSrc.push("https://plausible.io");
     connectSrc[0] = "https://plausible.io";
@@ -286,9 +298,9 @@ function buildCsp({ scriptHash, styleHash, analytics }) {
   const directives = [
     "default-src 'self'",
     `script-src ${scriptSrc.join(" ")}`,
-    `style-src 'self'${styleHash ? ` 'sha256-${styleHash}'` : ""}`,
+    `style-src ${styleSrc.join(" ")}${styleHash ? ` 'sha256-${styleHash}'` : ""}`,
     "img-src 'self' data: https:",
-    "font-src 'self'",
+    `font-src ${fontSrc.join(" ")}`,
     `connect-src ${connectSrc.join(" ")}`,
     "object-src 'none'",
     "base-uri 'none'",
@@ -310,18 +322,27 @@ function baseStyles(colors) {
     --accent: ${accent};
     --ink: ${ink};
     --surface: ${surface};
+    --surface-soft: #fafaf8;
+    --line: rgba(10,10,10,0.09);
     --focus-ring: 0 0 0 3px #fff, 0 0 0 5px var(--primary);
+    --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --space-section: clamp(56px, 9vw, 128px);
   }
   * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  section[id] { scroll-margin-top: 84px; } /* keeps the sticky header from covering the section heading on anchor jumps */
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-body);
     color: var(--ink);
     background: var(--surface);
     line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3 { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; line-height: 1.2; margin: 0 0 0.5em; }
+  h1, h2, h3 { font-family: var(--font-display); line-height: 1.08; margin: 0 0 0.4em; letter-spacing: -0.01em; font-weight: 700; }
   a { color: var(--primary-dark); }
   img { max-width: 100%; display: block; }
   .skip-link {
@@ -331,67 +352,118 @@ function baseStyles(colors) {
   }
   .skip-link:focus { left: 0; top: 0; }
   :focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: 4px; }
-  .container { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  .container { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
   header.site-header {
     position: sticky; top: 0; z-index: 20;
     display: flex; align-items: center; justify-content: space-between;
-    gap: 12px; padding: 14px 20px;
-    background: rgba(255,255,255,0.96);
-    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0,0,0,0.08);
-    box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+    gap: 12px; padding: 16px 24px;
+    background: rgba(255,255,255,0.9);
+    -webkit-backdrop-filter: blur(14px) saturate(1.6); backdrop-filter: blur(14px) saturate(1.6);
+    border-bottom: 1px solid var(--line);
   }
-  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05rem; text-decoration: none; color: var(--ink); }
-  .brand img { width: 28px; height: 28px; border-radius: 7px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; text-decoration: none; color: var(--ink); }
+  .brand img { width: 30px; height: 30px; border-radius: 8px; }
   .btn {
     display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-    border: none; border-radius: 999px; padding: 12px 22px; min-height: 44px;
+    border: none; border-radius: 999px; padding: 13px 24px; min-height: 44px;
     font: inherit; font-size: 0.95rem; font-weight: 600; cursor: pointer;
     text-decoration: none; text-align: center;
+    transition: transform 0.18s var(--ease-out), box-shadow 0.18s var(--ease-out), background-color 0.18s var(--ease-out), opacity 0.18s var(--ease-out);
   }
-  .btn-primary { background: var(--primary); color: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
-  @media (hover: hover) { .btn-primary:hover { background: var(--primary-dark); } }
+  .btn-primary { background: var(--primary); color: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+  @media (hover: hover) {
+    .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 10px 24px -8px color-mix(in srgb, var(--primary) 65%, transparent); }
+    .btn-outline:hover { border-color: var(--primary-dark); background: color-mix(in srgb, var(--primary) 6%, transparent); }
+  }
+  .btn:active { transform: scale(0.97); box-shadow: none; }
   .btn-outline { background: transparent; color: var(--primary-dark); border: 1.5px solid var(--primary); }
-  .btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+  .btn[disabled] { opacity: 0.5; cursor: not-allowed; transform: none !important; }
+  .btn-invert { background: #fff; color: var(--ink); }
+  @media (hover: hover) { .btn-invert:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 10px 24px -8px rgba(0,0,0,0.35); } }
   main { display: block; }
-  .hero { padding: 56px 20px 40px; background: var(--accent); text-align: center; }
+
+  /* ---- Hero: oversized display type + generous negative space ---- */
+  .hero { padding: clamp(64px, 12vw, 140px) 24px clamp(56px, 8vw, 96px); background: var(--surface); text-align: center; }
+  .hero-eyebrow { font-family: var(--font-body); text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.78rem; font-weight: 600; color: var(--primary-dark); margin: 0 0 20px; }
+  .hero h1 { font-size: clamp(2.6rem, 8vw, 5.5rem); margin: 0 0 20px; letter-spacing: -0.02em; }
+  .hero p.subhead { margin: 0 auto 32px; opacity: 0.72; font-size: clamp(1.05rem, 2vw, 1.25rem); max-width: 46ch; font-family: var(--font-body); }
   .hero.has-image { padding: 0; position: relative; color: #fff; text-align: left; }
-  .hero.has-image .hero-media { position: relative; aspect-ratio: 4 / 5; max-height: 78vh; overflow: hidden; }
+  .hero.has-image .hero-media { position: relative; aspect-ratio: 4 / 5; max-height: 82vh; overflow: hidden; }
   .hero.has-image .hero-media img { width: 100%; height: 100%; object-fit: cover; }
-  .hero.has-image .hero-scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.1) 55%); }
-  .hero.has-image .hero-copy { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 24px 32px; }
+  .hero.has-image .hero-scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.05) 60%); }
+  .hero.has-image .hero-copy { position: absolute; left: 0; right: 0; bottom: 0; padding: 32px 28px 40px; }
   .hero.has-image h1, .hero.has-image p { color: #fff; }
-  .hero h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); margin: 0 0 10px; }
-  .hero p.subhead { margin: 0 0 22px; opacity: 0.9; font-size: 1.05rem; }
-  .section { max-width: 720px; margin: 0 auto; padding: 48px 20px; }
-  .section + .section { border-top: 1px solid rgba(0,0,0,0.06); }
-  .eyebrow { text-transform: uppercase; letter-spacing: 0.09em; font-size: 0.75rem; color: var(--primary-dark); font-weight: 700; margin: 0 0 8px; }
-  .section h2 { font-size: 1.5rem; }
-  .rule { width: 48px; height: 3px; background: var(--primary); border: none; margin: 14px 0 22px; border-radius: 2px; }
-  .body-text { opacity: 0.85; max-width: 60ch; }
-  .service-category { margin: 28px 0 8px; font-size: 1.05rem; }
+  .hero.has-image .hero-eyebrow { color: #fff; opacity: 0.85; }
+  .hero.has-image h1 { font-size: clamp(2.4rem, 9vw, 4.2rem); }
+
+  .section { max-width: 1040px; margin: 0 auto; padding: var(--space-section) 24px; }
+  .section-narrow { max-width: 680px; }
+  .section + .section { border-top: 1px solid var(--line); }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.75rem; color: var(--primary-dark); font-weight: 700; margin: 0 0 10px; }
+  .section h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); }
+  .section-head { max-width: 640px; margin-bottom: 40px; }
+  .rule { width: 48px; height: 3px; background: var(--primary); border: none; margin: 16px 0 0; border-radius: 2px; }
+  .body-text { opacity: 0.75; max-width: 60ch; font-size: 1.05rem; }
+  .service-category { margin: 32px 0 10px; font-size: 1.1rem; font-family: var(--font-display); }
   .service-category:first-of-type { margin-top: 8px; }
-  .service-list { border-top: 1px solid rgba(0,0,0,0.08); }
-  .service-row { display: flex; justify-content: space-between; gap: 12px; padding: 14px 2px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+  .service-list { border-top: 1px solid var(--line); }
+  .service-row { display: flex; justify-content: space-between; gap: 12px; padding: 16px 2px; border-bottom: 1px solid var(--line); }
   .service-name { font-weight: 600; }
-  .service-desc { font-size: 0.88rem; opacity: 0.7; margin-top: 2px; }
-  .service-price { font-weight: 600; white-space: nowrap; }
-  .gallery-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .gallery-item { position: relative; border-radius: 14px; overflow: hidden; background: var(--accent); aspect-ratio: 4 / 5; }
+  .service-desc { font-size: 0.88rem; opacity: 0.65; margin-top: 2px; }
+  .service-price { font-weight: 600; white-space: nowrap; color: var(--primary-dark); }
+
+  /* ---- Bento-style gallery grid: varied spans, not a flat 2-col wall ---- */
+  .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: minmax(90px, auto); gap: 12px; }
+  .gallery-item { position: relative; border-radius: 20px; overflow: hidden; background: var(--surface-soft); grid-column: span 2; grid-row: span 2; }
+  .gallery-item.span-wide { grid-column: span 4; aspect-ratio: 16 / 9; }
+  .gallery-item.span-tall { grid-row: span 3; }
   .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
-  @media (hover: hover) { .gallery-item img { transition: transform 0.35s ease; } .gallery-item:hover img { transform: scale(1.04); } }
-  .gallery-tag { position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,0.92); border-radius: 999px; padding: 3px 12px; font-size: 0.75rem; font-weight: 600; }
-  .review-list { display: flex; flex-direction: column; gap: 14px; }
-  .review-card { background: var(--accent); border-radius: 16px; padding: 20px; position: relative; }
+  @media (hover: hover) {
+    .gallery-item img { transition: transform 0.5s var(--ease-out); }
+    .gallery-item:hover img { transform: scale(1.045); }
+  }
+  .gallery-tag { position: absolute; top: 12px; left: 12px; background: rgba(255,255,255,0.94); border-radius: 999px; padding: 4px 13px; font-size: 0.75rem; font-weight: 600; }
+  @media (max-width: 640px) {
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-item { grid-column: span 1; grid-row: span 1; aspect-ratio: 4 / 5; }
+    .gallery-item.span-wide { grid-column: span 2; }
+  }
+
+  /* ---- Reviews: one editorial pull-quote + a bento row of supporting cards ---- */
+  .review-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .review-card { background: var(--surface-soft); border-radius: 20px; padding: 26px; position: relative; }
+  .review-card.pull-quote { grid-column: 1 / -1; background: var(--ink); color: #fff; padding: clamp(32px, 5vw, 56px); }
+  .review-card.pull-quote .review-quote { font-family: var(--font-display); font-style: italic; font-size: clamp(1.3rem, 2.6vw, 1.9rem); line-height: 1.35; color: #fff; }
+  .review-card.pull-quote .review-author { color: rgba(255,255,255,0.7); }
+  .review-card.pull-quote .stars { color: #ffd876; }
   .stars { color: #c9982b; letter-spacing: 2px; }
-  .review-quote { margin: 6px 0 10px; }
-  .review-author { margin: 0; font-size: 0.85rem; opacity: 0.7; }
+  .review-quote { margin: 10px 0 14px; font-size: 1.02rem; }
+  .review-author { margin: 0; font-size: 0.85rem; opacity: 0.65; }
+  @media (max-width: 640px) { .review-list { grid-template-columns: 1fr; } .review-card.pull-quote { grid-column: auto; } }
+
   .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  .contact-rows { display: flex; flex-direction: column; gap: 12px; }
+  .contact-rows { display: flex; flex-direction: column; gap: 14px; }
   .contact-row { display: flex; align-items: center; gap: 10px; }
   .contact-row a { text-decoration: none; font-weight: 600; }
-  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
-  footer.site-footer { text-align: center; padding: 32px 20px; font-size: 0.85rem; opacity: 0.65; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+
+  /* ---- Closing CTA band: inverted, high-impact, one job: get the click ---- */
+  .cta-band { background: var(--ink); color: #fff; text-align: center; padding: clamp(56px, 10vw, 110px) 24px; }
+  .cta-band h2 { color: #fff; font-size: clamp(2rem, 5vw, 3.2rem); margin-bottom: 16px; }
+  .cta-band p { color: rgba(255,255,255,0.72); margin: 0 auto 32px; max-width: 46ch; font-size: 1.05rem; }
+
+  footer.site-footer { text-align: center; padding: 32px 20px; font-size: 0.85rem; opacity: 0.6; }
+
+  /* ---- Motion: JS arms .reveal groups only when IO + no-reduced-motion;
+     everything is visible by default so no-JS / crawlers / reduced-motion
+     always see full content immediately. ---- */
+  .reveal { opacity: 1; transform: none; }
+  html.reveal-armed .reveal:not(.in-view) { opacity: 0; transform: translateY(24px); }
+  html.reveal-armed .reveal.in-view {
+    opacity: 1; transform: none;
+    transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
   #booking-app { border: 1px solid rgba(0,0,0,0.1); border-radius: 18px; padding: 20px; background: var(--surface); }
   .bk-steps { display: flex; gap: 4px; margin-bottom: 20px; }
   .bk-steps div { flex: 1; height: 4px; border-radius: 4px; background: rgba(0,0,0,0.1); }
@@ -399,8 +471,13 @@ function baseStyles(colors) {
   .bk-step-title { font-weight: 700; margin-bottom: 4px; }
   .bk-step-sub { font-size: 0.88rem; opacity: 0.7; margin-bottom: 16px; }
   .bk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .bk-choice { border: 1px solid rgba(0,0,0,0.15); border-radius: 12px; padding: 12px; background: var(--surface); cursor: pointer; text-align: left; font: inherit; min-height: 44px; }
+  .bk-choice {
+    border: 1.5px solid var(--line); border-radius: 14px; padding: 13px; background: var(--surface);
+    cursor: pointer; text-align: left; font: inherit; min-height: 44px;
+    transition: border-color 0.15s var(--ease-out), background-color 0.15s var(--ease-out), transform 0.15s var(--ease-out);
+  }
   @media (hover: hover) { .bk-choice:hover { border-color: var(--primary); } }
+  .bk-choice:active { transform: scale(0.97); }
   .bk-choice.selected { border-color: var(--primary); background: var(--accent); }
   .bk-choice[aria-pressed="true"] { border-width: 2px; }
   .bk-choice small { display: block; opacity: 0.65; margin-top: 2px; }
@@ -446,6 +523,7 @@ ${canonical ? `<link rel="canonical" href="${escapeAttr(canonical)}">` : ""}
 ${description ? `<meta property="og:description" content="${escapeAttr(description)}">` : ""}
 ${canonical ? `<meta property="og:url" content="${escapeAttr(canonical)}">` : ""}
 ${socialImage ? `<meta property="og:image" content="${escapeAttr(socialImage)}">\n<meta name="twitter:card" content="summary_large_image">` : `<meta name="twitter:card" content="summary">`}
+${FONTS_PRECONNECT}
 ${styleTag}
 </head>
 <body>
@@ -676,6 +754,40 @@ function buildCookieBannerScript() {
 })();`;
 }
 
+// Scroll-reveal, hand-rolled (no GSAP/Framer Motion — this stays a single
+// dependency-free HTML file). Timing/easing/stagger-cap values are ported
+// from the ui-ux-pro-max design-data skill's "Scroll Reveal — Standard"
+// GSAP preset (duration 400-600ms, power2.out, viewport-enter trigger,
+// don't stagger more than ~8 children) rather than guessed.
+//
+// Content is opacity:1 by default in CSS (see .reveal in baseStyles) so
+// no-JS clients and crawlers always see everything immediately. This script
+// only *arms* the hidden-until-in-view behavior, and skips that entirely
+// under prefers-reduced-motion.
+function buildRevealScript() {
+  return `(function () {
+  if (!window.IntersectionObserver || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  document.documentElement.classList.add('reveal-armed');
+  var groups = document.querySelectorAll('[data-reveal-group]');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('in-view');
+      io.unobserve(entry.target);
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -10% 0px' });
+  groups.forEach(function (group) {
+    var items = group.hasAttribute('data-reveal-self') ? [group] : Array.prototype.slice.call(group.children);
+    items.slice(0, 8).forEach(function (item, i) {
+      item.classList.add('reveal');
+      item.style.setProperty('--reveal-delay', (i * 80) + 'ms');
+      io.observe(item);
+    });
+    items.slice(8).forEach(function (item) { item.classList.add('reveal', 'in-view'); });
+  });
+})();`;
+}
+
 // ---------------------------------------------------------------------------
 // Page builders
 // ---------------------------------------------------------------------------
@@ -734,22 +846,26 @@ function renderIndex(data, baseDir) {
   if (!socialImage && heroImage) warn("Hero image is embedded locally (data: URI), so it can't be used as a social-share preview image. Set business.socialImage to a hosted https:// image URL if you want link previews to show a photo.");
 
   const bioBlock = business.bio ? `
-      <section class="section" id="about" aria-labelledby="about-h">
-        <p class="eyebrow">About</p>
-        <h2 id="about-h">${escapeHtml(business.aboutHeadline || "Our Story")}</h2>
-        <hr class="rule" aria-hidden="true">
-        <p class="body-text">${escapeHtml(business.bio)}</p>
+      <section class="section section-narrow" id="about" aria-labelledby="about-h">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">About</p>
+          <h2 id="about-h">${escapeHtml(business.aboutHeadline || "Our Story")}</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <p class="body-text" data-reveal-group data-reveal-self>${escapeHtml(business.bio)}</p>
       </section>` : "";
 
   const servicesBlock = grouped.length ? `
       <section class="section" id="services" aria-labelledby="services-h">
-        <p class="eyebrow">Menu</p>
-        <h2 id="services-h">Services &amp; Pricing</h2>
-        <hr class="rule" aria-hidden="true">
-        ${business.servicesNote ? `<p class="body-text">${escapeHtml(business.servicesNote)}</p>` : ""}
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Menu</p>
+          <h2 id="services-h">Services &amp; Pricing</h2>
+          <hr class="rule" aria-hidden="true">
+          ${business.servicesNote ? `<p class="body-text">${escapeHtml(business.servicesNote)}</p>` : ""}
+        </div>
         ${grouped.map((group) => `
           <h3 class="service-category">${escapeHtml(group.category)}</h3>
-          <div class="service-list">
+          <div class="service-list" data-reveal-group>
             ${group.items.map((item) => `
               <div class="service-row">
                 <div>
@@ -763,12 +879,14 @@ function renderIndex(data, baseDir) {
 
   const galleryBlock = gallery.length ? `
       <section class="section" id="gallery" aria-labelledby="gallery-h">
-        <p class="eyebrow">Recent Work</p>
-        <h2 id="gallery-h">${escapeHtml(business.galleryHeadline || "See For Yourself")}</h2>
-        <hr class="rule" aria-hidden="true">
-        <div class="gallery-grid">
-          ${gallery.map((g) => `
-            <div class="gallery-item">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Recent Work</p>
+          <h2 id="gallery-h">${escapeHtml(business.galleryHeadline || "See For Yourself")}</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <div class="gallery-grid" data-reveal-group>
+          ${gallery.map((g, i) => `
+            <div class="gallery-item${i === 0 && gallery.length > 1 ? " span-wide" : ""}">
               <img src="${g.src}" alt="${escapeAttr(g.alt)}" loading="lazy" decoding="async">
               ${g.tag ? `<span class="gallery-tag">${escapeHtml(g.tag)}</span>` : ""}
             </div>`).join("")}
@@ -777,12 +895,14 @@ function renderIndex(data, baseDir) {
 
   const reviewsBlock = reviews.length ? `
       <section class="section" id="reviews" aria-labelledby="reviews-h">
-        <p class="eyebrow">Kind Words</p>
-        <h2 id="reviews-h">What Clients Say</h2>
-        <hr class="rule" aria-hidden="true">
-        <div class="review-list">
-          ${reviews.map((r) => { const s = reviewStars(r.rating); return `
-            <div class="review-card">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Kind Words</p>
+          <h2 id="reviews-h">What Clients Say</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <div class="review-list" data-reveal-group>
+          ${reviews.map((r, i) => { const s = reviewStars(r.rating); return `
+            <div class="review-card${i === 0 && reviews.length > 1 ? " pull-quote" : ""}">
               <span class="stars" aria-hidden="true">${s.glyphs}</span>
               <span class="visually-hidden">${escapeHtml(s.label)}</span>
               <p class="review-quote">"${escapeHtml(r.quote)}"</p>
@@ -799,22 +919,14 @@ function renderIndex(data, baseDir) {
     contact.hours ? `<div class="contact-row"><span aria-hidden="true">🕐</span> <span>${escapeHtml(contact.hours)}</span></div>` : "",
   ].filter(Boolean).join("\n");
 
-  // Fallback call-to-action for businesses with no formal service/price list
-  // (nothing to build a booking wizard from) — mirrors how they actually say
-  // to reach them instead of inventing a fake "Book Now" flow.
-  const fallbackCtaButtons = [
-    validPhone ? `<a class="btn btn-primary" href="tel:${escapeAttr(validPhone)}">Call to Book</a>` : "",
-    igHandle ? `<a class="btn btn-outline" href="https://instagram.com/${escapeAttr(igHandle)}" target="_blank" rel="noopener noreferrer">DM on Instagram</a>` : "",
-    !validPhone && !igHandle && validEmail ? `<a class="btn btn-primary" href="mailto:${escapeAttr(validEmail)}">Email to Book</a>` : "",
-  ].filter(Boolean).join("\n");
-
   const contactBlock = contactRows ? `
-      <section class="section" id="contact" aria-labelledby="contact-h">
-        <p class="eyebrow">Visit Us</p>
-        <h2 id="contact-h">Contact</h2>
-        <hr class="rule" aria-hidden="true">
-        <div class="contact-rows">${contactRows}</div>
-        ${!showBooking && fallbackCtaButtons ? `<div class="cta-row">${fallbackCtaButtons}</div>` : ""}
+      <section class="section section-narrow" id="contact" aria-labelledby="contact-h">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Visit Us</p>
+          <h2 id="contact-h">Contact</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <div class="contact-rows" data-reveal-group data-reveal-self>${contactRows}</div>
       </section>` : "";
 
   const bookingBlock = showBooking ? `
@@ -827,26 +939,43 @@ function renderIndex(data, baseDir) {
         <p id="booking-live" class="visually-hidden" role="status" aria-live="polite"></p>
       </section>` : "";
 
-  const topCta = showBooking
-    ? `<a class="btn btn-primary" href="#book">Book Now</a>`
-    : (validPhone ? `<a class="btn btn-primary" href="tel:${escapeAttr(validPhone)}">Call Now</a>`
-      : (igHandle ? `<a class="btn btn-primary" href="https://instagram.com/${escapeAttr(igHandle)}" target="_blank" rel="noopener noreferrer">DM to Book</a>` : ""));
+  const ctaHref = showBooking ? "#book" : validPhone ? `tel:${escapeAttr(validPhone)}` : igHandle ? `https://instagram.com/${escapeAttr(igHandle)}` : validEmail ? `mailto:${escapeAttr(validEmail)}` : null;
+  const ctaLabel = showBooking ? "Book Now" : validPhone ? "Call Now" : igHandle ? "DM to Book" : validEmail ? "Email to Book" : null;
+  const ctaIsExternal = !showBooking && !validPhone && igHandle;
+  function ctaButton(cls) {
+    if (!ctaHref) return "";
+    return `<a class="btn ${cls}" href="${ctaHref}"${ctaIsExternal ? ` target="_blank" rel="noopener noreferrer"` : ""}>${ctaLabel}</a>`;
+  }
+  const topCta = ctaButton("btn-primary");
 
   const heroBlock = heroImage ? `
     <section class="hero has-image" aria-labelledby="hero-h">
       <div class="hero-media"><img src="${heroImage}" alt="" role="presentation"></div>
       <div class="hero-scrim" aria-hidden="true"></div>
-      <div class="hero-copy">
+      <div class="hero-copy" data-reveal-group>
         <h1 id="hero-h">${escapeHtml(heroHeadline)}</h1>
         ${heroSubheadline ? `<p class="subhead">${escapeHtml(heroSubheadline)}</p>` : ""}
         ${topCta}
       </div>
     </section>` : `
     <section class="hero" aria-labelledby="hero-h">
-      <h1 id="hero-h">${escapeHtml(heroHeadline)}</h1>
-      ${heroSubheadline ? `<p class="subhead">${escapeHtml(heroSubheadline)}</p>` : ""}
-      ${topCta}
+      <div data-reveal-group>
+        <h1 id="hero-h">${escapeHtml(heroHeadline)}</h1>
+        ${heroSubheadline ? `<p class="subhead">${escapeHtml(heroSubheadline)}</p>` : ""}
+        ${topCta}
+      </div>
     </section>`;
+
+  // Bold closing CTA band. Skipped when the booking wizard is present since
+  // that section already ends the page with a strong, non-redundant CTA.
+  const ctaBandBlock = !showBooking && ctaHref ? `
+      <section class="cta-band" aria-labelledby="cta-band-h">
+        <div data-reveal-group data-reveal-self>
+          <h2 id="cta-band-h">${escapeHtml(business.closingHeadline || `Ready to book with ${business.name}?`)}</h2>
+          <p>${escapeHtml(business.closingSubhead || "Reach out and we'll get you sorted.")}</p>
+          ${ctaButton("btn-invert")}
+        </div>
+      </section>` : "";
 
   const cookieBannerHtml = cookieBannerNeeded ? `
     <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie notice" hidden>
@@ -872,7 +1001,7 @@ function renderIndex(data, baseDir) {
 
   const bookingScript = showBooking ? buildBookingScript(bookingCfg, { email: validEmail, phone: validPhone }) : "";
   const cookieScript = cookieBannerNeeded ? buildCookieBannerScript() : "";
-  const fullScript = [bookingScript, cookieScript].filter(Boolean).join("\n\n");
+  const fullScript = [buildRevealScript(), bookingScript, cookieScript].filter(Boolean).join("\n\n");
   const styleContent = baseStyles(colors);
 
   const bodyHtml = `<a class="skip-link" href="#main">Skip to content</a>
@@ -887,6 +1016,7 @@ function renderIndex(data, baseDir) {
     ${galleryBlock}
     ${reviewsBlock}
     ${bookingBlock}
+    ${ctaBandBlock}
     ${contactBlock}
   </main>
   <footer class="site-footer">
@@ -899,7 +1029,7 @@ function renderIndex(data, baseDir) {
 
   const scriptHash = fullScript ? sha256Base64(fullScript) : null;
   const styleHash = sha256Base64(styleContent);
-  const csp = buildCsp({ scriptHash, styleHash, analytics });
+  const csp = buildCsp({ scriptHash, styleHash, analytics, webFonts: true });
 
   const html = pageShell({
     title: business.name,
@@ -917,7 +1047,7 @@ function renderIndex(data, baseDir) {
 
 function legalPageShell({ title, business, colors, faviconUri, bodyHtml }) {
   const styleContent = baseStyles(colors) + `.legal-page main { max-width: 680px; }`;
-  const csp = buildCsp({ styleHash: sha256Base64(styleContent) });
+  const csp = buildCsp({ styleHash: sha256Base64(styleContent), webFonts: true });
   return pageShell({
     title: `${title} — ${business.name}`,
     faviconUri,
@@ -968,7 +1098,7 @@ function buildTerms(business, colors, faviconUri) {
 
 function build404(business, colors, faviconUri) {
   const styleContent = baseStyles(colors);
-  const csp = buildCsp({ styleHash: sha256Base64(styleContent) });
+  const csp = buildCsp({ styleHash: sha256Base64(styleContent), webFonts: true });
   const bodyHtml = `
     <header class="site-header"><a class="brand" href="index.html">${escapeHtml(business.name)}</a></header>
     <main>
