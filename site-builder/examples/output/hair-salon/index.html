@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39; &#39;sha256-HFReZU9fd76Lf5kNIDWjzq4I9vU+yZkaToNajy1yH3A=&#39;; style-src &#39;self&#39; &#39;sha256-puU1R4lOUnZtYcGqTpHFxpfTp5ZeNMqv/Dip5cLlf0g=&#39;; img-src &#39;self&#39; data: https:; font-src &#39;self&#39;; connect-src &#39;none&#39;; object-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;self&#39;; upgrade-insecure-requests">
+<title>Main Street Hair Co.</title>
+<meta name="description" content="A close-knit team that believes in good vibes and even better hair days — walk in as a client, leave feeling like family.">
+<link rel="canonical" href="https://mainstreethair.example/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%238a6240%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2242%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ffffff%22%3EMS%3C%2Ftext%3E%3C%2Fsvg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Main Street Hair Co.">
+<meta property="og:description" content="A close-knit team that believes in good vibes and even better hair days — walk in as a client, leave feeling like family.">
+<meta property="og:url" content="https://mainstreethair.example/">
+<meta name="twitter:card" content="summary">
+<style>
+  :root {
+    --primary: #8a6240;
+    --primary-dark: #715034;
+    --accent: #f6efe4;
+    --ink: #20201d;
+    --surface: #ffffff;
+    --focus-ring: 0 0 0 3px #fff, 0 0 0 5px var(--primary);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--surface);
+    line-height: 1.6;
+  }
+  h1, h2, h3 { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; line-height: 1.2; margin: 0 0 0.5em; }
+  a { color: var(--primary-dark); }
+  img { max-width: 100%; display: block; }
+  .skip-link {
+    position: absolute; left: -9999px; top: auto;
+    background: var(--primary); color: #fff; padding: 12px 18px; border-radius: 0 0 8px 0;
+    z-index: 100; font-weight: 600; text-decoration: none;
+  }
+  .skip-link:focus { left: 0; top: 0; }
+  :focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: 4px; }
+  .container { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header.site-header {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; padding: 14px 20px;
+    background: rgba(255,255,255,0.96);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05rem; text-decoration: none; color: var(--ink); }
+  .brand img { width: 28px; height: 28px; border-radius: 7px; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    border: none; border-radius: 999px; padding: 12px 22px; min-height: 44px;
+    font: inherit; font-size: 0.95rem; font-weight: 600; cursor: pointer;
+    text-decoration: none; text-align: center;
+  }
+  .btn-primary { background: var(--primary); color: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
+  @media (hover: hover) { .btn-primary:hover { background: var(--primary-dark); } }
+  .btn-outline { background: transparent; color: var(--primary-dark); border: 1.5px solid var(--primary); }
+  .btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+  main { display: block; }
+  .hero { padding: 56px 20px 40px; background: var(--accent); text-align: center; }
+  .hero.has-image { padding: 0; position: relative; color: #fff; text-align: left; }
+  .hero.has-image .hero-media { position: relative; aspect-ratio: 4 / 5; max-height: 78vh; overflow: hidden; }
+  .hero.has-image .hero-media img { width: 100%; height: 100%; object-fit: cover; }
+  .hero.has-image .hero-scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.1) 55%); }
+  .hero.has-image .hero-copy { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 24px 32px; }
+  .hero.has-image h1, .hero.has-image p { color: #fff; }
+  .hero h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); margin: 0 0 10px; }
+  .hero p.subhead { margin: 0 0 22px; opacity: 0.9; font-size: 1.05rem; }
+  .section { max-width: 720px; margin: 0 auto; padding: 48px 20px; }
+  .section + .section { border-top: 1px solid rgba(0,0,0,0.06); }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.09em; font-size: 0.75rem; color: var(--primary-dark); font-weight: 700; margin: 0 0 8px; }
+  .section h2 { font-size: 1.5rem; }
+  .rule { width: 48px; height: 3px; background: var(--primary); border: none; margin: 14px 0 22px; border-radius: 2px; }
+  .body-text { opacity: 0.85; max-width: 60ch; }
+  .service-category { margin: 28px 0 8px; font-size: 1.05rem; }
+  .service-category:first-of-type { margin-top: 8px; }
+  .service-list { border-top: 1px solid rgba(0,0,0,0.08); }
+  .service-row { display: flex; justify-content: space-between; gap: 12px; padding: 14px 2px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+  .service-name { font-weight: 600; }
+  .service-desc { font-size: 0.88rem; opacity: 0.7; margin-top: 2px; }
+  .service-price { font-weight: 600; white-space: nowrap; }
+  .gallery-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .gallery-item { position: relative; border-radius: 14px; overflow: hidden; background: var(--accent); aspect-ratio: 4 / 5; }
+  .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+  @media (hover: hover) { .gallery-item img { transition: transform 0.35s ease; } .gallery-item:hover img { transform: scale(1.04); } }
+  .gallery-tag { position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,0.92); border-radius: 999px; padding: 3px 12px; font-size: 0.75rem; font-weight: 600; }
+  .review-list { display: flex; flex-direction: column; gap: 14px; }
+  .review-card { background: var(--accent); border-radius: 16px; padding: 20px; position: relative; }
+  .stars { color: #c9982b; letter-spacing: 2px; }
+  .review-quote { margin: 6px 0 10px; }
+  .review-author { margin: 0; font-size: 0.85rem; opacity: 0.7; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .contact-rows { display: flex; flex-direction: column; gap: 12px; }
+  .contact-row { display: flex; align-items: center; gap: 10px; }
+  .contact-row a { text-decoration: none; font-weight: 600; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+  footer.site-footer { text-align: center; padding: 32px 20px; font-size: 0.85rem; opacity: 0.65; }
+  #booking-app { border: 1px solid rgba(0,0,0,0.1); border-radius: 18px; padding: 20px; background: var(--surface); }
+  .bk-steps { display: flex; gap: 4px; margin-bottom: 20px; }
+  .bk-steps div { flex: 1; height: 4px; border-radius: 4px; background: rgba(0,0,0,0.1); }
+  .bk-steps div.done { background: var(--primary); }
+  .bk-step-title { font-weight: 700; margin-bottom: 4px; }
+  .bk-step-sub { font-size: 0.88rem; opacity: 0.7; margin-bottom: 16px; }
+  .bk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .bk-choice { border: 1px solid rgba(0,0,0,0.15); border-radius: 12px; padding: 12px; background: var(--surface); cursor: pointer; text-align: left; font: inherit; min-height: 44px; }
+  @media (hover: hover) { .bk-choice:hover { border-color: var(--primary); } }
+  .bk-choice.selected { border-color: var(--primary); background: var(--accent); }
+  .bk-choice[aria-pressed="true"] { border-width: 2px; }
+  .bk-choice small { display: block; opacity: 0.65; margin-top: 2px; }
+  .bk-actions { display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; }
+  .bk-summary { background: var(--accent); border-radius: 12px; padding: 14px; margin-bottom: 16px; font-size: 0.92rem; }
+  .bk-field { margin-bottom: 14px; }
+  .bk-field label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 5px; }
+  .bk-field input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.25); font: inherit; min-height: 44px; }
+  .bk-field input[aria-invalid="true"] { border-color: #b3261e; }
+  .bk-error { color: #b3261e; font-size: 0.82rem; margin-top: 4px; }
+  .bk-note { font-size: 0.8rem; opacity: 0.65; margin-top: 12px; }
+  .legal-page main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  .legal-banner { background: #fff6e5; border: 1px solid #f0d999; border-radius: 10px; padding: 14px 16px; font-size: 0.9rem; margin-bottom: 28px; }
+  .error-page { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; }
+  .cookie-banner {
+    position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 50;
+    background: var(--ink); color: #fff; border-radius: 14px; padding: 16px;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  }
+  .cookie-banner p { margin: 0; font-size: 0.85rem; flex: 1 1 240px; }
+  .cookie-actions { display: flex; gap: 8px; }
+  .cookie-actions button { border-radius: 999px; border: none; padding: 8px 16px; font: inherit; font-weight: 600; cursor: pointer; min-height: 40px; }
+  .cookie-accept { background: var(--primary); color: #fff; }
+  .cookie-decline { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.5) !important; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  </style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#main"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%238a6240%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2242%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ffffff%22%3EMS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="" role="presentation">MAIN STREET HAIR CO.</a>
+    <a class="btn btn-primary" href="#book">Book Now</a>
+  </header>
+  <main id="main">
+    
+    <section class="hero" aria-labelledby="hero-h">
+      <h1 id="hero-h">Good Hair Doesn&#39;t Happen By Chance</h1>
+      <p class="subhead">It happens by appointment.</p>
+      <a class="btn btn-primary" href="#book">Book Now</a>
+    </section>
+    
+      <section class="section" id="about" aria-labelledby="about-h">
+        <p class="eyebrow">About</p>
+        <h2 id="about-h">Our Story</h2>
+        <hr class="rule" aria-hidden="true">
+        <p class="body-text">A close-knit team that believes in good vibes and even better hair days — walk in as a client, leave feeling like family.</p>
+      </section>
+    
+      <section class="section" id="services" aria-labelledby="services-h">
+        <p class="eyebrow">Menu</p>
+        <h2 id="services-h">Services &amp; Pricing</h2>
+        <hr class="rule" aria-hidden="true">
+        <p class="body-text">A quick look at what we offer. Final pricing depends on hair length, thickness &amp; time — we&#39;ll confirm everything before your appointment.</p>
+        
+          <h3 class="service-category">Cuts</h3>
+          <div class="service-list">
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Women&#39;s Haircut</div>
+                  <div class="service-desc">Shampoo, cut &amp; style included</div>
+                </div>
+                <div class="service-price">From $45</div>
+              </div>
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Men&#39;s Haircut</div>
+                  
+                </div>
+                <div class="service-price">From $30</div>
+              </div>
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Bang / Fringe Trim</div>
+                  
+                </div>
+                <div class="service-price">From $15</div>
+              </div>
+          </div>
+          <h3 class="service-category">Color</h3>
+          <div class="service-list">
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Root Touch-Up</div>
+                  <div class="service-desc">Single process, root to ends blend</div>
+                </div>
+                <div class="service-price">From $75</div>
+              </div>
+              <div class="service-row">
+                <div>
+                  <div class="service-name">All-Over Color</div>
+                  
+                </div>
+                <div class="service-price">From $95</div>
+              </div>
+          </div>
+          <h3 class="service-category">Highlights</h3>
+          <div class="service-list">
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Partial Highlights</div>
+                  
+                </div>
+                <div class="service-price">From $110</div>
+              </div>
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Full Highlights / Balayage</div>
+                  <div class="service-desc">Hand-painted, low-maintenance grow-out</div>
+                </div>
+                <div class="service-price">From $150</div>
+              </div>
+          </div>
+          <h3 class="service-category">Styles</h3>
+          <div class="service-list">
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Blowout &amp; Style</div>
+                  
+                </div>
+                <div class="service-price">From $35</div>
+              </div>
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Special Occasion Style</div>
+                  <div class="service-desc">Updos, events, photoshoots</div>
+                </div>
+                <div class="service-price">From $65</div>
+              </div>
+          </div>
+      </section>
+    
+    
+      <section class="section" id="reviews" aria-labelledby="reviews-h">
+        <p class="eyebrow">Kind Words</p>
+        <h2 id="reviews-h">What Clients Say</h2>
+        <hr class="rule" aria-hidden="true">
+        <div class="review-list">
+          
+            <div class="review-card">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span class="visually-hidden">Rated 5 out of 5 stars</span>
+              <p class="review-quote">"They listened to exactly what I wanted and my color turned out better than I imagined. Booking online was so easy too!"</p>
+              <p class="review-author">— Balayage Client</p>
+            </div>
+            <div class="review-card">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span class="visually-hidden">Rated 5 out of 5 stars</span>
+              <p class="review-quote">"Best haircut I&#39;ve had in years. The whole team is talented, sweet, and always makes the salon feel like home."</p>
+              <p class="review-author">— Regular Client</p>
+            </div>
+            <div class="review-card">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span class="visually-hidden">Rated 5 out of 5 stars</span>
+              <p class="review-quote">"Went in for highlights before a big event and left feeling like a whole new person. Highly recommend!"</p>
+              <p class="review-author">— New Client</p>
+            </div>
+        </div>
+      </section>
+    
+      <section class="section" id="book" aria-labelledby="book-h">
+        <p class="eyebrow">Appointments</p>
+        <h2 id="book-h">Book Your Appointment</h2>
+        <hr class="rule" aria-hidden="true">
+        <p class="body-text">Pick a service, date &amp; time — no account or login needed.</p>
+        <div id="booking-app" role="group" aria-label="Book an appointment"></div>
+        <p id="booking-live" class="visually-hidden" role="status" aria-live="polite"></p>
+      </section>
+    
+      <section class="section" id="contact" aria-labelledby="contact-h">
+        <p class="eyebrow">Visit Us</p>
+        <h2 id="contact-h">Contact</h2>
+        <hr class="rule" aria-hidden="true">
+        <div class="contact-rows"><div class="contact-row"><span aria-hidden="true">📍</span> <span>123 Main St, Anytown, USA</span></div>
+<div class="contact-row"><span aria-hidden="true">📞</span> <a href="tel:+15551234567">+15551234567</a></div>
+<div class="contact-row"><span aria-hidden="true">✉️</span> <a href="mailto:hello@mainstreethair.example">hello@mainstreethair.example</a></div>
+<div class="contact-row"><span aria-hidden="true">📸</span> <a href="https://instagram.com/mainstreethairco" target="_blank" rel="noopener noreferrer">@mainstreethairco</a></div>
+<div class="contact-row"><span aria-hidden="true">🕐</span> <span>Tue–Sat, 9am–6pm</span></div></div>
+        
+      </section>
+  </main>
+  <footer class="site-footer">
+    <p>Main Street Hair Co. · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+  </footer>
+  
+  
+  <script>(function () {
+  var CONFIG = {"services":[{"id":"svc_0","name":"Women's Haircut","price":"From $45"},{"id":"svc_1","name":"Men's Haircut","price":"From $30"},{"id":"svc_2","name":"Bang / Fringe Trim","price":"From $15"},{"id":"svc_3","name":"Root Touch-Up","price":"From $75"},{"id":"svc_4","name":"All-Over Color","price":"From $95"},{"id":"svc_5","name":"Partial Highlights","price":"From $110"},{"id":"svc_6","name":"Full Highlights / Balayage","price":"From $150"},{"id":"svc_7","name":"Blowout & Style","price":"From $35"},{"id":"svc_8","name":"Special Occasion Style","price":"From $65"}],"availableDays":["Tue","Wed","Thu","Fri","Sat"],"daysAhead":10,"startHour":9,"endHour":18,"slotMinutes":60};
+  var CONTACT = {"email":"hello@mainstreethair.example","phone":"+15551234567"};
+  var DAY_NAMES = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var state = { step: 1, service: null, date: null, time: null, name: "", customerContact: "" };
+  var root = document.getElementById("booking-app");
+  var live = document.getElementById("booking-live");
+
+  function announce(msg) { if (live) live.textContent = msg; }
+  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+
+  function formatSlot(h) {
+    var hour = Math.floor(h);
+    var minute = Math.round((h - hour) * 60);
+    var ampm = hour >= 12 ? "PM" : "AM";
+    var h12 = hour % 12 === 0 ? 12 : hour % 12;
+    return h12 + (minute ? ":" + pad(minute) : ":00") + " " + ampm;
+  }
+
+  function upcomingDates() {
+    var out = [];
+    var cursor = new Date();
+    var wanted = CONFIG.availableDays;
+    for (var i = 0; out.length < CONFIG.daysAhead && i < 60; i++) {
+      var d = new Date(cursor.getTime());
+      d.setDate(cursor.getDate() + i);
+      var short = DAY_NAMES[d.getDay()].slice(0, 3);
+      if (wanted.indexOf(short) !== -1) {
+        out.push({ iso: d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()), label: short + " " + (d.getMonth() + 1) + "/" + d.getDate() });
+      }
+    }
+    return out;
+  }
+
+  function timeSlots() {
+    var out = [];
+    var step = CONFIG.slotMinutes / 60;
+    for (var h = CONFIG.startHour; h < CONFIG.endHour; h += step) out.push(h);
+    return out;
+  }
+
+  function el(tag, attrs, children) {
+    var node = document.createElement(tag);
+    attrs = attrs || {};
+    for (var k in attrs) {
+      if (k === "class") node.className = attrs[k];
+      else if (k === "onclick") node.addEventListener("click", attrs[k]);
+      else if (k === "oninput") node.addEventListener("input", attrs[k]);
+      else node.setAttribute(k, attrs[k]);
+    }
+    (children || []).forEach(function (c) { if (c) node.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    return node;
+  }
+
+  function steps(activeCount) {
+    var wrap = el("div", { class: "bk-steps", role: "presentation" });
+    for (var i = 0; i < 4; i++) wrap.appendChild(el("div", { class: i < activeCount ? "done" : "" }));
+    return wrap;
+  }
+
+  function backRow(prevStep, label) {
+    var row = el("div", { class: "bk-actions" });
+    row.appendChild(el("button", { class: "btn btn-outline", type: "button", onclick: function () { state.step = prevStep; render(); } }, ["Back to " + label]));
+    return row;
+  }
+
+  function render() {
+    root.innerHTML = "";
+    root.appendChild(steps(state.step));
+
+    if (state.step === 1) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["1. Choose a service"]));
+      root.appendChild(el("p", { class: "bk-step-sub" }, ["Tap the service you'd like to book."]));
+      var grid = el("div", { class: "bk-grid", role: "group", "aria-label": "Choose a service" });
+      CONFIG.services.forEach(function (s) {
+        grid.appendChild(el("button", { class: "bk-choice", type: "button", "aria-pressed": "false", onclick: function () {
+          state.service = s; state.step = 2; announce("Service selected: " + s.name + ". Step 2 of 4, choose a date."); render();
+        } }, [s.name, s.price ? el("small", {}, [s.price]) : null]));
+      });
+      root.appendChild(grid);
+    }
+
+    if (state.step === 2) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["2. Choose a date"]));
+      var dates = upcomingDates();
+      var grid2 = el("div", { class: "bk-grid", role: "group", "aria-label": "Choose a date" });
+      if (!dates.length) root.appendChild(el("p", { class: "bk-step-sub" }, ["No upcoming availability configured — please contact us directly."]));
+      dates.forEach(function (d) {
+        grid2.appendChild(el("button", { class: "bk-choice", type: "button", "aria-pressed": "false", onclick: function () {
+          state.date = d; state.step = 3; announce("Date selected: " + d.label + ". Step 3 of 4, choose a time."); render();
+        } }, [d.label]));
+      });
+      root.appendChild(grid2);
+      root.appendChild(backRow(1, "service"));
+    }
+
+    if (state.step === 3) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["3. Choose a time"]));
+      var grid3 = el("div", { class: "bk-grid", role: "group", "aria-label": "Choose a time" });
+      timeSlots().forEach(function (h) {
+        var label = formatSlot(h);
+        grid3.appendChild(el("button", { class: "bk-choice", type: "button", "aria-pressed": "false", onclick: function () {
+          state.time = label; state.step = 4; announce("Time selected: " + label + ". Step 4 of 4, confirm your details."); render();
+        } }, [label]));
+      });
+      root.appendChild(grid3);
+      root.appendChild(backRow(2, "date"));
+    }
+
+    if (state.step === 4) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["4. Confirm your details"]));
+      root.appendChild(el("div", { class: "bk-summary" }, [
+        state.service.name + (state.service.price ? " (" + state.service.price + ")" : ""),
+        document.createElement("br"),
+        state.date.label + " at " + state.time,
+      ]));
+
+      var errors = { name: null, contact: null };
+
+      var nameField = el("div", { class: "bk-field" }, [el("label", { for: "bk-name" }, ["Your name"])]);
+      var nameInput = el("input", { type: "text", id: "bk-name", name: "bk-name", autocomplete: "name", required: "required", "aria-describedby": "bk-name-err" });
+      nameInput.addEventListener("input", function (e) { state.name = e.target.value; validate(); });
+      var nameErr = el("div", { id: "bk-name-err", class: "bk-error", role: "alert" }, []);
+      nameField.appendChild(nameInput);
+      nameField.appendChild(nameErr);
+      root.appendChild(nameField);
+
+      var contactField = el("div", { class: "bk-field" }, [el("label", { for: "bk-contact" }, ["Phone or email"])]);
+      var contactInput = el("input", { type: "text", id: "bk-contact", name: "bk-contact", autocomplete: "tel", required: "required", "aria-describedby": "bk-contact-err" });
+      contactInput.addEventListener("input", function (e) { state.customerContact = e.target.value; validate(); });
+      var contactErr = el("div", { id: "bk-contact-err", class: "bk-error", role: "alert" }, []);
+      contactField.appendChild(contactInput);
+      contactField.appendChild(contactErr);
+      root.appendChild(contactField);
+
+      // Honeypot: hidden from sighted/keyboard users, visible to naive bots that
+      // fill every field. If it's non-empty on submit we silently no-op.
+      var honeypot = el("input", { type: "text", tabindex: "-1", autocomplete: "off", class: "visually-hidden", "aria-hidden": "true", name: "company_website", id: "bk-hp" });
+      root.appendChild(honeypot);
+
+      var actions = el("div", { class: "bk-actions" });
+      actions.appendChild(el("button", { class: "btn btn-outline", type: "button", onclick: function () { state.step = 3; render(); } }, ["Back to time"]));
+
+      var canSend = !!(CONTACT.email || CONTACT.phone);
+      var sendBtn = el("button", { class: "btn btn-primary", type: "button" }, [canSend ? "Send Booking Request" : "Confirm"]);
+      sendBtn.disabled = true;
+
+      function validate() {
+        errors.name = state.name.trim().length >= 2 ? null : "Enter your name.";
+        var c = state.customerContact.trim();
+        var looksLikeContact = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(c) || /^\+?[0-9()\-.\s]{7,20}$/.test(c);
+        errors.contact = looksLikeContact ? null : "Enter a valid phone number or email.";
+        nameErr.textContent = errors.name || "";
+        contactErr.textContent = errors.contact || "";
+        nameInput.setAttribute("aria-invalid", errors.name ? "true" : "false");
+        contactInput.setAttribute("aria-invalid", errors.contact ? "true" : "false");
+        sendBtn.disabled = !!(errors.name || errors.contact);
+      }
+
+      sendBtn.addEventListener("click", function () {
+        if (honeypot.value) return; // bot: silently drop
+        validate();
+        if (errors.name || errors.contact) return;
+        if (!canSend) { state.step = 5; render(); return; }
+        var subject = "Booking request: " + state.service.name;
+        var body = "Name: " + state.name + "\nContact: " + state.customerContact + "\nService: " + state.service.name + "\nDate: " + state.date.label + "\nTime: " + state.time;
+        var href = CONTACT.email
+          ? "mailto:" + CONTACT.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body)
+          : "sms:" + CONTACT.phone + "?body=" + encodeURIComponent(subject + " - " + body.replace(/\n/g, " | "));
+        window.location.href = href;
+      });
+
+      actions.appendChild(sendBtn);
+      root.appendChild(actions);
+      root.appendChild(el("p", { class: "bk-note" }, ["This opens your messaging app to send the request directly to us — we'll confirm shortly."]));
+    }
+
+    if (state.step === 5) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["Request ready"]));
+      root.appendChild(el("p", { class: "bk-step-sub" }, ["Please call or message us to confirm: " + state.service.name + " on " + state.date.label + " at " + state.time + "."]));
+    }
+  }
+
+  render();
+})();</script>
+
+</body>
+</html>

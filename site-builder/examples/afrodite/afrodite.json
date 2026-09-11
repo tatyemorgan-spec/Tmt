@@ -1,0 +1,24 @@
+{
+  "business": {
+    "name": "Afrodite",
+    "logoText": "AFRODITE UK",
+    "tagline": "Unisex Hairstylist",
+    "bio": "Unisex hairstylist based in Reddish, Manchester. DM to book, or use the contact button to give me a call.",
+    "primaryColor": "#111111",
+    "accentColor": "#f2efe9",
+    "contact": {
+      "address": "Reddish, Manchester",
+      "instagram": "@afrodite.uk"
+    }
+  },
+  "hero": {
+    "headline": "Afrodite",
+    "subheadline": "Unisex Hairstylist — Reddish, Manchester"
+  },
+  "gallery": [
+    { "src": "photos/locs.jpg", "alt": "Freshly retwisted locs, side profile" },
+    { "src": "photos/braids.jpg", "alt": "Intricate cornrow braid pattern, top-down view" },
+    { "src": "photos/barber-chair.jpg", "alt": "Client seated in the barber chair mid-appointment" },
+    { "src": "photos/product-application.jpg", "alt": "Applying hair product during a styling session" }
+  ]
+}
