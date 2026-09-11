@@ -1,0 +1,45 @@
+{
+  "business": {
+    "name": "Main Street Hair Co.",
+    "logoText": "MAIN STREET HAIR CO.",
+    "tagline": "Small town salon with a big heart",
+    "bio": "A close-knit team that believes in good vibes and even better hair days — walk in as a client, leave feeling like family.",
+    "primaryColor": "#8a6240",
+    "accentColor": "#f6efe4",
+    "servicesNote": "A quick look at what we offer. Final pricing depends on hair length, thickness & time — we'll confirm everything before your appointment.",
+    "contact": {
+      "address": "123 Main St, Anytown, USA",
+      "phone": "+15551234567",
+      "email": "hello@mainstreethair.example",
+      "instagram": "@mainstreethairco",
+      "hours": "Tue–Sat, 9am–6pm"
+    },
+    "booking": {
+      "availableDays": ["Tue", "Wed", "Thu", "Fri", "Sat"],
+      "startHour": 9,
+      "endHour": 18,
+      "slotMinutes": 60,
+      "daysAhead": 10
+    }
+  },
+  "hero": {
+    "headline": "Good Hair Doesn't Happen By Chance",
+    "subheadline": "It happens by appointment."
+  },
+  "services": [
+    { "category": "Cuts", "name": "Women's Haircut", "price": "From $45", "description": "Shampoo, cut & style included" },
+    { "category": "Cuts", "name": "Men's Haircut", "price": "From $30" },
+    { "category": "Cuts", "name": "Bang / Fringe Trim", "price": "From $15" },
+    { "category": "Color", "name": "Root Touch-Up", "price": "From $75", "description": "Single process, root to ends blend" },
+    { "category": "Color", "name": "All-Over Color", "price": "From $95" },
+    { "category": "Highlights", "name": "Partial Highlights", "price": "From $110" },
+    { "category": "Highlights", "name": "Full Highlights / Balayage", "price": "From $150", "description": "Hand-painted, low-maintenance grow-out" },
+    { "category": "Styles", "name": "Blowout & Style", "price": "From $35" },
+    { "category": "Styles", "name": "Special Occasion Style", "price": "From $65", "description": "Updos, events, photoshoots" }
+  ],
+  "reviews": [
+    { "rating": 5, "quote": "They listened to exactly what I wanted and my color turned out better than I imagined. Booking online was so easy too!", "author": "Balayage Client" },
+    { "rating": 5, "quote": "Best haircut I've had in years. The whole team is talented, sweet, and always makes the salon feel like home.", "author": "Regular Client" },
+    { "rating": 5, "quote": "Went in for highlights before a big event and left feeling like a whole new person. Highly recommend!", "author": "New Client" }
+  ]
+}
