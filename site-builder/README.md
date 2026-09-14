@@ -13,24 +13,29 @@ action (call, DM, email) instead of a fabricated pricing/booking flow.
 
 ## Design system
 
-- **Type**: Space Grotesk (bold geometric display, headings) + Inter
-  (body), loaded from Google Fonts with a system-font fallback if that
-  request is blocked or offline. Deliberately a dark, high-contrast,
-  modern-agency register rather than a soft editorial-serif one — the
-  first pass (Playfair Display, light warm tones) read as boutique/spa
-  rather than bold-modern, so this reworks it.
-- **Hero**: dark by default (near-black + a radial brand-color glow + a
-  faint dot-grid texture), oversized tight-tracked headline, an inverted
-  white pill CTA. Verified the white headline text still holds ≥10:1
-  contrast even at the gradient's brightest point (see the contrast
-  math in `ensureContrast`/`contrastRatio`).
+- **The hero is photo-first.** If `hero.image` (or the first `gallery`
+  photo) is a real, good photo, it fills the viewport near-full-bleed with
+  only a short bold headline and one compact CTA overlaid — the photo does
+  the work, the UI gets out of its way. This is deliberate: a reference
+  site the user pointed to (professional studio food photography, minimal
+  chrome) made clear that the single biggest lever for "does this look
+  expensive" is photo quality, not CSS — something this tool can showcase
+  well but can't manufacture. Feed it the best real photos you have.
+- **Type**: Bebas Neue (bold condensed display, all-caps) + Inter (body) —
+  the `ui-ux-pro-max` design-data skill's "Bold Statement" pairing, tagged
+  for sports/marketing/agency work. Went through two earlier directions
+  first (an editorial serif that read as boutique/spa, then a
+  normal-width grotesk with a gradient hero that still felt generic)
+  before landing here.
+- **No hero when there's no photo**: a plain confident dark field with a
+  circular monogram badge (echoing a brand-mark motif from that reference)
+  instead of a fake "designed" gradient/texture standing in for one.
+- **Color**: one brand accent on a near-black/white base, not a wash of
+  tinted backgrounds everywhere.
 - **Layout patterns** (bento-grid gallery, an editorial pull-quote for the
-  top review, oversized hero type) come from querying the `ui-ux-pro-max`
-  design-data skill (`--design-system`, `--domain style/typography/landing/gsap`)
-  rather than being guessed — see that skill's own data for the full rule set.
-- **Color**: one brand accent color on a near-black/white base (not a
-  wash of tinted backgrounds everywhere) — closer to an agency site than
-  a generic "beige template."
+  top review) also come from querying that design-data skill
+  (`--design-system`, `--domain style/typography/landing/gsap`) rather
+  than being guessed.
 - **Motion**: a hand-rolled scroll-reveal (no GSAP/Framer Motion — both
   need a bundler or React, which would break the "one file, no install"
   point of this tool). Its timing (duration, easing, stagger cap) is

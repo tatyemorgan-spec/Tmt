@@ -13,7 +13,8 @@
   },
   "hero": {
     "headline": "Afrodite",
-    "subheadline": "Unisex Hairstylist — Reddish, Manchester"
+    "subheadline": "Unisex Hairstylist — Reddish, Manchester",
+    "image": "photos/locs.jpg"
   },
   "gallery": [
     { "src": "photos/locs.jpg", "alt": "Freshly retwisted locs, side profile" },
