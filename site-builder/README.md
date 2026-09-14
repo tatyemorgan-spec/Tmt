@@ -13,16 +13,24 @@ action (call, DM, email) instead of a fabricated pricing/booking flow.
 
 ## Design system
 
-- **Type**: Playfair Display (editorial serif, headings) + Inter (body),
-  loaded from Google Fonts with a system-font fallback if that request is
-  blocked or offline. This pairing and the layout patterns below
-  (bento-grid gallery, an editorial pull-quote for the top review, oversized
-  hero type) come from querying the `ui-ux-pro-max` design-data skill
-  (`--design-system`, `--domain style/typography/landing/gsap`) rather than
-  being guessed — see that skill's own data for the full rule set.
+- **Type**: Space Grotesk (bold geometric display, headings) + Inter
+  (body), loaded from Google Fonts with a system-font fallback if that
+  request is blocked or offline. Deliberately a dark, high-contrast,
+  modern-agency register rather than a soft editorial-serif one — the
+  first pass (Playfair Display, light warm tones) read as boutique/spa
+  rather than bold-modern, so this reworks it.
+- **Hero**: dark by default (near-black + a radial brand-color glow + a
+  faint dot-grid texture), oversized tight-tracked headline, an inverted
+  white pill CTA. Verified the white headline text still holds ≥10:1
+  contrast even at the gradient's brightest point (see the contrast
+  math in `ensureContrast`/`contrastRatio`).
+- **Layout patterns** (bento-grid gallery, an editorial pull-quote for the
+  top review, oversized hero type) come from querying the `ui-ux-pro-max`
+  design-data skill (`--design-system`, `--domain style/typography/landing/gsap`)
+  rather than being guessed — see that skill's own data for the full rule set.
 - **Color**: one brand accent color on a near-black/white base (not a
-  wash of tinted backgrounds everywhere) — closer to an agency/editorial
-  site than a generic "beige template."
+  wash of tinted backgrounds everywhere) — closer to an agency site than
+  a generic "beige template."
 - **Motion**: a hand-rolled scroll-reveal (no GSAP/Framer Motion — both
   need a bundler or React, which would break the "one file, no install"
   point of this tool). Its timing (duration, easing, stagger cap) is
