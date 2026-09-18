@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39; &#39;sha256-3dzUUWcSlwnjLToSNdsld426/a7xaA7u0uuUXho3RVs=&#39;; style-src &#39;self&#39; https://fonts.googleapis.com &#39;sha256-gAn76sGpPVk77Nz42sryb5/ryX77H+lzdWWKitVwayY=&#39;; img-src &#39;self&#39; data: https:; font-src &#39;self&#39; https://fonts.gstatic.com; connect-src &#39;none&#39;; object-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;self&#39;; upgrade-insecure-requests">
+<title>Momentum Coaching</title>
+<meta name="description" content="1:1 coaching to help you set a real plan and follow through. Book a free discovery call.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%231f4d3d%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2242%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ffffff%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Momentum Coaching">
+<meta property="og:description" content="1:1 coaching to help you set a real plan and follow through. Book a free discovery call.">
+
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Bebas+Neue&display=swap">
+<style>
+  :root {
+    --primary: #1f4d3d;
+    --primary-dark: #193f32;
+    --accent: #eef2ea;
+    --ink: #191a17;
+    --surface: #ffffff;
+    --surface-soft: #fafaf8;
+    --line: rgba(10,10,10,0.09);
+    --focus-ring: 0 0 0 3px #fff, 0 0 0 5px var(--primary);
+    --font-display: "Bebas Neue", "Arial Narrow", -apple-system, sans-serif;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --space-section: clamp(56px, 9vw, 128px);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  section[id] { scroll-margin-top: 84px; } /* keeps the sticky header from covering the section heading on anchor jumps */
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--surface);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display); line-height: 0.98; margin: 0 0 0.35em;
+    letter-spacing: 0.01em; font-weight: 400; text-transform: uppercase;
+  }
+  a { color: var(--primary-dark); }
+  img { max-width: 100%; display: block; }
+  .skip-link {
+    position: absolute; left: -9999px; top: auto;
+    background: var(--primary); color: #fff; padding: 12px 18px; border-radius: 0 0 8px 0;
+    z-index: 100; font-weight: 600; text-decoration: none;
+  }
+  .skip-link:focus { left: 0; top: 0; }
+  :focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: 4px; }
+  .container { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+  header.site-header {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; padding: 16px 24px;
+    background: rgba(255,255,255,0.9);
+    -webkit-backdrop-filter: blur(14px) saturate(1.6); backdrop-filter: blur(14px) saturate(1.6);
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 400; letter-spacing: 0.02em; text-transform: uppercase; font-size: 1.25rem; text-decoration: none; color: var(--ink); }
+  .brand img { width: 30px; height: 30px; border-radius: 8px; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    border: none; border-radius: 8px; padding: 13px 26px; min-height: 44px;
+    font-family: var(--font-body); font-size: 0.85rem; font-weight: 700; cursor: pointer;
+    text-transform: uppercase; letter-spacing: 0.04em;
+    text-decoration: none; text-align: center;
+    transition: transform 0.18s var(--ease-out), box-shadow 0.18s var(--ease-out), background-color 0.18s var(--ease-out), opacity 0.18s var(--ease-out);
+  }
+  .btn-primary { background: var(--primary); color: #fff; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+  @media (hover: hover) {
+    .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 10px 24px -8px color-mix(in srgb, var(--primary) 65%, transparent); }
+    .btn-outline:hover { border-color: var(--primary-dark); background: color-mix(in srgb, var(--primary) 6%, transparent); }
+  }
+  .btn:active { transform: scale(0.97); box-shadow: none; }
+  .btn-outline { background: transparent; color: var(--primary-dark); border: 1.5px solid var(--primary); }
+  .btn[disabled] { opacity: 0.5; cursor: not-allowed; transform: none !important; }
+  .btn-invert { background: #fff; color: var(--ink); }
+  @media (hover: hover) { .btn-invert:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 10px 24px -8px rgba(0,0,0,0.35); } }
+  main { display: block; }
+
+  /* ---- Hero: when there's a real photo, let it dominate — no gradient
+     tricks competing with it. When there isn't, a confident plain-dark
+     field with a badge mark, not a fake "designed" texture. ---- */
+  .hero {
+    padding: clamp(72px, 13vw, 160px) 24px clamp(64px, 9vw, 104px);
+    background: var(--ink);
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  .hero-badge {
+    width: 84px; height: 84px; border-radius: 999px; margin: 0 auto 28px;
+    display: flex; align-items: center; justify-content: center;
+    border: 2px solid var(--primary); background: color-mix(in srgb, var(--primary) 14%, transparent);
+  }
+  .hero-badge img { width: 40px; height: 40px; border-radius: 0; }
+  .hero-eyebrow { font-family: var(--font-body); text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.78rem; font-weight: 600; color: #fff; opacity: 0.75; margin: 0 0 20px; }
+  .hero h1 { font-size: clamp(3rem, 10vw, 6.5rem); margin: 0 0 20px; color: #fff; }
+  .hero p.subhead { margin: 0 auto 32px; opacity: 0.78; font-size: clamp(1.05rem, 2vw, 1.25rem); max-width: 46ch; font-family: var(--font-body); text-transform: none; letter-spacing: normal; color: #fff; }
+  .hero .btn-primary { background: var(--primary); color: #fff; }
+
+  .hero.has-image {
+    padding: 0; text-align: left; min-height: min(92vh, 900px);
+    display: flex; align-items: flex-end;
+  }
+  .hero.has-image .hero-media { position: absolute; inset: 0; z-index: 0; }
+  .hero.has-image .hero-media img { width: 100%; height: 100%; object-fit: cover; }
+  .hero.has-image .hero-scrim { position: absolute; inset: 0; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.35) 38%, rgba(0,0,0,0.05) 65%); }
+  .hero.has-image .hero-copy { position: relative; z-index: 2; padding: 32px 28px clamp(40px, 7vw, 72px); max-width: 640px; }
+  .hero.has-image h1 { font-size: clamp(2.6rem, 7.5vw, 4.5rem); }
+  .hero.has-image .hero-scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.15) 60%); }
+  .hero.has-image .hero-copy { position: absolute; left: 0; right: 0; bottom: 0; padding: 32px 28px 40px; }
+  .hero.has-image h1 { font-size: clamp(2.4rem, 9vw, 4.2rem); }
+
+  .section { max-width: 1040px; margin: 0 auto; padding: var(--space-section) 24px; }
+  .section-narrow { max-width: 680px; }
+  .section + .section { border-top: 1px solid var(--line); }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.75rem; color: var(--primary-dark); font-weight: 700; margin: 0 0 10px; }
+  .section h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); }
+  .section-head { max-width: 640px; margin-bottom: 40px; }
+  .rule { width: 48px; height: 3px; background: var(--primary); border: none; margin: 16px 0 0; border-radius: 2px; }
+  .body-text { opacity: 0.75; max-width: 60ch; font-size: 1.05rem; }
+  .service-category { margin: 32px 0 10px; font-size: 1.1rem; font-family: var(--font-display); }
+  .service-category:first-of-type { margin-top: 8px; }
+  .service-list { border-top: 1px solid var(--line); }
+  .service-row { display: flex; justify-content: space-between; gap: 12px; padding: 16px 2px; border-bottom: 1px solid var(--line); }
+  .service-name { font-weight: 600; }
+  .service-desc { font-size: 0.88rem; opacity: 0.65; margin-top: 2px; }
+  .service-price { font-weight: 600; white-space: nowrap; color: var(--primary-dark); }
+
+  /* ---- Bento-style gallery grid: varied spans, not a flat 2-col wall ---- */
+  .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: minmax(90px, auto); gap: 12px; }
+  .gallery-item { position: relative; border-radius: 20px; overflow: hidden; background: var(--surface-soft); grid-column: span 2; grid-row: span 2; }
+  .gallery-item.span-wide { grid-column: span 4; aspect-ratio: 16 / 9; }
+  .gallery-item.span-tall { grid-row: span 3; }
+  .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+  @media (hover: hover) {
+    .gallery-item img { transition: transform 0.5s var(--ease-out); }
+    .gallery-item:hover img { transform: scale(1.045); }
+  }
+  .gallery-tag { position: absolute; top: 12px; left: 12px; background: rgba(255,255,255,0.94); border-radius: 999px; padding: 4px 13px; font-size: 0.75rem; font-weight: 600; }
+  @media (max-width: 640px) {
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-item { grid-column: span 1; grid-row: span 1; aspect-ratio: 4 / 5; }
+    .gallery-item.span-wide { grid-column: span 2; }
+  }
+
+  /* ---- Reviews: one editorial pull-quote + a bento row of supporting cards ---- */
+  .review-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .review-card { background: var(--surface-soft); border-radius: 20px; padding: 26px; position: relative; }
+  .review-card.pull-quote { grid-column: 1 / -1; background: var(--ink); color: #fff; padding: clamp(32px, 5vw, 56px); }
+  .review-card.pull-quote::before {
+    content: "\201C"; font-family: Georgia, serif; font-size: 5rem; line-height: 1; color: var(--primary);
+    opacity: 0.9; display: block; margin-bottom: -0.3em;
+  }
+  .review-card.pull-quote .review-quote { font-family: var(--font-body); font-weight: 500; font-size: clamp(1.2rem, 2.4vw, 1.6rem); line-height: 1.4; letter-spacing: normal; text-transform: none; color: #fff; }
+  .review-card.pull-quote .review-author { color: rgba(255,255,255,0.7); }
+  .review-card.pull-quote .stars { color: #ffd876; }
+  .stars { color: #c9982b; letter-spacing: 2px; }
+  .review-quote { margin: 10px 0 14px; font-size: 1.02rem; }
+  .review-author { margin: 0; font-size: 0.85rem; opacity: 0.65; }
+  @media (max-width: 640px) { .review-list { grid-template-columns: 1fr; } .review-card.pull-quote { grid-column: auto; } }
+
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .contact-rows { display: flex; flex-direction: column; gap: 14px; }
+  .contact-row { display: flex; align-items: center; gap: 10px; }
+  .contact-row a { text-decoration: none; font-weight: 600; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+
+  /* ---- Closing CTA band: inverted, high-impact, one job: get the click ---- */
+  .cta-band { background: var(--ink); color: #fff; text-align: center; padding: clamp(56px, 10vw, 110px) 24px; }
+  .cta-band h2 { color: #fff; font-size: clamp(2rem, 5vw, 3.2rem); margin-bottom: 16px; }
+  .cta-band p { color: rgba(255,255,255,0.72); margin: 0 auto 32px; max-width: 46ch; font-size: 1.05rem; }
+
+  footer.site-footer { text-align: center; padding: 32px 20px; font-size: 0.85rem; opacity: 0.6; }
+
+  /* ---- Motion: JS arms .reveal groups only when IO + no-reduced-motion;
+     everything is visible by default so no-JS / crawlers / reduced-motion
+     always see full content immediately. ---- */
+  .reveal { opacity: 1; transform: none; }
+  html.reveal-armed .reveal:not(.in-view) { opacity: 0; transform: translateY(24px); }
+  html.reveal-armed .reveal.in-view {
+    opacity: 1; transform: none;
+    transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  #booking-app { border: 1px solid rgba(0,0,0,0.1); border-radius: 18px; padding: 20px; background: var(--surface); }
+  .bk-steps { display: flex; gap: 4px; margin-bottom: 20px; }
+  .bk-steps div { flex: 1; height: 4px; border-radius: 4px; background: rgba(0,0,0,0.1); }
+  .bk-steps div.done { background: var(--primary); }
+  .bk-step-title { font-weight: 700; margin-bottom: 4px; }
+  .bk-step-sub { font-size: 0.88rem; opacity: 0.7; margin-bottom: 16px; }
+  .bk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .bk-choice {
+    border: 1.5px solid var(--line); border-radius: 14px; padding: 13px; background: var(--surface);
+    cursor: pointer; text-align: left; font: inherit; min-height: 44px;
+    transition: border-color 0.15s var(--ease-out), background-color 0.15s var(--ease-out), transform 0.15s var(--ease-out);
+  }
+  @media (hover: hover) { .bk-choice:hover { border-color: var(--primary); } }
+  .bk-choice:active { transform: scale(0.97); }
+  .bk-choice.selected { border-color: var(--primary); background: var(--accent); }
+  .bk-choice[aria-pressed="true"] { border-width: 2px; }
+  .bk-choice small { display: block; opacity: 0.65; margin-top: 2px; }
+  .bk-actions { display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; }
+  .bk-summary { background: var(--accent); border-radius: 12px; padding: 14px; margin-bottom: 16px; font-size: 0.92rem; }
+  .bk-field { margin-bottom: 14px; }
+  .bk-field label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 5px; }
+  .bk-field input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.25); font: inherit; min-height: 44px; }
+  .bk-field input[aria-invalid="true"] { border-color: #b3261e; }
+  .bk-error { color: #b3261e; font-size: 0.82rem; margin-top: 4px; }
+  .bk-note { font-size: 0.8rem; opacity: 0.65; margin-top: 12px; }
+  .legal-page main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  .legal-banner { background: #fff6e5; border: 1px solid #f0d999; border-radius: 10px; padding: 14px 16px; font-size: 0.9rem; margin-bottom: 28px; }
+  .error-page { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; }
+  .cookie-banner {
+    position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 50;
+    background: var(--ink); color: #fff; border-radius: 14px; padding: 16px;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  }
+  .cookie-banner p { margin: 0; font-size: 0.85rem; flex: 1 1 240px; }
+  .cookie-actions { display: flex; gap: 8px; }
+  .cookie-actions button { border-radius: 999px; border: none; padding: 8px 16px; font: inherit; font-weight: 600; cursor: pointer; min-height: 40px; }
+  .cookie-accept { background: var(--primary); color: #fff; }
+  .cookie-decline { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.5) !important; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  </style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#main"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%231f4d3d%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2242%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ffffff%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E" alt="" role="presentation">MOMENTUM COACHING</a>
+    <a class="btn btn-primary" href="#book">Book Now</a>
+  </header>
+  <main id="main">
+    
+    <section class="hero" aria-labelledby="hero-h">
+      <div data-reveal-group>
+        <div class="hero-badge"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%231f4d3d%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2242%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2228%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ffffff%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E" alt="" role="presentation"></div>
+        <h1 id="hero-h">Stop Planning To Start. Start.</h1>
+        <p class="subhead">1:1 coaching that turns your goal into a plan, and your plan into a habit.</p>
+        <a class="btn btn-primary" href="#book">Book Now</a>
+      </div>
+    </section>
+    
+      <section class="section section-narrow" id="about" aria-labelledby="about-h">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">About</p>
+          <h2 id="about-h">Our Story</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <p class="body-text" data-reveal-group data-reveal-self>Momentum Coaching helps ambitious people turn a vague goal into a real plan — and actually follow through on it. No fluff, no 6-month fads. Just weekly accountability, a system that fits your life, and someone in your corner who won&#39;t let you quit on yourself.</p>
+      </section>
+    
+      <section class="section" id="services" aria-labelledby="services-h">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Menu</p>
+          <h2 id="services-h">Services &amp; Pricing</h2>
+          <hr class="rule" aria-hidden="true">
+          <p class="body-text">Every client starts with a free 20-minute discovery call — no pressure, just a conversation to see if this is a fit.</p>
+        </div>
+        
+          <h3 class="service-category">Start Here</h3>
+          <div class="service-list" data-reveal-group>
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Free Discovery Call</div>
+                  <div class="service-desc">We talk through where you&#39;re stuck, what you actually want, and whether coaching together makes sense. No pitch, no pressure.</div>
+                </div>
+                <div class="service-price">Free · 20 min</div>
+              </div>
+          </div>
+          <h3 class="service-category">Coaching</h3>
+          <div class="service-list" data-reveal-group>
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Momentum Sprint</div>
+                  <div class="service-desc">4 weekly 1:1 calls, unlimited voice-memo check-ins between sessions, and a plan rebuilt weekly around what&#39;s actually happening in your life.</div>
+                </div>
+                <div class="service-price">$450 / mo</div>
+              </div>
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Momentum Quarter</div>
+                  <div class="service-desc">12 weeks of coaching at a discount vs. month-to-month, plus one full 90-minute goal-mapping session at the start and a progress review at the end.</div>
+                </div>
+                <div class="service-price">$1,200 / quarter</div>
+              </div>
+          </div>
+          <h3 class="service-category">Group</h3>
+          <div class="service-list" data-reveal-group>
+            
+              <div class="service-row">
+                <div>
+                  <div class="service-name">Momentum Circle (Group Program)</div>
+                  <div class="service-desc">Small-group coaching (max 6 people), weekly group call, shared accountability thread. For people who want structure without the 1:1 price tag.</div>
+                </div>
+                <div class="service-price">$150 / mo</div>
+              </div>
+          </div>
+      </section>
+    
+    
+      <section class="section" id="reviews" aria-labelledby="reviews-h">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Kind Words</p>
+          <h2 id="reviews-h">What Clients Say</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <div class="review-list" data-reveal-group>
+          
+            <div class="review-card pull-quote">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span class="visually-hidden">Rated 5 out of 5 stars</span>
+              <p class="review-quote">"I&#39;d been &#39;planning to start&#39; for two years. Six weeks in and I&#39;ve shipped more than the previous two years combined."</p>
+              <p class="review-author">— Sprint Client</p>
+            </div>
+            <div class="review-card">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span class="visually-hidden">Rated 5 out of 5 stars</span>
+              <p class="review-quote">"The weekly calls kept me honest in a way no app or journal ever did. Worth every dollar."</p>
+              <p class="review-author">— Quarter Client</p>
+            </div>
+            <div class="review-card">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span class="visually-hidden">Rated 5 out of 5 stars</span>
+              <p class="review-quote">"The group program gave me accountability I couldn&#39;t afford to skip on my own — and it&#39;s a fraction of the 1:1 price."</p>
+              <p class="review-author">— Circle Member</p>
+            </div>
+        </div>
+      </section>
+    
+      <section class="section" id="book" aria-labelledby="book-h">
+        <p class="eyebrow">Appointments</p>
+        <h2 id="book-h">Book Your Appointment</h2>
+        <hr class="rule" aria-hidden="true">
+        <p class="body-text">Pick a service, date &amp; time — no account or login needed.</p>
+        <div id="booking-app" role="group" aria-label="Book an appointment"></div>
+        <p id="booking-live" class="visually-hidden" role="status" aria-live="polite"></p>
+      </section>
+    
+    
+      <section class="section section-narrow" id="contact" aria-labelledby="contact-h">
+        <div class="section-head" data-reveal-group data-reveal-self>
+          <p class="eyebrow">Visit Us</p>
+          <h2 id="contact-h">Contact</h2>
+          <hr class="rule" aria-hidden="true">
+        </div>
+        <div class="contact-rows" data-reveal-group data-reveal-self><div class="contact-row"><span aria-hidden="true">✉️</span> <a href="mailto:hello@momentumcoaching.example">hello@momentumcoaching.example</a></div>
+<div class="contact-row"><span aria-hidden="true">📸</span> <a href="https://instagram.com/momentum.coaching" target="_blank" rel="noopener noreferrer">@momentum.coaching</a></div>
+<div class="contact-row"><span aria-hidden="true">🕐</span> <span>Mon–Fri, by appointment</span></div></div>
+      </section>
+  </main>
+  <footer class="site-footer">
+    <p>Momentum Coaching · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+  </footer>
+  
+  
+  <script>(function () {
+  if (!window.IntersectionObserver || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  document.documentElement.classList.add('reveal-armed');
+  var groups = document.querySelectorAll('[data-reveal-group]');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('in-view');
+      io.unobserve(entry.target);
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -10% 0px' });
+  groups.forEach(function (group) {
+    var items = group.hasAttribute('data-reveal-self') ? [group] : Array.prototype.slice.call(group.children);
+    items.slice(0, 8).forEach(function (item, i) {
+      item.classList.add('reveal');
+      item.style.setProperty('--reveal-delay', (i * 80) + 'ms');
+      io.observe(item);
+    });
+    items.slice(8).forEach(function (item) { item.classList.add('reveal', 'in-view'); });
+  });
+})();
+
+(function () {
+  var CONFIG = {"services":[{"id":"svc_0","name":"Free Discovery Call","price":"Free · 20 min"},{"id":"svc_1","name":"Momentum Sprint","price":"$450 / mo"},{"id":"svc_2","name":"Momentum Quarter","price":"$1,200 / quarter"},{"id":"svc_3","name":"Momentum Circle (Group Program)","price":"$150 / mo"}],"availableDays":["Mon","Tue","Wed","Thu","Fri"],"daysAhead":14,"startHour":9,"endHour":17,"slotMinutes":30};
+  var CONTACT = {"email":"hello@momentumcoaching.example","phone":null};
+  var DAY_NAMES = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var state = { step: 1, service: null, date: null, time: null, name: "", customerContact: "" };
+  var root = document.getElementById("booking-app");
+  var live = document.getElementById("booking-live");
+
+  function announce(msg) { if (live) live.textContent = msg; }
+  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+
+  function formatSlot(h) {
+    var hour = Math.floor(h);
+    var minute = Math.round((h - hour) * 60);
+    var ampm = hour >= 12 ? "PM" : "AM";
+    var h12 = hour % 12 === 0 ? 12 : hour % 12;
+    return h12 + (minute ? ":" + pad(minute) : ":00") + " " + ampm;
+  }
+
+  function upcomingDates() {
+    var out = [];
+    var cursor = new Date();
+    var wanted = CONFIG.availableDays;
+    for (var i = 0; out.length < CONFIG.daysAhead && i < 60; i++) {
+      var d = new Date(cursor.getTime());
+      d.setDate(cursor.getDate() + i);
+      var short = DAY_NAMES[d.getDay()].slice(0, 3);
+      if (wanted.indexOf(short) !== -1) {
+        out.push({ iso: d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()), label: short + " " + (d.getMonth() + 1) + "/" + d.getDate() });
+      }
+    }
+    return out;
+  }
+
+  function timeSlots() {
+    var out = [];
+    var step = CONFIG.slotMinutes / 60;
+    for (var h = CONFIG.startHour; h < CONFIG.endHour; h += step) out.push(h);
+    return out;
+  }
+
+  function el(tag, attrs, children) {
+    var node = document.createElement(tag);
+    attrs = attrs || {};
+    for (var k in attrs) {
+      if (k === "class") node.className = attrs[k];
+      else if (k === "onclick") node.addEventListener("click", attrs[k]);
+      else if (k === "oninput") node.addEventListener("input", attrs[k]);
+      else node.setAttribute(k, attrs[k]);
+    }
+    (children || []).forEach(function (c) { if (c) node.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    return node;
+  }
+
+  function steps(activeCount) {
+    var wrap = el("div", { class: "bk-steps", role: "presentation" });
+    for (var i = 0; i < 4; i++) wrap.appendChild(el("div", { class: i < activeCount ? "done" : "" }));
+    return wrap;
+  }
+
+  function backRow(prevStep, label) {
+    var row = el("div", { class: "bk-actions" });
+    row.appendChild(el("button", { class: "btn btn-outline", type: "button", onclick: function () { state.step = prevStep; render(); } }, ["Back to " + label]));
+    return row;
+  }
+
+  function render() {
+    root.innerHTML = "";
+    root.appendChild(steps(state.step));
+
+    if (state.step === 1) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["1. Choose a service"]));
+      root.appendChild(el("p", { class: "bk-step-sub" }, ["Tap the service you'd like to book."]));
+      var grid = el("div", { class: "bk-grid", role: "group", "aria-label": "Choose a service" });
+      CONFIG.services.forEach(function (s) {
+        grid.appendChild(el("button", { class: "bk-choice", type: "button", "aria-pressed": "false", onclick: function () {
+          state.service = s; state.step = 2; announce("Service selected: " + s.name + ". Step 2 of 4, choose a date."); render();
+        } }, [s.name, s.price ? el("small", {}, [s.price]) : null]));
+      });
+      root.appendChild(grid);
+    }
+
+    if (state.step === 2) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["2. Choose a date"]));
+      var dates = upcomingDates();
+      var grid2 = el("div", { class: "bk-grid", role: "group", "aria-label": "Choose a date" });
+      if (!dates.length) root.appendChild(el("p", { class: "bk-step-sub" }, ["No upcoming availability configured — please contact us directly."]));
+      dates.forEach(function (d) {
+        grid2.appendChild(el("button", { class: "bk-choice", type: "button", "aria-pressed": "false", onclick: function () {
+          state.date = d; state.step = 3; announce("Date selected: " + d.label + ". Step 3 of 4, choose a time."); render();
+        } }, [d.label]));
+      });
+      root.appendChild(grid2);
+      root.appendChild(backRow(1, "service"));
+    }
+
+    if (state.step === 3) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["3. Choose a time"]));
+      var grid3 = el("div", { class: "bk-grid", role: "group", "aria-label": "Choose a time" });
+      timeSlots().forEach(function (h) {
+        var label = formatSlot(h);
+        grid3.appendChild(el("button", { class: "bk-choice", type: "button", "aria-pressed": "false", onclick: function () {
+          state.time = label; state.step = 4; announce("Time selected: " + label + ". Step 4 of 4, confirm your details."); render();
+        } }, [label]));
+      });
+      root.appendChild(grid3);
+      root.appendChild(backRow(2, "date"));
+    }
+
+    if (state.step === 4) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["4. Confirm your details"]));
+      root.appendChild(el("div", { class: "bk-summary" }, [
+        state.service.name + (state.service.price ? " (" + state.service.price + ")" : ""),
+        document.createElement("br"),
+        state.date.label + " at " + state.time,
+      ]));
+
+      var errors = { name: null, contact: null };
+
+      var nameField = el("div", { class: "bk-field" }, [el("label", { for: "bk-name" }, ["Your name"])]);
+      var nameInput = el("input", { type: "text", id: "bk-name", name: "bk-name", autocomplete: "name", required: "required", "aria-describedby": "bk-name-err" });
+      nameInput.addEventListener("input", function (e) { state.name = e.target.value; validate(); });
+      var nameErr = el("div", { id: "bk-name-err", class: "bk-error", role: "alert" }, []);
+      nameField.appendChild(nameInput);
+      nameField.appendChild(nameErr);
+      root.appendChild(nameField);
+
+      var contactField = el("div", { class: "bk-field" }, [el("label", { for: "bk-contact" }, ["Phone or email"])]);
+      var contactInput = el("input", { type: "text", id: "bk-contact", name: "bk-contact", autocomplete: "tel", required: "required", "aria-describedby": "bk-contact-err" });
+      contactInput.addEventListener("input", function (e) { state.customerContact = e.target.value; validate(); });
+      var contactErr = el("div", { id: "bk-contact-err", class: "bk-error", role: "alert" }, []);
+      contactField.appendChild(contactInput);
+      contactField.appendChild(contactErr);
+      root.appendChild(contactField);
+
+      // Honeypot: hidden from sighted/keyboard users, visible to naive bots that
+      // fill every field. If it's non-empty on submit we silently no-op.
+      var honeypot = el("input", { type: "text", tabindex: "-1", autocomplete: "off", class: "visually-hidden", "aria-hidden": "true", name: "company_website", id: "bk-hp" });
+      root.appendChild(honeypot);
+
+      var actions = el("div", { class: "bk-actions" });
+      actions.appendChild(el("button", { class: "btn btn-outline", type: "button", onclick: function () { state.step = 3; render(); } }, ["Back to time"]));
+
+      var canSend = !!(CONTACT.email || CONTACT.phone);
+      var sendBtn = el("button", { class: "btn btn-primary", type: "button" }, [canSend ? "Send Booking Request" : "Confirm"]);
+      sendBtn.disabled = true;
+
+      function validate() {
+        errors.name = state.name.trim().length >= 2 ? null : "Enter your name.";
+        var c = state.customerContact.trim();
+        var looksLikeContact = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(c) || /^\+?[0-9()\-.\s]{7,20}$/.test(c);
+        errors.contact = looksLikeContact ? null : "Enter a valid phone number or email.";
+        nameErr.textContent = errors.name || "";
+        contactErr.textContent = errors.contact || "";
+        nameInput.setAttribute("aria-invalid", errors.name ? "true" : "false");
+        contactInput.setAttribute("aria-invalid", errors.contact ? "true" : "false");
+        sendBtn.disabled = !!(errors.name || errors.contact);
+      }
+
+      sendBtn.addEventListener("click", function () {
+        if (honeypot.value) return; // bot: silently drop
+        validate();
+        if (errors.name || errors.contact) return;
+        if (!canSend) { state.step = 5; render(); return; }
+        var subject = "Booking request: " + state.service.name;
+        var body = "Name: " + state.name + "\nContact: " + state.customerContact + "\nService: " + state.service.name + "\nDate: " + state.date.label + "\nTime: " + state.time;
+        var href = CONTACT.email
+          ? "mailto:" + CONTACT.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body)
+          : "sms:" + CONTACT.phone + "?body=" + encodeURIComponent(subject + " - " + body.replace(/\n/g, " | "));
+        window.location.href = href;
+      });
+
+      actions.appendChild(sendBtn);
+      root.appendChild(actions);
+      root.appendChild(el("p", { class: "bk-note" }, ["This opens your messaging app to send the request directly to us — we'll confirm shortly."]));
+    }
+
+    if (state.step === 5) {
+      root.appendChild(el("h3", { class: "bk-step-title" }, ["Request ready"]));
+      root.appendChild(el("p", { class: "bk-step-sub" }, ["Please call or message us to confirm: " + state.service.name + " on " + state.date.label + " at " + state.time + "."]));
+    }
+  }
+
+  render();
+})();</script>
+
+</body>
+</html>

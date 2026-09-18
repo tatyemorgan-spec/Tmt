@@ -1,0 +1,14 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1080" fill="#f7f6f3"/>
+  <rect x="0" y="0" width="540" height="920" fill="#e4e2dc"/>
+  <rect x="540" y="0" width="540" height="920" fill="#2f6f4f"/>
+  <text x="270" y="60" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#17181c" text-anchor="middle" letter-spacing="3">BEFORE</text>
+  <text x="810" y="60" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="3">AFTER</text>
+  <rect x="60" y="110" width="420" height="760" fill="#c8c6bf" stroke="#9a9890" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="270" y="500" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b6a66" text-anchor="middle">[Drop "before" photo here]</text>
+  <rect x="600" y="110" width="420" height="760" fill="#245a3f" stroke="#9fd8b8" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="810" y="500" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#d8f0e2" text-anchor="middle">[Drop "after" photo here]</text>
+  <rect x="0" y="920" width="1080" height="160" fill="#17181c"/>
+  <text x="540" y="985" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">[Business Name] — [Service]</text>
+  <text x="540" y="1030" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9fd8b8" text-anchor="middle">Book your transformation → link in bio</text>
+</svg>

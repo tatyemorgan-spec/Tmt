@@ -1,0 +1,13 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1080" fill="#f7f6f3"/>
+  <rect x="60" y="60" width="960" height="960" fill="#ffffff" stroke="#e4e2dc" stroke-width="2"/>
+  <text x="540" y="230" font-family="Georgia, serif" font-size="120" fill="#2f6f4f" text-anchor="middle">&#8220;</text>
+  <text x="540" y="470" font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#2f6f4f" text-anchor="middle">★ ★ ★ ★ ★</text>
+  <text x="540" y="560" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#17181c" text-anchor="middle">
+    <tspan x="540" dy="0">"[Drop your best five-star</tspan>
+    <tspan x="540" dy="56">review quote here — keep</tspan>
+    <tspan x="540" dy="56">it under 3 lines.]"</tspan>
+  </text>
+  <text x="540" y="820" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#6b6a66" text-anchor="middle">— [Client Name], [Service Booked]</text>
+  <text x="540" y="960" font-family="Helvetica, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#2f6f4f" text-anchor="middle">[YOUR BUSINESS NAME]</text>
+</svg>

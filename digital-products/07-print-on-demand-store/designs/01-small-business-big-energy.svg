@@ -1,0 +1,6 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <text x="600" y="520" font-family="Helvetica, Arial, sans-serif" font-size="90" font-weight="800" fill="#17181c" text-anchor="middle" letter-spacing="2">SMALL</text>
+  <text x="600" y="620" font-family="Helvetica, Arial, sans-serif" font-size="90" font-weight="800" fill="#17181c" text-anchor="middle" letter-spacing="2">BUSINESS.</text>
+  <text x="600" y="740" font-family="Helvetica, Arial, sans-serif" font-size="90" font-weight="800" fill="#2f6f4f" text-anchor="middle" letter-spacing="2">BIG ENERGY.</text>
+  <rect x="450" y="770" width="300" height="10" fill="#2f6f4f"/>
+</svg>

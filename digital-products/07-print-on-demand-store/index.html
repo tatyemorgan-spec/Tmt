@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Small Business, Big Energy — Merch Store</title>
+<meta name="description" content="Apparel for people who built something themselves. Print-on-demand, no inventory, ships worldwide.">
+<style>
+  :root { --ink:#17181c; --paper:#f7f6f3; --accent:#2f6f4f; --accent-soft:#eef2ea; --border:#e4e2dc; --muted:#6b6a66; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; background: var(--paper); color: var(--ink); }
+  header.site {
+    display:flex; align-items:center; justify-content:space-between; padding: 20px 32px; border-bottom: 1px solid var(--border); background:#fff; position: sticky; top:0;
+  }
+  header.site .logo { font-weight: 800; letter-spacing: 0.04em; }
+  header.site nav a { color: var(--ink); text-decoration:none; margin-left: 22px; font-size: 0.9rem; }
+  .cta-btn {
+    background: var(--ink); color:#fff; padding: 10px 18px; border-radius: 8px; text-decoration:none; font-weight:600; font-size:0.88rem; display:inline-block;
+  }
+  .cta-btn:hover { opacity: 0.9; }
+  section.hero {
+    padding: 90px 32px 70px; text-align:center; background: linear-gradient(160deg,#17181c,#2f3a33); color:#fff;
+  }
+  section.hero .kicker { color:#9fd8b8; letter-spacing:0.14em; font-size:0.8rem; text-transform:uppercase; margin-bottom:14px; }
+  section.hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin: 0 0 18px; line-height:1.1; }
+  section.hero p { color:#d8d6cf; max-width: 60ch; margin: 0 auto 30px; font-size:1.05rem; }
+  section.products { padding: 70px 32px; max-width: 1100px; margin: 0 auto; }
+  section.products h2 { text-align:center; font-size:1.8rem; margin-bottom: 8px; }
+  section.products p.sub { text-align:center; color: var(--muted); margin-bottom: 40px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 26px; }
+  .product-card { background:#fff; border:1px solid var(--border); border-radius: 14px; overflow:hidden; }
+  .product-card .art { background:#e8e4dc; aspect-ratio: 1 / 1; display:flex; align-items:center; justify-content:center; padding: 20px; }
+  .product-card .art img { max-width: 80%; max-height: 80%; }
+  .product-card .info { padding: 16px 18px; }
+  .product-card .info h3 { margin: 0 0 4px; font-size: 1rem; }
+  .product-card .info .price { color: var(--accent); font-weight:700; }
+  section.how { background:#fff; border-top: 1px solid var(--border); border-bottom:1px solid var(--border); padding: 60px 32px; }
+  .how-inner { max-width: 900px; margin: 0 auto; display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 28px; }
+  .how-step .num { color: var(--accent); font-weight:800; font-size: 1.6rem; }
+  .how-step h3 { margin: 6px 0 6px; font-size: 1rem; }
+  .how-step p { color: var(--muted); font-size: 0.9rem; margin:0; }
+  section.email { padding: 70px 32px; text-align:center; }
+  section.email h2 { margin-bottom: 10px; }
+  section.email p { color: var(--muted); margin-bottom: 22px; }
+  form.capture { display:flex; gap: 10px; max-width: 420px; margin: 0 auto; flex-wrap:wrap; justify-content:center; }
+  form.capture input[type=email] { flex:1; min-width: 220px; padding: 12px 14px; border-radius: 8px; border:1px solid var(--border); font-size: 0.95rem; }
+  form.capture button { background: var(--accent); color:#fff; border:none; padding: 12px 20px; border-radius: 8px; font-weight:700; cursor:pointer; }
+  .note-ok { color: var(--accent); font-size: 0.85rem; margin-top: 10px; display:none; }
+  footer.site { text-align:center; padding: 30px; color: var(--muted); font-size: 0.82rem; border-top:1px solid var(--border); }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="logo">SMALL BUSINESS BIG ENERGY™</div>
+  <nav>
+    <a href="#products">Shop</a>
+    <a href="#how">How it works</a>
+    <a href="#email" class="cta-btn">Get 10% off</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="kicker">Print-on-demand · Ships worldwide</div>
+  <h1>Apparel for people who built<br>something themselves.</h1>
+  <p>No inventory, no minimums — every order is printed and shipped
+  directly to your customer. Replace <code>[YOUR STORE LINK]</code>
+  below with your real Shopify/Etsy checkout once it's connected.</p>
+  <a class="cta-btn" href="#products" style="background:#fff;color:#17181c;">Shop the drop</a>
+</section>
+
+<section class="products" id="products">
+  <h2>The first drop</h2>
+  <p class="sub">3 designs, ready for Printful — click a design to open the print-ready file.</p>
+  <div class="grid">
+    <div class="product-card">
+      <a class="art" href="designs/01-small-business-big-energy.svg"><img src="designs/01-small-business-big-energy-preview.png" alt="Small Business Big Energy tee design preview"></a>
+      <div class="info">
+        <h3>"Small Business. Big Energy." Tee</h3>
+        <p class="price">$28.00</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <a class="art" href="designs/02-built-this-myself.svg"><img src="designs/02-built-this-myself-preview.png" alt="Built This Myself tee design preview"></a>
+      <div class="info">
+        <h3>"Built This Myself" Tee</h3>
+        <p class="price">$28.00</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <a class="art" href="designs/03-est-badge.svg"><img src="designs/03-est-badge-preview.png" alt="Est. badge tee design preview"></a>
+      <div class="info">
+        <h3>Custom "Est. [Year]" Badge Tee</h3>
+        <p class="price">$28.00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="how-inner">
+    <div class="how-step">
+      <div class="num">01</div>
+      <h3>You design (or reskin ours)</h3>
+      <p>Edit the SVGs in <code>designs/</code>, or start from scratch — Printful and Printify both accept PNG/SVG artwork.</p>
+    </div>
+    <div class="how-step">
+      <div class="num">02</div>
+      <h3>Connect Printful → Shopify/Etsy</h3>
+      <p>Printful mocks up the product photos and handles printing + shipping automatically per order.</p>
+    </div>
+    <div class="how-step">
+      <div class="num">03</div>
+      <h3>You never touch inventory</h3>
+      <p>An order comes in, Printful prints and ships it, you keep the margin — no upfront stock risk.</p>
+    </div>
+  </div>
+</section>
+
+<section class="email" id="email">
+  <h2>Get 10% off the first drop</h2>
+  <p>Enter your email — this demo form stores nothing and sends
+  nowhere; wire it to your real email tool (Mailchimp/Klaviyo/ConvertKit)
+  before launch.</p>
+  <form class="capture" id="captureForm">
+    <input type="email" required placeholder="you@email.com" aria-label="Email address">
+    <button type="submit">Get my code</button>
+  </form>
+  <p class="note-ok" id="captureNote">Thanks — check your inbox for the code (once this form is wired to a real email tool).</p>
+</section>
+
+<footer class="site">Small Business Big Energy — a print-on-demand storefront starter. Replace this footer with your real business info before launch.</footer>
+
+<script>
+  document.getElementById('captureForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('captureNote').style.display = 'block';
+    this.reset();
+  });
+</script>
+</body>
+</html>
