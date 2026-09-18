@@ -1,0 +1,6 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="600" cy="470" r="140" fill="none" stroke="#17181c" stroke-width="10"/>
+  <path d="M560 470 l30 30 l60 -70" fill="none" stroke="#2f6f4f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="700" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#17181c" text-anchor="middle" letter-spacing="3">BUILT THIS</text>
+  <text x="600" y="790" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="#17181c" text-anchor="middle" letter-spacing="3">MYSELF</text>
+</svg>

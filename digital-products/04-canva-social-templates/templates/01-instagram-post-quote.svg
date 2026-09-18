@@ -1,0 +1,20 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17181c"/>
+      <stop offset="100%" stop-color="#2f3a33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg1)"/>
+  <text x="90" y="150" font-family="Helvetica, Arial, sans-serif" font-size="24" letter-spacing="4" fill="#9fd8b8">[YOUR BUSINESS NAME]</text>
+  <rect x="90" y="200" width="80" height="6" fill="#9fd8b8"/>
+  <text x="90" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#ffffff">
+    <tspan x="90" dy="0">"Replace this line</tspan>
+    <tspan x="90" dy="82">with your best</tspan>
+    <tspan x="90" dy="82">client quote."</tspan>
+  </text>
+  <text x="90" y="760" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#d8d6cf">— Client Name, [Service]</text>
+  <text x="90" y="980" font-family="Helvetica, Arial, sans-serif" font-size="22" letter-spacing="2" fill="#9fd8b8">BOOK NOW → LINK IN BIO</text>
+  <circle cx="960" cy="120" r="36" fill="none" stroke="#9fd8b8" stroke-width="2"/>
+  <text x="960" y="129" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#9fd8b8" text-anchor="middle">★</text>
+</svg>

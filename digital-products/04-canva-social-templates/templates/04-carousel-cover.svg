@@ -1,0 +1,13 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1350" fill="#f7f6f3"/>
+  <rect x="0" y="0" width="1080" height="14" fill="#2f6f4f"/>
+  <text x="90" y="180" font-family="Helvetica, Arial, sans-serif" font-size="24" letter-spacing="4" fill="#2f6f4f">[YOUR BUSINESS] TIPS</text>
+  <text x="90" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="800" fill="#17181c">
+    <tspan x="90" dy="0">5 Things</tspan>
+    <tspan x="90" dy="100">to Know</tspan>
+    <tspan x="90" dy="100">Before [X]</tspan>
+  </text>
+  <text x="90" y="900" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#6b6a66">Swipe to see all 5 →</text>
+  <circle cx="960" cy="1250" r="60" fill="#2f6f4f"/>
+  <text x="960" y="1264" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#ffffff" text-anchor="middle">→</text>
+</svg>

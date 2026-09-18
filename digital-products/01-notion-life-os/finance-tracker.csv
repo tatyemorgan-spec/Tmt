@@ -1,0 +1,8 @@
+Date,Category,Description,Amount,Type,Account
+2026-01-01,Income,Paycheck,0,Income,Checking
+2026-01-02,Housing,Rent,0,Expense,Checking
+2026-01-03,Food,Groceries,0,Expense,Checking
+2026-01-04,Transport,Gas,0,Expense,Checking
+2026-01-05,Subscriptions,Streaming,0,Expense,Card
+2026-01-06,Savings,Transfer to savings,0,Transfer,Savings
+2026-01-07,Fun,Dinner out,0,Expense,Card

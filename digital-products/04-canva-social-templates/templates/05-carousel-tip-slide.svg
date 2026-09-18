@@ -1,0 +1,13 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1350" fill="#17181c"/>
+  <text x="90" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="220" font-weight="800" fill="#2f6f4f">01</text>
+  <text x="90" y="480" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">
+    <tspan x="90" dy="0">[Tip headline</tspan>
+    <tspan x="90" dy="62">goes here]</tspan>
+  </text>
+  <text x="90" y="640" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#d8d6cf">
+    <tspan x="90" dy="0">[One or two supporting sentences</tspan>
+    <tspan x="90" dy="42">explaining the tip in plain language.]</tspan>
+  </text>
+  <text x="90" y="1260" font-family="Helvetica, Arial, sans-serif" font-size="24" letter-spacing="3" fill="#9fd8b8">SLIDE 1 OF 5</text>
+</svg>

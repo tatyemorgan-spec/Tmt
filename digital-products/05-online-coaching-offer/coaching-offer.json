@@ -1,0 +1,61 @@
+{
+  "business": {
+    "name": "Momentum Coaching",
+    "logoText": "MOMENTUM COACHING",
+    "logoInitials": "MC",
+    "tagline": "1:1 coaching for people who are done staying stuck",
+    "bio": "Momentum Coaching helps ambitious people turn a vague goal into a real plan — and actually follow through on it. No fluff, no 6-month fads. Just weekly accountability, a system that fits your life, and someone in your corner who won't let you quit on yourself.",
+    "metaDescription": "1:1 coaching to help you set a real plan and follow through. Book a free discovery call.",
+    "primaryColor": "#1f4d3d",
+    "accentColor": "#eef2ea",
+    "inkColor": "#191a17",
+    "contact": {
+      "email": "hello@momentumcoaching.example",
+      "instagram": "@momentum.coaching",
+      "hours": "Mon–Fri, by appointment"
+    },
+    "booking": {
+      "availableDays": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "startHour": 9,
+      "endHour": 17,
+      "slotMinutes": 30,
+      "daysAhead": 14
+    },
+    "servicesNote": "Every client starts with a free 20-minute discovery call — no pressure, just a conversation to see if this is a fit."
+  },
+  "hero": {
+    "headline": "Stop Planning To Start. Start.",
+    "subheadline": "1:1 coaching that turns your goal into a plan, and your plan into a habit."
+  },
+  "services": [
+    {
+      "category": "Start Here",
+      "name": "Free Discovery Call",
+      "price": "Free · 20 min",
+      "description": "We talk through where you're stuck, what you actually want, and whether coaching together makes sense. No pitch, no pressure."
+    },
+    {
+      "category": "Coaching",
+      "name": "Momentum Sprint",
+      "price": "$450 / mo",
+      "description": "4 weekly 1:1 calls, unlimited voice-memo check-ins between sessions, and a plan rebuilt weekly around what's actually happening in your life."
+    },
+    {
+      "category": "Coaching",
+      "name": "Momentum Quarter",
+      "price": "$1,200 / quarter",
+      "description": "12 weeks of coaching at a discount vs. month-to-month, plus one full 90-minute goal-mapping session at the start and a progress review at the end."
+    },
+    {
+      "category": "Group",
+      "name": "Momentum Circle (Group Program)",
+      "price": "$150 / mo",
+      "description": "Small-group coaching (max 6 people), weekly group call, shared accountability thread. For people who want structure without the 1:1 price tag."
+    }
+  ],
+  "reviews": [
+    { "rating": 5, "quote": "I'd been 'planning to start' for two years. Six weeks in and I've shipped more than the previous two years combined.", "author": "Sprint Client" },
+    { "rating": 5, "quote": "The weekly calls kept me honest in a way no app or journal ever did. Worth every dollar.", "author": "Quarter Client" },
+    { "rating": 5, "quote": "The group program gave me accountability I couldn't afford to skip on my own — and it's a fraction of the 1:1 price.", "author": "Circle Member" }
+  ]
+}

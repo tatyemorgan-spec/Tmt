@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Your First Local Website Client in 14 Days — Mini Course</title>
+<meta name="description" content="A 5-module mini-course: find local business prospects, build a sample site fast, write outreach that gets replies, price and close without being salesy, and turn one client into five.">
+<style>
+  :root {
+    --ink: #191a17; --paper: #f7f6f3; --card: #fff; --accent: #1f4d3d;
+    --accent-soft: #eef2ea; --border: #e4e2dc; --muted: #6b6a66; --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; background: var(--paper); color: var(--ink); }
+  .layout { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+  @media (max-width: 820px) { .layout { grid-template-columns: 1fr; } nav.side { position: static; height: auto; } }
+  nav.side {
+    background: var(--ink); color: #fff; padding: 28px 20px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  }
+  nav.side .brand { font-weight: 800; font-size: 1.05rem; margin-bottom: 4px; }
+  nav.side .brand-sub { font-size: 0.78rem; color: #9fd8b8; margin-bottom: 24px; }
+  nav.side ol { list-style: none; padding: 0; margin: 0; counter-reset: mod; }
+  nav.side li { counter-increment: mod; margin-bottom: 4px; }
+  nav.side a {
+    display: block; color: #d8d6cf; text-decoration: none; padding: 10px 12px; border-radius: 9px; font-size: 0.88rem;
+  }
+  nav.side a::before { content: "0" counter(mod) " · "; color: #9fd8b8; font-weight: 700; }
+  nav.side a:hover, nav.side a:focus-visible { background: rgba(255,255,255,0.08); }
+  main { padding: 48px 40px 100px; max-width: 760px; }
+  @media (max-width: 600px) { main { padding: 32px 20px 80px; } }
+  header.hero { margin-bottom: 40px; }
+  header.hero .kicker { color: var(--accent); font-weight: 700; letter-spacing: 0.08em; font-size: 0.78rem; text-transform: uppercase; }
+  header.hero h1 { font-size: 2rem; line-height: 1.15; margin: 8px 0 12px; }
+  header.hero p { color: var(--muted); font-size: 1rem; max-width: 60ch; }
+  section.module { margin-bottom: 64px; scroll-margin-top: 20px; }
+  section.module .modlabel { color: var(--accent); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 6px; }
+  section.module h2 { font-size: 1.5rem; margin: 0 0 16px; }
+  section.module p { line-height: 1.65; margin: 0 0 14px; }
+  section.module ul, section.module ol.steps { line-height: 1.65; padding-left: 22px; }
+  .callout {
+    background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius);
+    padding: 16px 18px; margin: 18px 0; font-size: 0.94rem;
+  }
+  .callout strong { color: var(--accent); }
+  .checklist { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-top: 20px; }
+  .checklist h3 { margin: 0 0 10px; font-size: 0.95rem; }
+  .checklist label { display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; margin-bottom: 8px; cursor: pointer; }
+  .checklist input { margin-top: 3px; }
+  hr.divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  footer { padding: 30px 40px; color: var(--muted); font-size: 0.82rem; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav class="side" aria-label="Course modules">
+    <div class="brand">Get Your First Client</div>
+    <div class="brand-sub">in 14 Days — Mini Course</div>
+    <ol>
+      <li><a href="#module-1">Find 20 real prospects</a></li>
+      <li><a href="#module-2">Build a sample site fast</a></li>
+      <li><a href="#module-3">Outreach that gets replies</a></li>
+      <li><a href="#module-4">Price & close without pressure</a></li>
+      <li><a href="#module-5">Turn one client into five</a></li>
+    </ol>
+  </nav>
+  <main>
+    <header class="hero">
+      <div class="kicker">Mini Course · 5 Modules</div>
+      <h1>Get Your First Local Website Client in 14 Days</h1>
+      <p>A practical, no-fluff path from "I have a site-building tool"
+      to "I have a paying client" — using nothing but this repo's
+      `site-builder` generator, a spreadsheet, and 30 minutes a day.</p>
+    </header>
+
+    <section class="module" id="module-1">
+      <div class="modlabel">Module 1</div>
+      <h2>Find 20 Real Prospects</h2>
+      <p>You don't need a huge list — you need 20 businesses that
+      already show clear signs they need a better website. That's a
+      1–2 hour task, not a week-long research project.</p>
+      <p><strong>What counts as a good prospect:</strong> a real local
+      service business (salon, contractor, cleaner, trainer, café,
+      detailer, tutor) that either has no website, a website that
+      looks 10+ years old, or a Linktree/Instagram-only presence.
+      Businesses that already have a modern site are a waste of your
+      first 20 — you're not trying to win a redesign pitch yet.</p>
+      <p><strong>Where to find them:</strong> walk or drive one
+      commercial street near you and note every business without an
+      obvious modern site; search your city + service type on Google
+      Maps and click through the top 20–30 results, skipping anyone
+      with a site built in the last 2–3 years; ask in local Facebook
+      community groups who people recommend — recommended-but-website-
+      less businesses are gold.</p>
+      <div class="callout">
+        <strong>Do not scrape.</strong> Don't use bots against
+        Instagram/Facebook/Google to build this list — it risks getting
+        accounts banned and turns this into spam. A spreadsheet you
+        fill in by hand in an hour is faster to start with anyway.
+      </div>
+      <div class="checklist">
+        <h3>Module 1 action step</h3>
+        <label><input type="checkbox"> Open a spreadsheet with columns: Business, Category, Current site (Y/N/bad), Phone/Insta, Notes</label>
+        <label><input type="checkbox"> Fill in 20 real local businesses that fit the criteria above</label>
+        <label><input type="checkbox"> Star your top 5 — the ones you'd most want as a client</label>
+      </div>
+    </section>
+    <hr class="divider">
+
+    <section class="module" id="module-2">
+      <div class="modlabel">Module 2</div>
+      <h2>Build a Sample Site in Under 30 Minutes</h2>
+      <p>The single highest-converting outreach move in this business
+      is showing up with a finished sample, not a pitch. Nobody has to
+      imagine what you mean by "I'll build you a nice website" — they
+      just see it.</p>
+      <p>Using this repo's <code>site-builder</code> tool: pick your #1
+      starred prospect, and fill in a JSON file with whatever real
+      information you can find publicly (business name, services if
+      listed, a couple of real photos from their own Google/Instagram
+      if usable, their real contact info). See
+      <code>../../site-builder/examples/hair-salon.json</code> for the
+      full schema, or <code>afrodite.json</code> for an example built
+      from nothing but a screenshot.</p>
+      <div class="callout">
+        <strong>Only use data you already have permission to use</strong>
+        — a screenshot you took, information the business itself
+        published. This is a sample to show them, not a finished
+        product to publish without asking — treat it like a mockup
+        until they say yes.
+      </div>
+      <p>Run:</p>
+      <p><code>node site-builder/generate-site.js --input prospect.json --outdir samples/prospect-name</code></p>
+      <p>Open <code>index.html</code>, screenshot it on both desktop
+      and mobile width — those two screenshots are your entire pitch
+      asset.</p>
+      <div class="checklist">
+        <h3>Module 2 action step</h3>
+        <label><input type="checkbox"> Build one real sample site for your #1 prospect</label>
+        <label><input type="checkbox"> Screenshot it at desktop and mobile width</label>
+        <label><input type="checkbox"> Repeat for prospects #2 and #3 if time allows</label>
+      </div>
+    </section>
+    <hr class="divider">
+
+    <section class="module" id="module-3">
+      <div class="modlabel">Module 3</div>
+      <h2>The Outreach Message That Gets Replies</h2>
+      <p>Generic "I build websites, interested?" messages get ignored
+      because they ask the business owner to do the imagining. Your
+      message does the opposite — it shows the finished thing first.</p>
+      <div class="callout">
+        <strong>Template (DM or email):</strong><br>
+        "Hey [name] — I put together a sample homepage for [business]
+        based on what's public on your [Google/Instagram] page, mostly
+        because I thought you deserved a site that matches how good
+        your actual work is. No pressure at all, just wanted to show
+        you: [link/screenshot]. If you like the direction, happy to
+        chat about finishing it out — if not, no worries, have a good
+        one!"
+      </div>
+      <p>Why this works: it's specific (mentions their actual
+      business), it's low-pressure (explicitly says "no pressure"),
+      and it leads with a finished asset instead of a pitch — the
+      business owner's first reaction is to look at the site, not to
+      evaluate a sales pitch.</p>
+      <p>Send this as a DM to 5 prospects a day. Expect roughly a
+      10–25% reply rate from a genuinely custom sample — track it in
+      your spreadsheet from Module 1.</p>
+      <div class="checklist">
+        <h3>Module 3 action step</h3>
+        <label><input type="checkbox"> Send the outreach message to your top 3 sample sites</label>
+        <label><input type="checkbox"> Log every send + reply in your spreadsheet</label>
+        <label><input type="checkbox"> Follow up once, 3 days later, if no reply ("just floating this back up!")</label>
+      </div>
+    </section>
+    <hr class="divider">
+
+    <section class="module" id="module-4">
+      <div class="modlabel">Module 4</div>
+      <h2>Price & Close Without Being Salesy</h2>
+      <p>You're not selling a website — you're selling "more bookings/
+      calls/customers." Price and talk accordingly.</p>
+      <p><strong>A simple, defensible starting price structure:</strong>
+      $300–$600 one-time build fee (matches the real effort of a
+      custom `site-builder` site: gathering their info, photos, copy,
+      and launching it), plus an optional $25–$50/month for hosting +
+      small update requests if you don't want to hand them a
+      self-serve static site.</p>
+      <p><strong>When they ask "how much?":</strong> don't quote a
+      number cold. Ask 2 questions first: "How many services/pages do
+      you want on it?" and "Do you want me to also handle hosting and
+      small changes going forward, or just hand you the files?" — the
+      answer changes your price and shows them you're scoping, not
+      guessing.</p>
+      <p><strong>Objection: "that's more than I expected."</strong>
+      Don't discount immediately. Ask what they expected and why —
+      often they're comparing to a $0 Linktree, not another custom
+      site. Reframe around the outcome: "totally fair — just so you
+      know what's included, this isn't a template, it's built around
+      your actual services and photos, and I handle hosting so you
+      never touch code."</p>
+      <div class="checklist">
+        <h3>Module 4 action step</h3>
+        <label><input type="checkbox"> Decide your base price and optional monthly hosting fee</label>
+        <label><input type="checkbox"> Write your own 2-question scoping script</label>
+        <label><input type="checkbox"> Send a simple written quote (even just in the DM thread) to anyone who replied positively</label>
+      </div>
+    </section>
+    <hr class="divider">
+
+    <section class="module" id="module-5">
+      <div class="modlabel">Module 5</div>
+      <h2>Turn One Client Into Five</h2>
+      <p>Your first client is worth more than their invoice — they're
+      your proof and your referral source.</p>
+      <p><strong>After launch:</strong> ask for a short testimonial
+      (even 1–2 sentences) and permission to use their site as a
+      portfolio example. Most happy clients say yes if you ask within
+      48 hours of launch, while the excitement is fresh.</p>
+      <p><strong>The referral ask:</strong> "Do you know one or two
+      other business owners who could use something similar? Happy to
+      give you [$50/a free month of hosting] for anyone you send my
+      way who books." A direct incentive turns a vague "sure I'll keep
+      you in mind" into an actual introduction.</p>
+      <p><strong>Build a portfolio page:</strong> once you have 2–3
+      real sites, build yourself one using the exact same tool — your
+      own site is proof you can walk the walk, and it's where every
+      future outreach message can point.</p>
+      <div class="checklist">
+        <h3>Module 5 action step</h3>
+        <label><input type="checkbox"> Request a testimonial + portfolio permission from client #1</label>
+        <label><input type="checkbox"> Make the referral offer to client #1</label>
+        <label><input type="checkbox"> Build your own portfolio site once you have 2–3 launches</label>
+      </div>
+    </section>
+
+  </main>
+</div>
+<footer>Get Your First Local Website Client in 14 Days — a self-contained mini-course. No login required.</footer>
+</body>
+</html>

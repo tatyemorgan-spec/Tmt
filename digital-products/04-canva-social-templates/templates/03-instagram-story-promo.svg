@@ -1,0 +1,16 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f6f4f"/>
+      <stop offset="100%" stop-color="#17181c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg3)"/>
+  <text x="540" y="260" font-family="Helvetica, Arial, sans-serif" font-size="26" letter-spacing="5" fill="#d8f0e2" text-anchor="middle">LIMITED TIME</text>
+  <text x="540" y="480" font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="800" fill="#ffffff" text-anchor="middle">[OFFER]</text>
+  <text x="540" y="580" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#ffffff" text-anchor="middle">[Short description of the offer]</text>
+  <rect x="290" y="900" width="500" height="90" rx="45" fill="#ffffff"/>
+  <text x="540" y="957" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#17181c" text-anchor="middle">BOOK NOW</text>
+  <text x="540" y="1050" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#9fd8b8" text-anchor="middle">Offer ends [date] · Swipe up / Link in bio</text>
+  <text x="540" y="1830" font-family="Helvetica, Arial, sans-serif" font-size="26" letter-spacing="3" fill="#d8d6cf" text-anchor="middle">@[YOURHANDLE]</text>
+</svg>
