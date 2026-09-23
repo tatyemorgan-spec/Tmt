@@ -1,26 +1,58 @@
-# Offer — F Rich Consulting
+# Offer — F Rich Consulting (Freeman Richards)
 
-> PLACEHOLDER. Waiting on Tye for offer details. Do not write briefs or scripts until this is filled in.
-
-## What we sell
-- TBC (Close form suggests: Freeman's 1-to-1 property mentorship — Airbnb / rent-to-rent, UK based)
+1-to-1 property mentorship for UK people who want to build a serviced accommodation / Airbnb business, mainly through Rent-to-Rent (R2R). Freeman has done it himself: the tools, contracts and systems are the ones used in his own business.
 
 ## Products and price points
-| Product | Price | Payment options | Ticket (high/low) |
-|---|---|---|---|
-| TBC | £TBC | TBC | TBC |
+| Product | Price | Length | Payment | Ticket | My rate |
+|---|---|---|---|---|---|
+| Airbnb Management / Co-hosting | £2,500–£3,000 | TBC | Usually split in 2 | low | 10% |
+| 3-Month Fast Track Mentorship | £3,000–£5,000 | 3 months | TBC (full or split) | high | 7% |
+| 6-Month Gold Mentorship (90-Day Guarantee) | £4,000+ (usually £5,000) | 6 months | TBC (full or split) | high | 7% |
 
-## Who it's for
-- TBC
+Airbnb Management runs as a 2-in-1 with the R2R offer. Explainer (Loom): https://www.loom.com/share/fe5beaf39a5e45aa994919570915949f
 
-## Results / proof
-- TBC (case studies, numbers, testimonials)
+Commission is on the full price, including deals paid in instalments.
+Quick maths: low ticket £2.5k–£3k → £250–£300 per close. 3-Month £3k–£5k → £210–£350. Gold £5k → £350.
 
-## Guarantees / risk reversal
-- TBC
+## Who each one is for
+- **Airbnb Management / Co-hosting** — wants to get into Airbnb but money's tight or they don't want to take on a lease yet. Manage other people's properties for a cut. Lowest entry price.
+- **3-Month Fast Track** — wants their first serviced accommodation / Airbnb unit live as fast as possible, with structure and accountability. Ready to move now.
+- **6-Month Gold** — wants more hands-on support, longer guidance and extra accountability while building AND scaling. Nervous about risk → the 90-Day Guarantee is the lever.
 
-## What's included
-- TBC
+## How the mentorship works (both 3-Month and Gold)
+- Weekly 1-to-1 mentoring calls with Freeman
+- Ongoing WhatsApp support between calls
+- Roughly half the support is private coaching calls, half is direct WhatsApp access for questions, feedback and guidance
 
-## Not included / limits
-- TBC
+## What we cover
+- Rent-to-Rent (R2R) business model
+- Compliance & business set-up
+- Location analysis & deal assessment
+- Property selection & sourcing strategies
+- Contract negotiation & landlord due diligence
+- Estate agent relationships
+- Financial modelling & market analysis
+- Pitching & objection handling
+- Cold calling training
+- Property set-up & staging
+- Airbnb marketing & occupancy strategies
+- Management, operations & automation
+- Scaling your portfolio
+
+## Also included
+- Private WhatsApp community
+- Plug-and-play contracts, SOPs, templates & resources
+- Proven tools & systems used in Freeman's own business
+- Ongoing accountability & support throughout
+
+## Guarantee
+- 6-Month Gold includes a 90-Day Guarantee. Exact terms: TBC. Don't promise specifics on a call until confirmed. Say "Freeman will walk you through the guarantee on the call."
+
+## Proof (send links, don't quote numbers we haven't verified)
+- Trustpilot reviews: https://www.trustpilot.com/review/freemanrichards.com
+- Mentee case studies (YouTube playlist): https://youtube.com/playlist?list=PLGJk2MFJv52gjtVvAfJd8LB1yFOUU2215
+- Instagram (mentee highlights): https://www.instagram.com/freeman_richards
+- Specific mentee stories to name-drop on calls: TBC (add 3–5: name, starting point, result, timeframe)
+
+## Who's closing?
+My main job is booking calls: 1 booked call a day minimum. Speed to lead on new inbound is the priority.

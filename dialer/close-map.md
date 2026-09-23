@@ -39,16 +39,23 @@ Org: F Rich Consulting · currency GBP · me: Tye Morgan (`user_ozxlLsH3saSC5svO
 
 Opportunity values in Close are in pence (£1 = 100).
 
-## /log outcome → Close (PROPOSED — Tye to confirm)
-| Outcome | Lead status | Opportunity | Task |
-|---|---|---|---|
-| no_answer | unchanged | – | call task +1 day if under 6 attempts |
-| voicemail | unchanged | – | call task +1 day |
-| callback | Setter Pipeline | – | call task on callback_date |
-| not_interested | NGMI | – | – |
-| disqualified | DQ | – | – |
-| booked | New Opportunity | create: New Deal - Call Booked | – |
-| closed | Signed Up / Deposit Paid | move to Signed Up / Deposit - Paid (won) | – |
+## /log outcome → Close (confirmed by Tye 2026-09-23)
+| Outcome | Lead status | Task |
+|---|---|---|
+| no_answer | unchanged until the no-reply rule kicks in | call task: next slot (same day PM or next day AM) |
+| voicemail | same as no_answer | same as no_answer |
+| callback | unchanged | call task on callback_date |
+| not_interested | NGMI | – |
+| disqualified | DQ | – |
+| booked | New Opportunity | – |
+| closed | Signed Up (paid in full) / Signed Up - Balance Owed (split, balance due) / Deposit Paid (deposit only) | – |
+
+**No-reply rule:** count call attempts on the lead in Close over the last 3 days. At 6 attempts (2 a day, 3 days in a row) with no connect:
+- fit score 6+ (from the brief, or funding £5k+ with a timeframe) → Setter Pipeline
+- otherwise → NGMI
+Always show Tye the status change before making it.
+
+**Open question:** on booked, should we also create a Sales pipeline opportunity ("New Deal - Call Booked")? Until confirmed: lead status only.
 
 Rule: DNC status = never dial, never draft follow-up.
 
