@@ -5,11 +5,11 @@
 ## Products and price points
 | Product | Price | Length | Payment | Ticket | My rate |
 |---|---|---|---|---|---|
-| Airbnb Management / Co-hosting | £2,500–£3,000 | TBC | Usually split in 2 | low | 10% |
-| 3-Month Fast Track Mentorship | £3,000–£5,000 | 3 months | TBC (full or split) | high | 7% |
-| 6-Month Gold Mentorship (90-Day Guarantee) | £4,000+ (usually £5,000) | 6 months | TBC (full or split) | high | 7% |
+| Airbnb Management / Co-hosting | £2,500–£3,000 | 3 months + basic lifetime support | Split max 3, aim for 2 | low | 10% |
+| 3-Month Fast Track Mentorship | £3,000–£5,000 | 3 months | Full, or split max 3 (aim for 2) | high | 7% |
+| 6-Month Gold Mentorship (90-Day Guarantee) | £4,000+ (usually £5,000) | 6 months | Full, or split max 3 (aim for 2) | high | 7% |
 
-Airbnb Management runs as a 2-in-1 with the R2R offer. Explainer (Loom): https://www.loom.com/share/fe5beaf39a5e45aa994919570915949f
+Airbnb Management is a 2-in-1: it teaches Airbnb management / co-hosting (running other people's properties) AND gives step-by-step rent-to-rent guidance alongside it, because the two work hand in hand. 3 months of support, then basic lifetime support. Explainer (Loom): https://www.loom.com/share/fe5beaf39a5e45aa994919570915949f
 
 Commission is on the full price, including deals paid in instalments.
 Quick maths: low ticket £2.5k–£3k → £250–£300 per close. 3-Month £3k–£5k → £210–£350. Gold £5k → £350.
@@ -46,7 +46,10 @@ Quick maths: low ticket £2.5k–£3k → £250–£300 per close. 3-Month £3k�
 - Ongoing accountability & support throughout
 
 ## Guarantee
-- 6-Month Gold includes a 90-Day Guarantee. Exact terms: TBC. Don't promise specifics on a call until confirmed. Say "Freeman will walk you through the guarantee on the call."
+- 6-Month Gold: 90-Day Guarantee: a property secured within 90 days. Any small print (what they have to do their side): Freeman covers on his call.
+
+## Payment plans
+Max 3 instalments. Always offer 2 first ("most people do it in two"). Only go to 3 if 2 is the blocker.
 
 ## Proof (send links, don't quote numbers we haven't verified)
 - Trustpilot reviews: https://www.trustpilot.com/review/freemanrichards.com

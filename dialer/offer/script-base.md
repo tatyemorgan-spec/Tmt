@@ -25,9 +25,9 @@ Use their form answers. Don't re-ask what they told us — confirm and dig.
 > "So from what you've said, you want [goal] because [why], and the thing stopping you is [blocker]. That's exactly what Freeman does. It's 1-to-1, weekly calls plus WhatsApp access, and he walks you through finding the property, the agents, the contracts, getting it live. Same systems he uses in his own business."
 
 Product steer:
-- £2.5k–£5k → Airbnb Management / Co-hosting (lower entry, no lease).
+- £2.5k–£5k → Airbnb Management / Co-hosting: lower entry, no lease, and you still get the step-by-step R2R guidance alongside it.
 - £5k+ and wants speed → 3-Month Fast Track.
-- £5k+ and wants more support or is worried about risk → 6-Month Gold with the 90-Day Guarantee.
+- £5k+ and wants more support or is worried about risk → 6-Month Gold with the 90-Day Guarantee (a property secured within 90 days).
 Proof: "I'll send you the Trustpilot and a couple of the mentee case studies so you can see who he's helped."
 
 ## 4. Close (book)

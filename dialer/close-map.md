@@ -55,7 +55,7 @@ Opportunity values in Close are in pence (£1 = 100).
 - otherwise → NGMI
 Always show Tye the status change before making it.
 
-**Open question:** on booked, should we also create a Sales pipeline opportunity ("New Deal - Call Booked")? Until confirmed: lead status only.
+On booked: lead status only. Tye handles the opportunity himself.
 
 Rule: DNC status = never dial, never draft follow-up.
 
