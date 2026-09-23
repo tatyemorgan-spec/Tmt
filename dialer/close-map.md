@@ -1,0 +1,56 @@
+# Close map (pulled live from Close on 2026-09-23)
+
+Org: F Rich Consulting · currency GBP · me: Tye Morgan (`user_ozxlLsH3saSC5svO2cIwyBP51QJ6GQFic86CgA1heR8`), timezone Europe/London.
+
+## Lead statuses
+| Label | ID |
+|---|---|
+| New Lead | stat_iVYDtUSWDKP4SHBrfWS9o4RurikYw2W6EEOxuG4ZPX1 |
+| New Opportunity | stat_9j1C1NhtRZZIRIgzWt5PJhuGSQbWvVtIbQxartAhSu6 |
+| Setter Pipeline | stat_kszuXEcrLZmai6Jr1V6zz4F82H7KDqSNfXcSL8KHLB8 |
+| Closer Follow Up | stat_LIhyRBtPmdUfgKQNH1veZ1HwX62csa4R0AUTcEUMNNi |
+| No Show | stat_eRigetiPeo1oRaUD8I5A5DR5BL6X5P3tpl3i66gbPsT |
+| Signed Up | stat_kS2MjBIgY1oiE11Ub15x9DxU0EL15hrY34sTXc49vGd |
+| Signed Up - Balance Owed | stat_RgKckg6wNYHM160BmaHDJdSgQUe6I3Xm18iqoPeil8Y |
+| Deposit Paid | stat_TxMguK0S3UUn0fjxZp5NcCQGuI2uIyl9zoI32yFuXYU |
+| NGMI | stat_9OY9ByBWXd9Qc3C3l4gyJ8RDL7WzXHFhU3clKXpTwpt |
+| DQ | stat_qJSHOTYVCIpGbfQkqAc10Cvji4u9fWvZCTRhIHBHQpj |
+| DNC | stat_YhdeK8Ib71gmvB3OxhUtzHToX1ZEDf5mdvxPn1WJW4J |
+| New Webby Opt ins | stat_LEGarBVBIp0FJweaOZMXevROIn2DgmdYxEuQ1lCcHAu |
+| New Webby Sign Ups | stat_KSiB7bITJIPVWVSDbroSY6kR0QP0AJaaJEXYZu3gSkC |
+| Old Webby Sign ups | stat_5sZcbaSl8JM6nsaRttOVk1UbLAb1NKdDwLQ76CIC3pZ |
+| Webby Sign ups - No Book | stat_vp0TJCmLGGSaepCcgCkvTpZWmTMuurZNwIoV3dsatnw |
+| Calendly Import | stat_wxFCPPFO1IrbaS5elVRVe3yDJ4vxzRan9VWAJ9zlaeg |
+| Calendly Import Follow Up | stat_ttNAJz7R0loX2UY0i74tEfucjKw1EaLChv4vnIoXDfB |
+| Refunds | stat_CbGYE2o1FnkTFqkjrTkzaCZjNDFafwjQI7NVzXzOrSO |
+| Withdrawn | stat_Ms7uwWWkRtDfhpHUmM9aTiDtRMyNQcLNHEFOVyOKjGB |
+| event | stat_aauD9hOOrEKaIDzg1lYaWhUsFVceIy5oFoMcTIffa03 |
+
+## Opportunity pipeline: Sales (`pipe_2D0Pst2BdH5WAd1KAVzymV`)
+| Label | Type | ID |
+|---|---|---|
+| New Deal - Call Booked | active | stat_naA7WoafcONPyOp73uIzBCxVpZUDeGnHM8BA5GsrrER |
+| New Deal - Pending Close | active | stat_tvl0H81ZwS9fHzjnHjgspIHahThz3efiv4ZXyofB6h5 |
+| Instalment Pending | active | stat_u4aSiITWw8Bu0cmWNxAZi8rJLZfyWnpQP8YqSAnspRi |
+| Signed Up | won | stat_tzpZlkWpPwjwb3w2vGE6Zr0z0k2GJr0hoXqnbcRdwhg |
+| Deposit - Paid | won | stat_tWSMvSJ5z6JPMYqg5CojdPohRwmTuHFnfHXNVQOs0N5 |
+| Instalment Paid | won | stat_8BPSslgSJbotUCsuhEUYtptv4GqIxTiGNQzOiFL70Hl |
+| New Deal Lost | lost | stat_TuLB9b4rHxuDJYCpNlr9untsbhZD9IAyNhfpB2pYqKp |
+
+Opportunity values in Close are in pence (£1 = 100).
+
+## /log outcome → Close (PROPOSED — Tye to confirm)
+| Outcome | Lead status | Opportunity | Task |
+|---|---|---|---|
+| no_answer | unchanged | – | call task +1 day if under 6 attempts |
+| voicemail | unchanged | – | call task +1 day |
+| callback | Setter Pipeline | – | call task on callback_date |
+| not_interested | NGMI | – | – |
+| disqualified | DQ | – | – |
+| booked | New Opportunity | create: New Deal - Call Booked | – |
+| closed | Signed Up / Deposit Paid | move to Signed Up / Deposit - Paid (won) | – |
+
+Rule: DNC status = never dial, never draft follow-up.
+
+## Lead source form (seen on inbound leads' description)
+Q1 property journey stage · Q2 90-day goal · Q3 work situation · Q4 name · Q5 email · Q6 dream life in 1 year · Q7 timeframe to start · Q8 biggest blocker · Q9 UK mobile · Q10 funding available.
