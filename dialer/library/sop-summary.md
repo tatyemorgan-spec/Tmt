@@ -8,6 +8,11 @@ Sources (Google Drive):
 - Not accessible with my Drive login: original Dialler VSL SOP, Second-Stage Interview / Roleplay Brief
 - Loom training folder: https://loom.com/share/folder/97feb4e25f0c45d69f6074cadb4024c9
 
+The PDF "Dialler Handover Doc" Tye uploaded is the same content as the 5-Day Handover Pack above.
+
+## Follow-up bank
+Keep building a bank of leads who aren't ready today but could be later (Setter Pipeline + a dated follow-up task). /weekly reports its size.
+
 ## The job in one line
 Get the right people onto Freeman's calendar: qualified, prepared, committed and ready to take it seriously. I don't sell; I qualify, route, prepare and protect the calendar.
 
