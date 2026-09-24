@@ -31,6 +31,7 @@ Close: <lead url> · Status: <status> · Phone: <phone>
 <3 lines: who they are, what they likely want, how warm>
 
 ## Fit: X/10 — <one-line reason vs icp.md>
+## Likely route: Book (mentorship / management / scaling) · Deal sourcing · Blueprint · YouTube · DQ — <why>
 
 ## Opener (2 lines max)
 ## Discovery (4 questions, specific to this lead)

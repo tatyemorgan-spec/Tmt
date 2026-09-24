@@ -1,31 +1,36 @@
-# Ideal Client Profile
+# Ideal Client Profile + routing
 
-## Good fit
-- UK based (UK mobile) — mentorship is UK only.
-- Funding £2,500+ available (cash or credit). Below that = not a fit for any product.
-- Wants to start a serviced accommodation / Airbnb / R2R business, or is stuck part-way.
-- Wants to start soon (ASAP / 14 days / 30 days).
-- Clear why (freedom, leaving the job, family, income security).
-- Blocker is something mentorship fixes: no step-by-step plan, doesn't know how to find/assess properties, low confidence with agents/landlords.
+Source: Dialler Offer Cheat Sheet, VSL SOP, Webinar SOP (Drive), merged with Tye's current offer structure (Management route is newer than the cheat sheet. Current structure wins).
 
-## Funding (form Q10) → fit and product
-| Form answer | Fit | Lead with |
+Every lead ends in one of 4 decisions: **Book · Route · Nurture · Disqualify**.
+
+## Routing by budget (available capital, liquid or realistically accessible)
+| Budget | Route | Next step |
 |---|---|---|
-| £10,000+ | Strong | 6-Month Gold |
-| £7,000–£10,000 | Strong | 6-Month Gold or 3-Month Fast Track |
-| £5,000–£7,000 | Good | 3-Month Fast Track (Gold if they want more support) |
-| Under £5,000, no credit | Check on the call | Ask the exact figure. £2.5k+ → Airbnb Management / Co-hosting. Under £2.5k → DQ. |
+| £5k–£7k+ | Airbnb / R2R Mentorship (3-Month Fast Track or 6-Month Gold) | Book strategy call with Freeman |
+| Has properties / experience, prepared to invest | Scaling conversation | Book strategy call with Freeman |
+| £2.5k–£5k | Airbnb Management / Co-hosting (with R2R guidance alongside) | Book strategy call with Freeman |
+| ~£1k–£2.5k | Deal Sourcing (DIY ~£495–£995 / Done-With-You ~£1,495) | Book deal sourcing call (confirm this route is still active) |
+| Under £1k (~£500) | Deal Sourcing Blueprint | Send self-checkout link. Don't book a call |
+| No budget / no timeline / "just researching" | YouTube nurture | Send relevant Freeman YouTube video. Don't force a call |
 
-## Fit score guide (1–10)
-- Funding: £10k+ = 3, £5–10k = 2, £2.5–5k = 1, under £2.5k = DQ
-- Timeframe: ASAP/14 days = 3, 30 days = 2, no clear timeframe = 0
-- Motivation (Q6 answer specific and emotional) = 0–2
+Form Q10 "under £5,000, no credit" → always ask the exact figure before routing.
+
+## Green light: keep / book
+Genuine interest · clear goal · realistic timeline (0–3 months) · access to capital, liquid funds or a realistic credit/payment option · decision maker available (or attending) · engaged with VSL/webinar · will watch the prep asset · understands it's a next-step conversation, not a general chat.
+
+## Yellow light: nurture (Setter Pipeline + follow-up date)
+Timeline 6+ months · funds not ready · still researching · needs to speak to someone first · better suited to self-study · needs more education first.
+
+## Red light: disqualify (DQ + reason in Close)
+Booked by accident · no real interest or intention to act · unrealistic expectations · hostile/poor attitude · repeated no contact · no budget and no plan · won't engage with prep material · DNC.
+
+## Fit score guide (1–10) for briefs
+- Funding: £5k+ = 3, £2.5–5k = 2, £1–2.5k = 1, under £1k = 0 (route, don't book)
+- Timeline: 0–30 days = 3, 1–3 months = 2, 3–6 months = 1, 6+ = 0
+- Motivation clear and personal = 0–2
+- Decision maker = sole or attending = 1
 - Blocker mentorship fixes = 1
-- Answered calls / engaged before = +1
 
-## Disqualifiers
-- Under £2,500 funding with no credit and no way to get it.
-- Not UK based.
-- Just "researching" with no timeframe AND low funding → nurture, don't push.
-- DNC status in Close = never call.
-- Obvious test / junk leads.
+## Record experience as
+Beginner · Some experience · Experienced investor · Existing operator / scaling

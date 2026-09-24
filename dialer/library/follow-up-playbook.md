@@ -27,6 +27,20 @@ All templates live in Close (Inbox → Templates → SMS). `/log` picks the righ
 | Disqualified (under £2.5k / not UK) | none | – | DQ |
 | DNC | NEVER message | – | – |
 
+## Show-rate sequence after booking (from the SOPs)
+1. On the call: invite accepted while on the phone, Meet ready, quiet place, decision maker attending.
+2. Straight after: booking confirmation text + prep asset (VSL / case study / training).
+3. 24 hours before: "Hey [Name], just confirming you're still good for your strategy call tomorrow at [time]. Make sure you've watched the video I sent, accepted the invite and you're joining from somewhere quiet."
+4. Morning of: Booked Call — Today's Reminder.
+5. 1–2 hours before (if the call's later in the day): "Quick reminder, your call with Freeman is coming up shortly. Make sure you're somewhere quiet and ready to go through your goals properly."
+Don't over-contact. Keep it clean.
+
+## Webinar leads
+- Booked after webinar → call within 1 hour, 3–5 min touchpoint, no answer = voicemail + text + try next working day.
+- Attended, didn't book → "Did you get value from it? Any reason you didn't book at the end?"
+- Registered, didn't attend → offer the free training asset, then lightly qualify.
+- Whole list worked within 3 working days (2–3 attempts + a text each). Shout early if that's not realistic.
+
 ## Rules
 - One text per call attempt. Never two texts in a row without a call in between.
 - Fill in every [DAY] / [TIME]. Never send a template with brackets left in.

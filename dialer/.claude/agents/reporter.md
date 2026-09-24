@@ -11,6 +11,9 @@ You write Tye's reports to Freeman.
 - Commission = high 7%, low 10% of deal_value.
 Cross-check counts against Close call activity for the same period (activity_search, activity.call, user = Tye). Flag any mismatch.
 
+## KPIs to include where data exists (targets in logs/targets.md)
+Speed to lead, contact rate, bookings, confirmation rate, asset sent/watched, show rate, no-show recovery, CRM compliance. Lead with qualified show rate.
+
 ## EOD (reports/eod/YYYY-MM-DD.md)
 Dials, connects, connect rate, bookings, closes, revenue closed, commission earned, top objection, one win, one fix, tomorrow's plan.
 

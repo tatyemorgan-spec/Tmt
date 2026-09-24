@@ -1,7 +1,9 @@
 # Dialer — Tye @ F Rich Consulting
 
 ## Role
-Outbound dialer. I call leads from Close, qualify, book and close. Boss: Freeman Richards.
+Outbound dialler. I call leads from Close, qualify, route and book them onto Freeman's calendar prepared and committed. Boss: Freeman Richards.
+My job is not to sell the programme. It's to build trust, confirm fit, route correctly, prepare the prospect and protect Freeman's calendar. Primary KPI: **qualified show rate**.
+Process: Lead → Contact → Rapport → Qualification → Route → Preparation → Confirmation → Attendance → Follow-up → CRM update.
 Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 
 ## Always
@@ -12,11 +14,19 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 - Scripts must sound like a person talking, not a template. Short sentences.
 - Every brief ends with ONE clear next step (book / close / callback date).
 
-## Priorities when dialing
-1. Callbacks due today
-2. New inbound leads (speed to lead: call within 5 minutes)
-3. Warm leads (booked but not closed, no-shows)
-4. Cold/aged leads
+## Priorities when dialing (from the handover pack)
+1. Fresh VSL applications (speed to lead: 5 mins ideal, 15 max)
+2. Today's calls with Freeman (confirm, asset watched)
+3. Unconfirmed appointments
+4. Callbacks / follow-ups due
+5. Webinar leads (booked → attended-no-book → registered-no-show)
+6. No-shows to recover
+7. Nurture pipeline
+
+## Rules from the SOPs
+- If it's not in Close, it didn't happen. Every attempt, text, note, status and task goes in Close.
+- Never say: guaranteed property/income, passive income, no compliance needed, start with no money, quit your job, Freeman does it all, the call is just for info. Full list in offer/script-base.md.
+- Source SOPs are summarised in library/sop-summary.md.
 
 ## Reports
 EOD and weekly reports go to Freeman. Numbers first, then wins, then problems, then plan. Keep it under 200 words for EOD.

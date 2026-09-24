@@ -1,5 +1,22 @@
 # Targets
 
+## KPIs from the handover pack (what Freeman measures)
+| KPI | Target |
+|---|---|
+| Speed to lead | Under 15 mins (under 5 = strong) |
+| Contact rate (booked leads spoken to before the call) | 70%+ |
+| Qualification accuracy | 85%+ |
+| Asset sent | 100% of qualified leads |
+| Asset watched | 70%+ |
+| Appointment confirmation (verbal + invite accepted) | 90%+ |
+| Show rate | 80% minimum, 90%+ excellent |
+| No-show / reschedule recovery | 40%+ |
+| CRM compliance | 100% |
+| Post-webinar booked calls attempted | 100% within 1 hour |
+| Webinar list exhausted (2–3 attempts + text each) | within 3 working days |
+
+**Primary KPI: qualified show rate.**
+
 ## Daily
 - Booked calls: 1 minimum
 - New inbound: called within 5 minutes, every time
