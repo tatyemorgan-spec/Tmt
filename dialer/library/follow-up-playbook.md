@@ -46,3 +46,14 @@ Name: Tye — No Answer 3-Day Chase · Trigger: manual enrol on contact · Start
 8. SMS: Tye — No Answer #3 (Day 3 last try) — straight after
 9. Task: "6 attempts, no reply → Setter Pipeline if good lead, otherwise NGMI"
 Stop when: they reply by text/email, call in, book a meeting, or the lead moves to New Opportunity / NGMI / DQ / DNC / Signed Up / Deposit Paid / Signed Up - Balance Owed.
+
+## Automation plan (once Tye is Super User)
+Close has no call outcomes set up. The Sales opportunity pipeline tracks deals, not what happened on a call. So workflows are triggered by lead status:
+| Trigger | Workflow |
+|---|---|
+| New lead created (New Lead / New Webby Opt ins / New Webby Sign Ups) | Speed to Lead text + call task now |
+| Tye clicks "enrol" after a missed call | No Answer 3-Day Chase (above) |
+| Lead moves to New Opportunity (booked) | Booked confirmation text + day-before and day-of reminders |
+| Lead moves to No Show | No Show Rebook text + call task next day |
+| Lead moves to Setter Pipeline | Nurture Check-in text after 14 days |
+Sales pipeline stages (Call Booked → Pending Close → Signed Up / Deposit Paid) stay as the deal tracker, and /eod and /weekly read them for bookings and closes.
