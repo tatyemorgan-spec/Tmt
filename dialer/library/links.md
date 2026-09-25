@@ -1,12 +1,7 @@
 # Links: videos, calendars, proof (from Antoinette, 25 Sep)
 
-## Booking links (Calendly)
-| Use | Link |
-|---|---|
-| **VSL lead: strategy call with Freeman** | https://calendly.com/f-richards/strategy-call-with-freeman-richards-clone-1 |
-| **Airbnb Management Accelerator: 20-min strategy/onboarding call** | https://calendly.com/f-richards/strategy-call-with-freeman-richards-clone |
-| **Webinar bookings (discovery call)** | https://calendly.com/f-richards/discovery-call-bm |
-| Page they see after booking (prep video) | https://freeman.propertywealthacademy.co.uk/ASA-TY |
+## Booking links
+Antoinette's Calendly links are hers. **Don't send them.** Use Tye's own booking link once he has one.
 
 ## Videos to send
 | Video | When | Link |

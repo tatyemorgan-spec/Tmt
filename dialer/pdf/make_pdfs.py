@@ -515,13 +515,6 @@ training = [
 links = [
     ("title", "Links: Calendars, Videos & Proof"),
     ("sub", "From Antoinette's links doc. Match the testimonial to the lead. Examples, not guarantees."),
-    ("h2", "Booking links (Calendly)"),
-    ("table", [
-        ["Use", "Link"],
-        ["VSL lead: strategy call with Freeman", "calendly.com/f-richards/strategy-call-with-freeman-richards-clone-1"],
-        ["Airbnb Management Accelerator: 20-min call", "calendly.com/f-richards/strategy-call-with-freeman-richards-clone"],
-        ["Webinar bookings (discovery call)", "calendly.com/f-richards/discovery-call-bm"],
-    ]),
     ("h2", "Videos to send"),
     ("table", [
         ["Video", "When", "Link"],
@@ -556,7 +549,7 @@ links = [
         "YouTube: @FreemanRichards · Instagram / TikTok: @freeman_richards",
         "Website: freeman.propertywealthacademy.co.uk",
     ]),
-    ("tip", "Close texts that already include links: <b>Tye — Proof: Amara</b>, <b>Tye — Proof: Is It Legit</b>, <b>Tye — No Show Rebook</b> (Calendly), <b>Tye — Videos: Airbnb Only / + Management</b>."),
+    ("tip", "Close texts that already include links: <b>Tye — Proof: Amara</b>, <b>Tye — Proof: Is It Legit</b>, <b>Tye — Videos: Airbnb Only / + Management</b>."),
 ]
 
 OUT = "/home/user/Tmt/dialer/pdf"

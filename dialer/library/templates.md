@@ -47,4 +47,3 @@ Our Reviews · Student Review or Case Study · Management Pitch · Tye — Spoke
 |---|---|
 | Worried about time / shift worker | Tye — Proof: Amara (Shift Workers / Time) |
 | "Is this legit?" | Tye — Proof: Is It Legit |
-No Show Rebook now includes the VSL Calendly link so they can rebook themselves.
