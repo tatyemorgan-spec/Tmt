@@ -76,3 +76,4 @@ Q1 property journey stage · Q2 90-day goal · Q3 work situation · Q4 name · Q
 | Tye — Setter Pipeline Nurture | seq_6ZMObidJY6M5tK0HC4TuRP | lead moves to Setter Pipeline |
 All stop on reply / inbound call / booking / move to a closing status. Nothing runs until switched on in Close.
 | Tye — VSL No Answer (Antoinette rhythm) | seq_6lf5CtBmykRENhAdvGNsAl | manual enrol: VSL FU1 → call → FU2 → call next day → FU3 → task: NGMI. **Use this one instead of the 3-Day Chase.** |
+| Tye — Setter Pipeline Nurture + Video | seq_61it7J56wrHHDOCOSrQG3o | lead moves to Setter Pipeline: after 14 days sends "How to Start an Airbnb in 2026" video, call task 2 days later. **Use this instead of the plain Nurture one.** |
