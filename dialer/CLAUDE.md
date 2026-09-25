@@ -39,6 +39,9 @@ High ticket 7%, low ticket 10%. Track pending vs paid in earnings/commission.csv
 - Workspace: Property Wealth Academy. Channels and the EOD format are in slack-map.md.
 - New applications land in #1-new-apps. EOD goes in #4-eod-reports as a draft, never sent without my OK.
 
+## Airtable
+- Freeman tracks booked calls, outcomes and revenue in Airtable. Map in airtable-map.md. Read-only for now: tell Tye what to update.
+
 ## Close CRM
 - Close MCP server is the source of truth. IDs and status mapping live in close-map.md. Read it before any Close write.
 - If a Close lookup fails, say so and ask for the details. Never guess.
