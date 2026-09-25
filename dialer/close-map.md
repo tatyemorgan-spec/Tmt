@@ -61,3 +61,13 @@ Rule: DNC status = never dial, never draft follow-up.
 
 ## Lead source form (seen on inbound leads' description)
 Q1 property journey stage · Q2 90-day goal · Q3 work situation · Q4 name · Q5 email · Q6 dream life in 1 year · Q7 timeframe to start · Q8 biggest blocker · Q9 UK mobile · Q10 funding available.
+
+## Workflows (created as DRAFTS 2026-09-25, Tye is Super User)
+| Workflow | ID | Trigger |
+|---|---|---|
+| Tye — No Answer 3-Day Chase | seq_4Xx86tRrpRO9cWy2ucQLzU | manual enrol on contact |
+| Tye — New Application Speed to Lead | seq_2QTW5NYNd4IuK12ocLwKlq | lead created in New Lead / New Webby Opt ins / New Webby Sign Ups |
+| Tye — Booked With Freeman | seq_6x6TnD840vIGNk1WOjcmHp | lead moves to New Opportunity |
+| Tye — No Show Rebook | seq_6A0SGQ6uJ8XYzH2Ipn1OVJ | lead moves to No Show |
+| Tye — Setter Pipeline Nurture | seq_6ZMObidJY6M5tK0HC4TuRP | lead moves to Setter Pipeline |
+All stop on reply / inbound call / booking / move to a closing status. Nothing runs until switched on in Close.
