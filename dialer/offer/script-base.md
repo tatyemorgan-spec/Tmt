@@ -44,6 +44,13 @@ Verify: location · occupation · experience · goal · timeline · capital · *
 
 Don't accept these at face value. Find out **why**: "I'm not ready", "I need to think", "I need to research more", "I don't have enough money", "I'll contact you later". Respect genuine boundaries.
 
+## 4b. Ready now or window shopping? (Antoinette: most VSL bookings fail here)
+> "Once you're on the call with Freeman, if everything makes sense, is this something you're ready to take action on now, or are you more looking for information at this stage?"
+- Info only → "No problem. The call with Freeman is very much a strategy call to move forward, so let's pause that booking for now. I'll send you some info. How long do you need to watch it? Then I'll give you a ring." → cancel the booking (opp → New Deal Lost, note "cancelled: info only"), send videos, task to reconnect, qualify before rebooking.
+- Not ready → "What's holding you back?" → nurture (Trustpilot, testimonials).
+
+**Don't overwhelm.** VSL leads with £7k+ → talk rent-to-rent only. Only bring in management if funds are lower or they're nervous about investing. Don't downsell if you don't need to.
+
 ## 5. Route (see offer/icp.md)
 Book (mentorship / scaling / management) · Deal sourcing call · Blueprint link · YouTube nurture · Disqualify.
 
@@ -80,4 +87,8 @@ Visa / immigration: no legal advice. "Depending on your situation, there may be 
 - **"Is it guaranteed?"** → "Nothing in property is guaranteed. It depends on the area, the deal, the setup and your effort. The call's there to assess your situation."
 - **"I've done another programme."** → "What did you learn, and where are you still stuck?"
 - **"I already have properties."** → Scaling conversation.
+- **"I've already booked, why all the questions?"** → "Totally get it. Freeman's only one person and can't take everyone's call, so this is just to check the call's the right next step for you and share some info so you get the most out of it."
+- **"I've booked with another mentor."** → "Before you decide, jump on a call with Freeman too so you can compare like for like."
+- **Time / 12-hour shifts** → share Amara's video (full 12-hour shifts, still does it part-time). About 3–5 hours a week is enough.
+- **"Financial freedom"** (vague goal) → "What would that actually mean for you?" Go deeper and write it down so you can anchor back to it if they get cold feet.
 - **"Just browsing."** → "Curious, or something you genuinely want to start soon?" → still cold → YouTube.

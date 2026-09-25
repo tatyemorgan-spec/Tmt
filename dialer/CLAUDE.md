@@ -27,6 +27,7 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 - If it's not in Close, it didn't happen. Every attempt, text, note, status and task goes in Close.
 - Never say: guaranteed property/income, passive income, no compliance needed, start with no money, quit your job, Freeman does it all, the call is just for info. Full list in offer/script-base.md.
 - Source SOPs are summarised in library/sop-summary.md.
+- **Real-world training from Antoinette (previous dialler) is in library/antoinette-training.md. Where it differs from the SOPs, follow her.** Key points: acknowledgement SMS out of hours; booked VSL calls first; cancel info-seeker bookings; £7k+ VSL leads hear rent-to-rent only; "Notes for Freeman" note before every Freeman call; update Airtable; don't over-remind.
 
 ## Reports
 EOD and weekly reports go to Freeman. Numbers first, then wins, then problems, then plan. Keep it under 200 words for EOD.

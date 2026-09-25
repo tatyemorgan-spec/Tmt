@@ -14,7 +14,9 @@ Every lead ends in one of 4 decisions: **Book · Route · Nurture · Disqualify*
 | Under £1k (~£500) | Deal Sourcing Blueprint | Send self-checkout link. Don't book a call |
 | No budget / no timeline / "just researching" | YouTube nurture | Send relevant Freeman YouTube video. Don't force a call |
 
-Form Q10 "under £5,000, no credit" → always ask the exact figure before routing.
+Form Q10 "under £5,000, no credit" → always ask the exact figure before routing. Antoinette: don't write these off. People hide what they have (e.g. family money) and ~£3k can do management. Follow up 3 times, then NGMI.
+
+**Webinar leads are the strongest** (sat 2 hours, know they need £6–8k). VSL leads often want a low-effort side hustle and need educating.
 
 ## Green light: keep / book
 Genuine interest · clear goal · realistic timeline (0–3 months) · access to capital, liquid funds or a realistic credit/payment option · decision maker available (or attending) · engaged with VSL/webinar · will watch the prep asset · understands it's a next-step conversation, not a general chat.

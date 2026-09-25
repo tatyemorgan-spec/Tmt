@@ -71,3 +71,22 @@ Format:
 - Times heard: 0 · Booked/closed after: 0 · Rate: –
 - Best response: "Then this is more of a scaling conversation. What are you trying to improve: more units, bookings, systems or profit?" → book scaling call
 - Status: from cheat sheet
+
+## "I've already booked, why are you asking all these questions?"
+- Times heard: 0 · Booked/closed after: 0 · Rate: –
+- Best response: "Totally understand. Freeman's only one person and can't take everyone's call, so this is just to understand where you're at, make sure it's the right next step, and share info so you get the most from it."
+- Status: from Antoinette (worked, but that lead later no-showed)
+
+## "I've booked a call with another mentor"
+- Times heard: 0 · Booked/closed after: 0 · Rate: –
+- Best response: "Before you make a final decision, jump on a call with Freeman as well so you can compare like for like."
+- Status: from Antoinette (won one this way)
+
+## "I work 12-hour shifts, I haven't got time"
+- Times heard: 0 · Booked/closed after: 0 · Rate: –
+- Best response: Share Amara's video: she works full 12-hour shifts and still runs it part-time. "You need around 3–5 hours a week, and shift patterns usually give you days off."
+- Status: from Antoinette
+
+## Cold feet / 80% there
+- Best response: Anchor back to their own pain points and goals from your notes. Flag to Freeman that they're ~80%, not 100%.
+- Status: from Antoinette

@@ -27,6 +27,20 @@ All templates live in Close (Inbox → Templates → SMS). `/log` picks the righ
 | Disqualified (under £2.5k / not UK) | none | – | DQ |
 | DNC | NEVER message | – | – |
 
+## Antoinette's VSL no-answer sequence (how it's actually done)
+0. Out of hours / can't call now → acknowledgement SMS straight away ("thanks for taking the time to watch, I'll be in touch shortly") + task for 9–10am.
+1. Call → no answer → **VSL follow-up 1**: tried you about your application, quick call to understand your situation and goals and how Freeman can support you, when can I call? + task.
+2. Call → no answer → **VSL follow-up 2**: "have I got the right person?" + task next day.
+3. Call → no answer → **Last message**: reached out several times, no worries if not for you, if you are interested let me know and we'll pick up where we left off. + task to check next day.
+4. No response → NGMI (door left open).
+Her templates are coming. Swap the wording in once she sends them.
+
+## Reminder cadence (Antoinette, softer than the SOP)
+Freeman's ideal is morning, afternoon and 5 mins before, but leads have complained about being chased. Do: morning SMS + one call later (or the other way round), then ~15 mins before: "You're on in 15, check in early and make sure the link works." If the call is a week+ away, touch base every 2–3 days (e.g. call on Monday → contact Friday with videos for the weekend → Monday morning check).
+
+## After a sale
+Congratulate on WhatsApp (log it in Close). Task a few days before each instalment: "Call to see how they're enjoying the programme + remind about next payment".
+
 ## Show-rate sequence after booking (from the SOPs)
 1. On the call: invite accepted while on the phone, Meet ready, quiet place, decision maker attending.
 2. Straight after: booking confirmation text + prep asset (VSL / case study / training).
@@ -36,6 +50,7 @@ All templates live in Close (Inbox → Templates → SMS). `/log` picks the righ
 Don't over-contact. Keep it clean.
 
 ## Webinar leads
+**Correction from Antoinette:** after the webinar, leads book a **discovery video call with you**, not Freeman. You qualify them on a 20–30 min video call (camera on), then book them with Freeman.
 - Booked after webinar → call within 1 hour, 3–5 min touchpoint, no answer = voicemail + text + try next working day.
 - Attended, didn't book → "Did you get value from it? Any reason you didn't book at the end?"
 - Registered, didn't attend → offer the free training asset, then lightly qualify.

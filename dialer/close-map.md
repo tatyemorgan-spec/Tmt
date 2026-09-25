@@ -47,7 +47,7 @@ Opportunity values in Close are in pence (£1 = 100).
 | callback | unchanged | call task on callback_date |
 | not_interested | NGMI | – |
 | disqualified | DQ | – |
-| booked | New Opportunity | – |
+| booked | New Opportunity **+ add opportunity "New Deal - Call Booked" with the call date** (VSL self-books do this automatically) | – |
 | closed | Signed Up (paid in full) / Signed Up - Balance Owed (split, balance due) / Deposit Paid (deposit only) | – |
 
 **No-reply rule:** count call attempts on the lead in Close over the last 3 days. At 6 attempts (2 a day, 3 days in a row) with no connect:
@@ -55,7 +55,11 @@ Opportunity values in Close are in pence (£1 = 100).
 - otherwise → NGMI
 Always show Tye the status change before making it.
 
-On booked: lead status only. Tye handles the opportunity himself.
+On booked: if you booked it (webinar discovery / qualified lead), set lead status New Opportunity AND create the opportunity with the call date. Antoinette: skip it and the booking doesn't show properly.
+
+**Cancelled / no-show:** lead → Setter Pipeline (or NGMI after 3+ failed contacts), opportunity → **New Deal Lost** with note "no show after confirming" / "cancelled: info only". Set a follow-up task (~2 weeks).
+**Closed:** opportunity → Signed Up / Deposit - Paid (won). Then update Airtable (see library/antoinette-training.md).
+**Duplicates:** merge leads with the same email/phone. Note if funding answers differ.
 
 Rule: DNC status = never dial, never draft follow-up.
 

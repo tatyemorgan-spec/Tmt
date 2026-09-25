@@ -22,6 +22,8 @@ Outcome must be one of: no_answer | voicemail | callback | not_interested | disq
 4. Append a row to logs/calls.csv: date,time (Europe/London),lead,company,outcome,ticket,deal_value,next_step,callback_date,notes. deal_value = full price. Quote fields containing commas.
 5. If closed: commission is on the FULL price. Ticket from offer/offer.md (Airbnb Management = low 10%, 3-Month / Gold = high 7%).
    Add one row to earnings/commission.csv per payment: lead as "Name (1/2)", "Name (2/2)" etc for splits, deal_value = that payment, commission = payment × rate, status pending. Paid in full = one row.
+5a. Airtable reminder (not connected yet): after booked / cancelled / no-show / closed, remind me to update the Airtable CRM row (Outcome, Host, Revenue incl VAT, Cash collected ex VAT).
+5c. If closed on instalments: create a Close task a few days before the next payment: "Call to see how they're enjoying the programme + remind about next payment".
 5b. If booked: draft (don't send) the internal handover in Slack #call-booked (see slack-map.md) using the closer summary format:
    "Lead: <name>. Route: <route>. Budget: <£ + liquid?>. Timeline: <>. Goal: <>. Experience: <>. Decision maker: <>. Asset sent: y/n. Calendar confirmed: y/n. Notes: <>. <Strong/Possible> fit."
 6. Run follow-up-writer for every outcome except disqualified (and never for DNC). It picks the template from library/follow-up-playbook.md.
