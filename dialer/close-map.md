@@ -70,7 +70,7 @@ Q1 property journey stage · Q2 90-day goal · Q3 work situation · Q4 name · Q
 | Workflow | ID | Trigger |
 |---|---|---|
 | Tye — No Answer 3-Day Chase | seq_4Xx86tRrpRO9cWy2ucQLzU | manual enrol on contact |
-| Tye — New Application Speed to Lead | seq_2QTW5NYNd4IuK12ocLwKlq | lead created in New Lead / New Webby Opt ins / New Webby Sign Ups |
+| Tye — New Application Speed to Lead | seq_2QTW5NYNd4IuK12ocLwKlq | **KEEP OFF (Tye, 25 Sep): would hit Ray's leads too.** Send the acknowledgement text by hand instead. |
 | Tye — Booked With Freeman | seq_6x6TnD840vIGNk1WOjcmHp | lead moves to New Opportunity |
 | Tye — No Show Rebook | seq_6A0SGQ6uJ8XYzH2Ipn1OVJ | lead moves to No Show |
 | Tye — Setter Pipeline Nurture | seq_6ZMObidJY6M5tK0HC4TuRP | lead moves to Setter Pipeline |
