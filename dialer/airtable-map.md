@@ -1,4 +1,4 @@
-# Airtable map: FREEMAN RICHARDS base (appRRWnDaokPRsGbA → exact id: apprRWnDaokPRsGbA)
+# Airtable map: FREEMAN RICHARDS base (apprRWnDaokPRsGbA)
 
 Connected 2026-09-25. **Tye has READ-ONLY access**, so Claude can read but not write. Tye updates rows by hand (or ask Freeman for editor access and Claude can do it).
 
