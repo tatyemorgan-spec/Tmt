@@ -39,6 +39,9 @@ High ticket 7%, low ticket 10%. Track pending vs paid in earnings/commission.csv
 - Workspace: Property Wealth Academy. Channels and the EOD format are in slack-map.md.
 - New applications land in #1-new-apps. EOD goes in #4-eod-reports as a draft, never sent without my OK.
 
+## Links
+Booking links, videos and testimonials (matched to lead type) are in library/links.md. Use them in follow-ups and briefs.
+
 ## Airtable
 - Freeman tracks booked calls, outcomes and revenue in Airtable. Map in airtable-map.md. Read-only for now: tell Tye what to update.
 

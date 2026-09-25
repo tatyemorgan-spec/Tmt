@@ -37,6 +37,7 @@ Close: <lead url> · Status: <status> · Phone: <phone>
 ## Discovery (4 questions, specific to this lead)
 ## Pitch angle — lead with … because …
 ## Likely objections (top 3, from library first)
+## Best testimonial to send (from library/links.md, matched to their situation)
 ## Close line + fallback
 ## Unknowns (fact → question to ask)
 ## Next step: <ONE step>

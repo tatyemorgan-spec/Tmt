@@ -52,6 +52,7 @@ Quick maths: low ticket £2.5k–£3k → £250–£300 per close. 3-Month £3k�
 Max 3 instalments. Always offer 2 first ("most people do it in two"). Only go to 3 if 2 is the blocker.
 
 ## Proof (send links, don't quote numbers we haven't verified)
+**Full link library with booking links, videos and testimonials matched to lead type: library/links.md**
 - Trustpilot reviews: https://www.trustpilot.com/review/freemanrichards.com
 - Mentee case studies (YouTube playlist): https://youtube.com/playlist?list=PLGJk2MFJv52gjtVvAfJd8LB1yFOUU2215
 - Instagram (mentee highlights): https://www.instagram.com/freeman_richards

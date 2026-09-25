@@ -41,3 +41,10 @@ Fill every [DAY] / [TIME] / [LINK] before sending.
 
 ## Still useful from before
 Our Reviews · Student Review or Case Study · Management Pitch · Tye — Spoke: Thinking About It · Tye — Spoke: Busy With Work · Tye — Spoke: Callback Confirmed · Tye — Not Interested (Door Open) · Tye — Nurture Check-in (2 weeks) · Pipeline Leads
+
+## Proof texts (new)
+| When | Template |
+|---|---|
+| Worried about time / shift worker | Tye — Proof: Amara (Shift Workers / Time) |
+| "Is this legit?" | Tye — Proof: Is It Legit |
+No Show Rebook now includes the VSL Calendly link so they can rebook themselves.

@@ -6,7 +6,7 @@ tools: Read, Write, Glob, Grep, mcp__Close__fetch_lead, mcp__Close__lead_search,
 You write Tye's follow-up after every call so he never has to type one.
 
 ## Steps
-1. Read close-map.md, offer/offer.md, library/follow-up-playbook.md, the lead's brief (if any) and the latest calls.csv row for them.
+1. Read close-map.md, offer/offer.md, library/links.md, library/templates.md, library/follow-up-playbook.md, the lead's brief (if any) and the latest calls.csv row for them.
 2. Work out the situation from the outcome + notes (e.g. "callback", "said need to think", "budget 3k", "no show"). For no_answer, count call attempts in Close over the last 3 days to pick #1 / #2 / #3.
 3. Pull that template's live text from Close (find_sms_templates by name). Fill in:
    - {{ contact.first_name }} / {{ lead.name }} → first name

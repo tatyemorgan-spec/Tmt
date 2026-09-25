@@ -512,6 +512,53 @@ training = [
     ]),
 ]
 
+links = [
+    ("title", "Links: Calendars, Videos & Proof"),
+    ("sub", "From Antoinette's links doc. Match the testimonial to the lead. Examples, not guarantees."),
+    ("h2", "Booking links (Calendly)"),
+    ("table", [
+        ["Use", "Link"],
+        ["VSL lead: strategy call with Freeman", "calendly.com/f-richards/strategy-call-with-freeman-richards-clone-1"],
+        ["Airbnb Management Accelerator: 20-min call", "calendly.com/f-richards/strategy-call-with-freeman-richards-clone"],
+        ["Webinar bookings (discovery call)", "calendly.com/f-richards/discovery-call-bm"],
+    ]),
+    ("h2", "Videos to send"),
+    ("table", [
+        ["Video", "When", "Link"],
+        ["How to Start an Airbnb in 2026 (34 min)", "Main prep / nurture", "youtu.be/yPR2TeyNx7Y"],
+        ["Airbnb Management Accelerator (Loom)", "Lower funds / nervous", "loom.com/share/fe5beaf39a5e45aa994919570915949f"],
+        ["Deal sourcing (YouTube)", "Deal sourcing leads (check still sold)", "youtube.com/watch?v=i9MvFzIni9k"],
+        ["Deal Sourcing Blueprint & Guide", "Under £1k", "drive.google.com/file/d/1WutyA52DFpBr-Y9_plSX3nXmoogopwfd/view"],
+    ]),
+    ("h2", "Testimonials: match the story to the lead"),
+    ("table", [
+        ["Lead is…", "Send", "Link"],
+        ["Worried about time / shifts", "Amara: 12-hour shifts", "youtube.com/watch?v=muBhcvK1z68"],
+        ["Young / starting from nothing", "19-year-old, £1k/month", "youtube.com/watch?v=3Y_Sg4-A-MA"],
+        ["Doubts it works fast", "1st booking in 24 hrs", "youtube.com/watch?v=hIcU0i0kS3M"],
+        ["Wants speed", "2 Airbnbs in 30 days", "youtube.com/watch?v=2TUM34M6mRM"],
+        ["London-based", "£2k–£5k profit, one London Airbnb", "youtube.com/watch?v=j7naAr2w0IA"],
+        ["Couple deciding together", "Couple's £1k/month London deal", "youtube.com/watch?v=h2uPrO6SEOo"],
+        ["General", "Megan", "youtube.com/watch?v=7fHjsy1TZlw"],
+        ["Bigger ambitions", "BRRR: deal sourcing, £13k → £330k", "youtube.com/watch?v=I7eWNB7PEkY"],
+        ["Wants lots of proof", "All testimonials (playlist)", "youtube.com/playlist?list=PLGJk2MFJv52gjtVvAfJd8LB1yFOUU2215"],
+    ]),
+    ("h2", "“Is this legit?”"),
+    ("bullets", [
+        "Trustpilot: uk.trustpilot.com/review/freemanrichards.com",
+        "Companies House, mentorship company: company 16359356",
+        "Companies House, property company: company 13594162",
+        "“We have an office but we're remote, and the education is mainly remote too. Freeman personally meets his mentees at their properties.”",
+    ]),
+    ("h2", "Community + socials"),
+    ("bullets", [
+        "Skool: skool.com/freemans-property-academy-8462",
+        "YouTube: @FreemanRichards · Instagram / TikTok: @freeman_richards",
+        "Website: freeman.propertywealthacademy.co.uk",
+    ]),
+    ("tip", "Close texts that already include links: <b>Tye — Proof: Amara</b>, <b>Tye — Proof: Is It Legit</b>, <b>Tye — No Show Rebook</b> (Calendly), <b>Tye — Videos: Airbnb Only / + Management</b>."),
+]
+
 OUT = "/home/user/Tmt/dialer/pdf"
 os.makedirs(OUT, exist_ok=True)
 docs = [
@@ -522,6 +569,7 @@ docs = [
     ("5-Follow-Up-Texts.pdf", "Follow-Up Texts", texts),
     ("6-Handover-Questions-Earnings.pdf", "Handover Questions & Earnings", handover),
     ("7-Antoinette-Training-Notes.pdf", "Antoinette's Training", training),
+    ("8-Links-Calendars-Proof.pdf", "Links", links),
 ]
 for fn, title, blocks in docs:
     build(os.path.join(OUT, fn), title, blocks)

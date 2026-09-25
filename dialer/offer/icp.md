@@ -11,7 +11,7 @@ Every lead ends in one of 4 decisions: **Book · Route · Nurture · Disqualify*
 | Has properties / experience, prepared to invest | Scaling conversation | Book strategy call with Freeman |
 | £2.5k–£5k | Airbnb Management / Co-hosting (with R2R guidance alongside) | Book strategy call with Freeman |
 | ~£1k–£2.5k | Deal Sourcing (DIY ~£495–£995 / Done-With-You ~£1,495) | Book deal sourcing call (confirm this route is still active) |
-| Under £1k (~£500) | Deal Sourcing Blueprint | Send self-checkout link. Don't book a call |
+| Under £1k (~£500) | Deal Sourcing Blueprint | Send Blueprint link (library/links.md). Don't book a call |
 | No budget / no timeline / "just researching" | YouTube nurture | Send relevant Freeman YouTube video. Don't force a call |
 
 Form Q10 "under £5,000, no credit" → always ask the exact figure before routing. Antoinette: don't write these off. People hide what they have (e.g. family money) and ~£3k can do management. Follow up 3 times, then NGMI.

@@ -89,6 +89,7 @@ Visa / immigration: no legal advice. "Depending on your situation, there may be 
 - **"I already have properties."** → Scaling conversation.
 - **"I've already booked, why all the questions?"** → "Totally get it. Freeman's only one person and can't take everyone's call, so this is just to check the call's the right next step for you and share some info so you get the most out of it."
 - **"I've booked with another mentor."** → "Before you decide, jump on a call with Freeman too so you can compare like for like."
-- **Time / 12-hour shifts** → share Amara's video (full 12-hour shifts, still does it part-time). About 3–5 hours a week is enough.
+- **Time / 12-hour shifts** → share Amara's video https://www.youtube.com/watch?v=muBhcvK1z68 (full 12-hour shifts, still does it part-time). About 3–5 hours a week is enough.
+- **"Is this legit?"** → Trustpilot + Companies House links (library/links.md). Freeman personally meets mentees at their properties.
 - **"Financial freedom"** (vague goal) → "What would that actually mean for you?" Go deeper and write it down so you can anchor back to it if they get cold feet.
 - **"Just browsing."** → "Curious, or something you genuinely want to start soon?" → still cold → YouTube.
