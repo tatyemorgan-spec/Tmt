@@ -47,3 +47,10 @@ Our Reviews · Student Review or Case Study · Management Pitch · Tye — Spoke
 |---|---|
 | Worried about time / shift worker | Tye — Proof: Amara (Shift Workers / Time) |
 | "Is this legit?" | Tye — Proof: Is It Legit |
+
+## Acknowledgements + DQ (added 28 Sep)
+| When | Template |
+|---|---|
+| New app you can't call right now | Tye — Acknowledgement: New App |
+| New app that also booked a call | Tye — Acknowledgement: Booked Call |
+| Disqualified | Email: Tye — DQ: Thank You + YouTube |

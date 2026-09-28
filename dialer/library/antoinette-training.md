@@ -92,3 +92,15 @@ Automate an instant acknowledgement once someone applies/books so they feel seen
 - Her payment / instalment spreadsheets
 - A few good and bad calls to review together
 - Confirmation on deal sourcing
+
+## Update 28 Sep (notes left on the Tye lead in Close)
+- Check tasks + new VSL leads first thing. Overnight apps → acknowledgement text + task for 9am.
+- New VSL leads not yet contacted come first, especially booked calls / New Opportunities.
+- Under £5k and no credit: not a priority, but still contact them. She's booked calls from these, and £3k+ can do Management.
+- **DQ:** change status, then email thanking them + YouTube homepage link (template: Tye — DQ: Thank You + YouTube).
+- Untimed tasks: New Opportunities first, then the rest.
+- **Tasks must be cleared daily.**
+- No reply after 3 attempts over 3 days → NGMI.
+- Handover lead: **Chante Hemans** (see daily-workflow.md).
+- Model calls: Lurelle (closed) + Tolulope (Management). See call-structure.md.
+- Her note on texts: hers are long for SMS. Adapt and shorten as you like.

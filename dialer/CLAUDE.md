@@ -14,6 +14,9 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 - Scripts must sound like a person talking, not a template. Short sentences.
 - Every brief ends with ONE clear next step (book / close / callback date).
 
+## Daily workflow
+Full day plan: library/daily-workflow.md. Call/note/text structure: library/call-structure.md. **Tasks cleared every day.**
+
 ## Priorities when dialing (from the handover pack)
 1. Fresh VSL applications (speed to lead: 5 mins ideal, 15 max)
 2. Today's calls with Freeman (confirm, asset watched)

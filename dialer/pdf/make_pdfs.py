@@ -142,7 +142,7 @@ vsl = [
         "Open the lead in Close. Read all 10 form answers, especially Q6 (dream life), Q7 (timeline), Q8 (blocker), Q10 (funding).",
         "Check notes and past calls. Never re-ask something they've already told you. Confirm and dig instead.",
         "Pick your hook: the one thing from their answers you'll open with.",
-        "<b>New app just landed?</b> Claim it with ✅ in #1-new-apps, then give it a few minutes: many book a call straight after. Check if they've booked before you dial.",
+        "<b>New app just landed?</b> Claim it with a tick in #1-new-apps, then give it a few minutes: many book a call straight after. Check if they've booked before you dial.",
         "<b>Out of hours?</b> Send the acknowledgement text now (“thanks for taking the time to watch, I'll be in touch shortly”) and set a task for 9–10am.",
         "<b>Booked calls come first.</b> They need videos and a fit check before Freeman's slot.",
     ]),
@@ -348,7 +348,8 @@ texts = [
     ("h2", "VSL leads"),
     ("table", [
         ["Situation", "Template in Close"],
-        ["New app, out of hours", "Tye — Speed to Lead (New Application)"],
+        ["New app, can't call now", "Tye — Acknowledgement: New App"],
+        ["New app + booked a call", "Tye — Acknowledgement: Booked Call"],
         ["Missed call 1", "Tye — VSL Follow Up 1"],
         ["Missed call 2", "Tye — VSL Follow Up 2 (“right person?”)"],
         ["Missed call 3 → then NGMI", "Tye — VSL Follow Up 3 (last try)"],
@@ -384,6 +385,7 @@ texts = [
         ["Wants proof", "Our Reviews / Student Review or Case Study"],
         ["Needs time to think / busy", "Tye — Spoke: Thinking About It / Busy With Work"],
         ["Not interested", "Tye — Not Interested (Door Open)"],
+        ["Disqualified", "Email: Tye — DQ: Thank You + YouTube"],
         ["Setter Pipeline, 2 weeks quiet", "Tye — Nurture Check-in (2 weeks)"],
     ]),
     ("tip", "Automation: enrol a missed VSL lead in <b>Tye — VSL No Answer (Antoinette rhythm)</b>. It sends Follow Ups 1–3 around your calls and stops the moment they reply."),
@@ -552,6 +554,62 @@ links = [
     ("tip", "Close texts that already include links: <b>Tye — Proof: Amara</b>, <b>Tye — Proof: Is It Legit</b>, <b>Tye — Videos: Airbnb Only / + Management</b>."),
 ]
 
+daily = [
+    ("title", "Daily Workflow & How to Structure Your Chats"),
+    ("sub", "From Antoinette's notes and model calls. Her rules: check tasks + new VSL leads first · new leads and booked calls first · <b>tasks cleared every day</b>."),
+    ("h2", "Your day"),
+    ("table", [
+        ["When", "What"],
+        ["Before 9am (15 min)", "Slack #1-new-apps → claim it (tick) → <b>Acknowledgement</b> text to overnight apps + task for 9am · check today's tasks · Freeman's calls today: confirmed? videos watched? Notes for Freeman? · /queue"],
+        ["9:00–10:30", "<b>Speed to lead:</b> new VSL leads not contacted yet. Booked calls / New Opportunities first. Morning check-in for anyone on Freeman's calendar today."],
+        ["10:30–12:30", "Qualify booked leads → videos → confirm or cancel. Timed tasks. /freeman-notes for today + tomorrow."],
+        ["Midday (30 min)", "Admin: notes, statuses, opportunities (booked = opp with date, no-show = New Deal Lost), Airtable rows."],
+        ["13:00–16:00", "Untimed tasks: New Opps → VSL FU1/2/3 → “watched the videos?” → under £5k → webinar → no-shows → nurture."],
+        ["Around Freeman's calls", "15 min before: Few Minutes reminder. After: showed? No-show → Rebook text + call, New Deal Lost, Setter Pipeline, task in 2 weeks."],
+        ["17:00–19:00", "Second attempts: 9–5 workers answer now. Webinar discovery video calls."],
+        ["End of day", "<b>Every task cleared</b> (done or rescheduled). /eod. Send tomorrow's “call tomorrow” reminders."],
+    ]),
+    ("tip", "At uni or work? Keep #1-new-apps notifications on. Can't call → Acknowledgement text within minutes + task for your next free slot."),
+    ("p", "<b>Weekly:</b> Friday → videos to Monday's bookings for the weekend, then /weekly. Booked a week+ out → a touchpoint every 2–3 days."),
+    ("h2", "The call: a conversation, not a questionnaire"),
+    ("table", [
+        ["Stage", "Easy way in"],
+        ["Open it up", "“I just wanted to get a better idea of where you're at, what's got you interested in property and why now.” Then listen."],
+        ["Their story", "“How long have you been looking into it? Done any courses or webinars?” “What do you do for work?”"],
+        ["Goal + pain", "“What would that actually mean for you?” Write their words down."],
+        ["Money", "“You put [X] on the form. Ready to go, or would you look at a payment plan?”"],
+        ["Who decides", "“Is this just you, or is someone doing it with you?”"],
+        ["Ready?", "“If it makes sense on the call with Freeman, ready to act now or looking for info?”"],
+        ["Route + next step", "£5k+ → rent-to-rent only. £3–5k / nervous → Management. Book + confirm, or videos + a callback day."],
+    ]),
+    ("h2", "The note: Antoinette's format"),
+    ("bullets", [
+        "Headline (e.g. “Great convo”)",
+        "Age / family · how long researching · other webinars or mentors (paid or free)",
+        "Why they want mentorship",
+        "Based · Work (job, hours) · career goal",
+        "<b>Goals: their words</b>",
+        "<b>Funds: £ + liquid / credit</b>",
+        "Decision maker (alone / partner / friend + name)",
+        "Knows about R2R / Management · Next step",
+    ]),
+    ("say", "Example (Lurelle, closed): 27, single mum, 7-yr-old daughter · researching ~1 yr, free webinars incl. Samuel Leeds · Based East London · Law grad, probation prosecutor, WFH · <b>Goals: financial stability, choices, better life for her and her daughter</b> · <b>Funds: ~£5k liquid + credit</b> · doing it with friend Nathaniel · only knew R2R, also discussed Management"),
+    ("h2", "Texts"),
+    ("bullets", [
+        "First name, say who you are, one ask per message. Trim Antoinette's longer templates for quick back-and-forths.",
+        "One text per call attempt. No double-texting.",
+        "Paste WhatsApp chats into Close as a note.",
+        "DQ → status DQ → <b>Tye — DQ: Thank You + YouTube</b> email.",
+    ]),
+    ("h2", "Model calls to listen to (in Close)"),
+    ("bullets", [
+        "<b>Lurelle Edwin</b> (14 min, closed): every qualifier gathered through casual chat.",
+        "<b>Tolulope Saseyi</b> (9 min): £3k → Management, videos sent, callback Friday.",
+    ]),
+    ("h2", "Handed over to you"),
+    ("p", "<b>Chante Hemans:</b> hot lead, keen, researching lots. Waiting on voluntary severance pay. Discussed R2R + shown Management video. Follow up around <b>11 Oct</b>."),
+]
+
 OUT = "/home/user/Tmt/dialer/pdf"
 os.makedirs(OUT, exist_ok=True)
 docs = [
@@ -563,6 +621,7 @@ docs = [
     ("6-Handover-Questions-Earnings.pdf", "Handover Questions & Earnings", handover),
     ("7-Antoinette-Training-Notes.pdf", "Antoinette's Training", training),
     ("8-Links-Calendars-Proof.pdf", "Links", links),
+    ("9-Daily-Workflow-Chat-Structure.pdf", "Daily Workflow", daily),
 ]
 for fn, title, blocks in docs:
     build(os.path.join(OUT, fn), title, blocks)

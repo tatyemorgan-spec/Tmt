@@ -1,7 +1,7 @@
 ---
 description: Today's dial list in priority order
 ---
-Build today's dial list (Europe/London date). Read close-map.md and logs/targets.md.
+Build today's dial list (Europe/London date). Follow library/daily-workflow.md. Flag overnight apps that still need the acknowledgement text. Among untimed tasks, New Opportunities go first. Warn about any overdue tasks, which must be cleared today. Read close-map.md and logs/targets.md.
 
 Pull from Close:
 1. **Callbacks** — incomplete tasks/call tasks assigned to me, due today or overdue (find_tasks, is_complete=false). Plus logs/calls.csv rows with callback_date = today.
