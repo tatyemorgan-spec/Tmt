@@ -14,6 +14,9 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 - Scripts must sound like a person talking, not a template. Short sentences.
 - Every brief ends with ONE clear next step (book / close / callback date).
 
+## VSL calls
+**Follow library/vsl-script-freeman.md (Freeman's own role-play, 29 Sep). It overrides older scripts.** Only PIFs. Book provisionally on the first call, video + "one rule" + check-in, partner in a WhatsApp group, never mention payment plans, never say "VSL", always ask location (Scotland doesn't work for R2R).
+
 ## Daily workflow
 Full day plan: library/daily-workflow.md. Call/note/text structure: library/call-structure.md. **Tasks cleared every day.**
 

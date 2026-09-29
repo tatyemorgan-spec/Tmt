@@ -12,12 +12,17 @@
 3. **Goals (what stops it early)**
    - They reply by text/email, call in, book a meeting, or the lead moves to a "finished" status (New Opportunity, NGMI, DQ, DNC, Signed Up…). Then the rest of the steps are cancelled automatically, so nobody gets chased after replying.
 
+## How does it know I got through? (Freeman's question, 29 Sep)
+Close can't tell from an outgoing call whether you connected. So **when you reach someone who's in a workflow, open that call in Close and click "Mark as Responded"**. That stops the workflow for them straight away. It also stops by itself if they reply, call in, or you change their status.
+Close is building a "create draft for review" option for SMS steps (you'd approve each text before it sends), but it's not live yet. Until then, texts send automatically, which is why every automation here is **manually started** or tied to a clear status change.
+
 ## The workflows (all built as drafts)
 | Workflow | Trigger | Steps | Stops when | Status |
 |---|---|---|---|---|
 | **Tye — VSL No Answer (Antoinette rhythm)** | Manual: enrol after a missed call on a new VSL lead | Text FU1 now → call ~5h later → text FU2 → call next day → text FU3 (last try) → next day: task "move to NGMI" | Reply, call-in, booking, status change | **Switch ON** |
-| **Tye — No Show Rebook** | Lead status → **No Show** | 30 min later: rebook text → next day: call → task "try once more, then Setter Pipeline or NGMI" | Reply, call-in, booking, status change | **Switch ON** |
-| **Tye — Setter Pipeline Nurture + Video** | Lead status → **Setter Pipeline** | 14 days later: check-in text + "How to Start an Airbnb 2026" video → 2 days later: call task | Reply, call-in, booking, status change | **Switch ON** |
+| **Tye — No Show Rebook** | Lead status → **No Show** (for *any* lead set to No Show, not just yours, so agree with Ray) | 30 min later: rebook text → next day: call → task "try once more, then Setter Pipeline or NGMI" | Reply, call-in, booking, status change | **Switch ON** |
+| **Tye — Setter Pipeline Check-in (manual)** | Manual: once a week, filter Setter Pipeline leads with **no contact in 14+ days** and enrol them | Check-in text + "How to Start an Airbnb 2026" video now → 2 days later: call task | Reply, call-in, booking, status change | **Switch ON** (replaces the 14-day status one, per Freeman) |
+| Tye — Setter Pipeline Nurture + Video | Status → Setter Pipeline, waits 14 days | – | – | **OFF**. Freeman: unclear trigger, could text someone you spoke to 2 days ago |
 | Tye — Booked With Freeman | Lead status → **New Opportunity** | Team "Upcoming Reminder" text now + task "send prep video, set reminders" | NGMI / DQ / DNC | Optional (see note) |
 | Tye — New Application Speed to Lead | New lead created | Call task + text after 15 min | – | **OFF** (would hit Ray's leads) |
 | Tye — No Answer 3-Day Chase | Manual | 6 calls + 3 texts | – | **OFF**, replaced by Antoinette rhythm. Delete. |

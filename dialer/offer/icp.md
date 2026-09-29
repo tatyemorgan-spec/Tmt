@@ -25,6 +25,7 @@ Genuine interest · clear goal · realistic timeline (0–3 months) · access to
 Timeline 6+ months · funds not ready · still researching · needs to speak to someone first · better suited to self-study · needs more education first.
 
 ## Red light: disqualify (DQ + reason in Close)
+**Based in Scotland** → rent-to-rent doesn't work there (Freeman, 29 Sep). Ask location on every call.
 Booked by accident · no real interest or intention to act · unrealistic expectations · hostile/poor attitude · repeated no contact · no budget and no plan · won't engage with prep material · DNC.
 
 ## Fit score guide (1–10) for briefs

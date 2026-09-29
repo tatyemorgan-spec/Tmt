@@ -54,3 +54,7 @@ Our Reviews · Student Review or Case Study · Management Pitch · Tye — Spoke
 | New app you can't call right now | Tye — Acknowledgement: New App |
 | New app that also booked a call | Tye — Acknowledgement: Booked Call |
 | Disqualified | Email: Tye — DQ: Thank You + YouTube |
+
+
+## 29 Sep: Freeman's warmer wording applied to
+Acknowledgement: New App · Acknowledgement: Booked Call · VSL Follow Up 1 · VSL Follow Up 2 ("might have missed my message") · VSL Follow Up 3 ("third time's a charm").
