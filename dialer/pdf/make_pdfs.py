@@ -610,6 +610,58 @@ daily = [
     ("p", "<b>Chante Hemans:</b> hot lead, keen, researching lots. Waiting on voluntary severance pay. Discussed R2R + shown Management video. Follow up around <b>11 Oct</b>."),
 ]
 
+flow = [
+    ("title", "VSL Call Flow: Keep It Simple"),
+    ("sub", "Not a script to recite. <b>Your only job: find out 5 things, then decide the next step.</b> You're sorting, not selling. Forget a line? Doesn't matter. Just get the 5 things."),
+    ("h2", "The 5 things"),
+    ("table", [
+        ["#", "Find out", "Write it here"],
+        ["1", "<b>Why now?</b>", ""],
+        ["2", "<b>Goal</b>: in their words", ""],
+        ["3", "<b>Funds</b>: how much, ready or not", ""],
+        ["4", "<b>Who decides</b>: alone or with someone", ""],
+        ["5", "<b>Ready</b>: act now or just looking?", ""],
+    ]),
+    ("h2", "1. Open (word for word, then breathe)"),
+    ("say", "Hi [Name], it's Tye from Freeman Richards' team. You watched the Airbnb video and filled in the application. Have I caught you at an OK time?"),
+    ("p", "Bad time → “No worries, when's better, later today or tomorrow morning?” → lock a time → done."),
+    ("h2", "2. Hand it to them, then stop talking"),
+    ("say", "I've got your application here. I just wanted to get a better idea of where you're at, what's got you interested in property and why now?"),
+    ("p", "<b>Listen.</b> They'll often answer 2–3 of the 5 on their own. Tick them off."),
+    ("h2", "3. Fill the gaps (only what they haven't told you)"),
+    ("say", "Goal: And what would that actually mean for you, if it worked?"),
+    ("say", "Funds: On the form you put [X]. Is that ready to go, or would you look at a payment plan if it was right?"),
+    ("say", "Who decides: Is this just you, or is someone doing it with you?"),
+    ("say", "Ready: If it all makes sense on the call with Freeman, is this something you'd want to act on now, or more looking for info at this stage?"),
+    ("h2", "4. Decide + next step"),
+    ("table", [
+        ["You heard", "Say"],
+        ["£5k+, ready, clear why", "“Sounds like a call with Freeman makes sense. He'll map out your first steps. I'll send a short video to watch first. When works for you, and [partner] if they're involved?” → book → Call Confirmation text"],
+        ["£3–5k / nervous about money", "“There's a lower-entry route, Airbnb management, no lease to take on. I'll send you a quick video. Can I ring you [day] to hear what you think?”"],
+        ["Wants info / not ready", "“No problem. Freeman's call is a strategy call to move forward, so let's not rush it. I'll send a video. When should I ring you back?”"],
+        ["Under ~£2.5k / no plan", "Friendly, no pressure → YouTube channel, door left open → DQ email"],
+    ]),
+    ("h2", "5. Close the call"),
+    ("say", "Perfect. I'll send that over now. Speak [day]."),
+    ("p", "Then straight away: <b>/log [name] [outcome] [notes]</b>."),
+    ("h2", "When you freeze"),
+    ("bullets", [
+        "“Tell me a bit more about that.”",
+        "“What made you look into it now, rather than a year ago?”",
+        "“And how would that change things for you?”",
+        "“Fair enough. What's holding you back at the moment?”",
+        "Silence is fine. Count to 3. People fill the gap.",
+    ]),
+    ("h2", "Confidence"),
+    ("bullets", [
+        "<b>You know the offer. The call isn't a test of that.</b> You only need their 5 answers.",
+        "<b>Curious, not perfect.</b> A genuine “why?” beats any script.",
+        "<b>Warm up first:</b> make your first call an easy one (a callback), not your best fresh lead.",
+        "<b>Stand up and smile.</b> You'll sound warmer and calmer.",
+        "<b>Bad call? Log it, next one.</b> Confidence comes from reps.",
+    ]),
+]
+
 OUT = "/home/user/Tmt/dialer/pdf"
 os.makedirs(OUT, exist_ok=True)
 docs = [
@@ -622,6 +674,7 @@ docs = [
     ("7-Antoinette-Training-Notes.pdf", "Antoinette's Training", training),
     ("8-Links-Calendars-Proof.pdf", "Links", links),
     ("9-Daily-Workflow-Chat-Structure.pdf", "Daily Workflow", daily),
+    ("10-VSL-Call-Flow.pdf", "VSL Call Flow", flow),
 ]
 for fn, title, blocks in docs:
     build(os.path.join(OUT, fn), title, blocks)
