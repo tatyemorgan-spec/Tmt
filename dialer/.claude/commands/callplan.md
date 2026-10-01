@@ -6,7 +6,7 @@ Write Next call plan notes in Close.
 
 Target: $ARGUMENTS
 - A lead name: that one lead.
-- "today" or blank: every open task assigned to Tye (user_ozxlLsH3saSC5svO2cIwyBP51QJ6GQFic86CgA1heR8) due today or overdue.
+- "today" or blank: every open task assigned to Tye (user_ozxlLsH3saSC5svO2cIwyBP51QJ6GQFic86CgA1heR8) due today or overdue, PLUS every lead in New Lead or New Opportunity status that has no open task (fresh or handed-over applications that would otherwise be missed). Skip test leads (Tye, Freeman Richards Test, Freeeman).
 - "week": open tasks due in the next 7 days.
 
 For each lead:
