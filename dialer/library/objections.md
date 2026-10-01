@@ -1,6 +1,8 @@
 # Objections library
 
 Ranked by what's actually worked (close rate from logs/calls.csv). Maintained by objection-librarian.
+
+Freeman's challenge-style answers for VSL calls (first call + check-in) are in library/vsl-script-freeman.md under "Objection handling". Use those first.
 Seeded from script-base.md on 2026-09-23. None tested on real calls yet.
 
 Format:
