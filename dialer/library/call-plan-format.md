@@ -39,7 +39,20 @@ LIKELY CONCERNS
 * Concern → how to handle it (one line each, Freeman's challenge style)
 
 NEXT STEP
-Book Freeman + video + check-in, OR a dated follow-up, OR NGMI/DQ. Plus what to text if there's no answer.
+Book Freeman + video + check-in, OR a dated follow-up, OR NGMI/DQ.
+
+IF NO ANSWER (text, Tye approves before sending)
+One short, personal text that references something specific to them (their goal, what they said last time, the video). Ends with one easy question. Never more than one text per call attempt.
 ```
+
+## No-answer text: building blocks
+Pick the one that fits, then personalise the [bracket] with something from their history:
+- **First attempt, new application:** "Hi [Name], it's Tye from Freeman's team. Just tried you about your application to work with Freeman. When's a good time for a quick 5-min chat?"
+- **Following up on the video:** "Hi [Name], Tye from Freeman's team. Just tried you. Did you get a chance to watch the video? Keen to hear what you thought. When suits for a quick call?"
+- **Agreed check-back (they said 'in a few months'):** "Hi [Name], Tye from Freeman's team. You mentioned [checking back around now / after your travels / once things settled]. Is Airbnb still on the cards? When's good for 5 mins?"
+- **Warm lead gone quiet:** "Hi [Name], Tye from Freeman's team. Last time you said [their goal, in their words]. Still the plan? I've got Freeman's diary open this week if you'd like to get a call in."
+- **No-show:** "Hi [Name], Tye from Freeman's team. We missed you for your call with Freeman. No stress at all, these things happen. Want me to find you another time that suits?"
+- **Final attempt (after 3+ tries):** "Hi [Name], Tye from Freeman's team. I don't want to keep chasing, so I'll leave it with you. If Airbnb's still something you want to do, just reply here and I'll call when it suits you."
+
 
 Keep it to a screen or so. It should be readable in 60 seconds before dialling.
