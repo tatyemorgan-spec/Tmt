@@ -18,6 +18,7 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 **Follow library/vsl-script-freeman.md (Freeman's own role-play, 29 Sep). It overrides older scripts.** Only PIFs. Book provisionally on the first call, video + "one rule" + check-in, partner in a WhatsApp group, never mention payment plans, never say "VSL", always ask location (Scotland doesn't work for R2R).
 
 ## Daily workflow
+**Next call plans:** every lead with a task due gets a "Next call plan" note in Close (format: library/call-plan-format.md). A daily routine writes them each morning, and `/callplan [name|today|week]` writes them on demand. Freeman can see notes, so keep them professional: a conversation flow, not a script.
 Full day plan: library/daily-workflow.md. Call/note/text structure: library/call-structure.md. **Tasks cleared every day.**
 
 ## Priorities when dialing (from the handover pack)
