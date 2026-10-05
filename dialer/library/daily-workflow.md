@@ -53,3 +53,14 @@ Order: **New Opportunities → VSL follow-ups (FU1/2/3) → "watched the videos?
 
 ## Handed over by Antoinette
 - **Chante Hemans:** hot lead, keen, researching a lot. Waiting on voluntary severance pay, then she can afford it. Discussed rent-to-rent, recently shown Management + video. Antoinette has told her you're taking over. Follow up ~2 weeks from 27 Sep (**around 11 Oct**). Check the task is assigned to you.
+
+## After Freeman's call: payment follow-through (added 5 Oct)
+Freeman leaves a CRM summary note with the agreed plan, payment date and next steps. Your job is to get it over the line:
+1. Same day: text "How'd the call go?", pass on anything Freeman asked you to, send proof (student video + Trustpilot).
+2. Send the payment link (WhatsApp if SMS fails) and agree a **specific** pay-by date and time.
+3. Close task for that date/time: "confirm instalment paid". Call, don't just text.
+4. Once paid: lead → Signed Up - Balance Owed, opportunity → Signed Up (won) with the value, Airtable Cash Collected, add to earnings/commission.csv. Book their first 1:1 and invite them to the next in-person event.
+5. If the date slips: one call + one text, then flag to Freeman. Never offer a different plan or discount yourself.
+
+## Logging rule
+Call Assistant now writes call summaries, but statuses, opportunities and tasks don't update themselves. After every real conversation, set the status, set the next task with a time, and add a two-line note (outcome + next step).
