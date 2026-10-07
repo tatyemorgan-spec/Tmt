@@ -19,6 +19,7 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 
 ## Daily workflow
 **Next call plans:** every lead with a task due gets a "Next call plan" note in Close (format: library/call-plan-format.md). A daily routine writes them each morning, and `/callplan [name|today|week]` writes them on demand. Freeman can see notes, so keep them professional: a conversation flow, not a script.
+**New apps:** an hourly routine (8:05am–9:05pm) watches #1-new-apps, writes the plan and a task, and pings me. `/ack [name|new]` picks the acknowledgement text (Booked Call if the status is New Opportunity, otherwise New App) and renders it for me to send.
 Full day plan: library/daily-workflow.md. Call/note/text structure: library/call-structure.md. **Tasks cleared every day.**
 
 ## Priorities when dialing (from the handover pack)
