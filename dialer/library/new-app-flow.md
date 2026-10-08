@@ -6,7 +6,13 @@ Used by the hourly watcher routine, `/ack` and `/callplan` for fresh VSL applica
 1. Read the NEW APP post in #1-new-apps (C0AR1EBGVMG). Note the funnel (ASA2, ATA1, …), name, phone, financial qual and Close link.
 2. Open the Close link (`fetch_lead`). Read the form answers in the lead description, the status, opportunities and any activity.
 
-## 2. What kind of lead?
+## 2. Which offer? (the funnel decides)
+* **ASA2 = rent-to-rent.** £5k+: rent-to-rent only (£7k+: never mention Management). Under £5k: Management via the 2-in-1 on the call.
+* **ATA1 = Airbnb Management.** Management only, whatever the funds.
+* Send ONE video, for the route you're leading with. Never both.
+Coaching detail (intro, soft money question, management breakdown, asset ladder): library/vsl-script-freeman.md, "Freeman's coaching, 8 Oct".
+
+## 2b. What kind of lead?
 | Check | Means | Do |
 |---|---|---|
 | Status **New Opportunity** or opp "New Deal - Call Booked" | Booked a Freeman call themselves (Calendly moves them automatically) | Ack: **Tye — Acknowledgement: Booked Call**. Plan = pre-call before Freeman: qualify, confirm the slot, video + one rule. |

@@ -217,6 +217,52 @@ Get the partner on. Check again: "Even without [partner], is this something you'
 | Forgot location | Always ask (Scotland!) |
 | One style for everyone | Adapt: basic and warm with an auntie, "bro" with a young guy |
 
+## Freeman's coaching, 8 Oct (call review + role-play)
+
+### Two funnels: the Slack post tells you which offer
+| Funnel | Offer | What you talk about |
+|---|---|---|
+| **ASA2** | Rent-to-rent (the original VSL funnel) | Rent-to-rent only. £5–7k+: never mention Management (e.g. Angela). Under £5k: push Management on the call with the 2-in-1 line below. |
+| **ATA1** | Airbnb Management ("90 days, first 3 properties without paying rent or bills") | Management only. Open the same way. Under-funded ATA1 leads: be more direct. |
+Both funnels send under-qualified applicants to the YouTube video instead of a booking page (the ATA1 one currently points to the rent-to-rent video; that's changing).
+
+### Intro: broad, no jargon
+> "Hi [Name], it's Tye from Freeman Richards' team. You made an application about starting your Airbnb business. Have I got the right person? Got five minutes?"
+Don't say "rent-to-rent", "management" or "serviced accommodation" in the opener, whatever the funnel. Fresh leads (especially aunties and uncles) won't remember the jargon.
+
+### Get into the pain
+Ask what they do: "If you don't mind me asking, what do you do for work?" or "How do you make a living?" Then dig: shift length (8, 10, 12 hours?), how long they've done it, do they want to keep doing it. Without the job you can't feel the pain, and without the pain the goal is just a number.
+
+### Explaining Management simply (educate as you sell; most people don't watch the full video, it's an emotional video, not an education one)
+> "The traditional way of running an Airbnb is you pay the landlord a fixed rent and you're responsible for the bills. Guests pay you, say, £4,000, rent and bills are £2,000, and the £2,000 difference is your profit. With management, you go into partnership with the landlord instead. You don't pay the rent, the bills or the set-up. You still run it on Airbnb and you take a percentage."
+
+### The 2-in-1 (ASA2 leads under £5k)
+> "Right now I'd be doing you a disservice getting you started in rent-to-rent, where you're financially responsible for everything. Management gets you all the perks of Airbnb without that. And in the mentorship Freeman teaches you both anyway. How does that sound?"
+
+### The money question: soft, not a bank manager
+Finance is sensitive (and a lot of West African leads are sceptical of strangers on the phone).
+> "I can see on the form you've set about £5–7k aside. Is that just sitting in your bank doing nothing right now?" (playful, they'll laugh and say yes)
+> "Are you closer to 5 or 7?"
+> "Freeman always recommends being creative with cash flow, so you're not using all your hard cash. Do you have access to any credit, like a credit card with an extra £1–2k?"
+> "So about £5k cash plus £1,500 credit, about £6.5k in total you're prepared to invest. Have I got that right?"
+If they say they can "raise" it, ask what that means (savings? credit? family?).
+
+### Assets: send ONE
+Only send the single video for the route you're leading with. Two assets (Management + rent-to-rent) is 30–40 minutes of content and confuses people. Ladder after that:
+1. The one core video → call back the same day to check they watched it ("How did you find it? Why do you think it's a good fit?").
+2. A relatable student story (someone who looks and sounds like them: Amara, Victoria's YouTube video…).
+3. Trustpilot reviews (last-push decision help).
+4. **Megan's number** (one of Freeman's previous mentees). Hail Mary only. Freeman's sending it over.
+
+### Pace
+* Talk ratio: work towards 50/50. Let them talk more.
+* Discovery calls under 10 minutes. Lean on the application, get to the point (don't clock-watch).
+* Keep pushing same-day video watch and same/next-day bookings. Hot lead = book them in.
+* A clear "I'm travelling / when I'm settled" stall: tie it back to their goal and get a 10-minute watch done before they go, with a call booked to check it (the Marco role-play: video tonight, call at 8:30).
+
+### Coming up
+Daily 15–20 min sessions with Freeman (call review + objection role-play). 9 Oct, 10:30: post-call recovery, i.e. why people didn't close or book, and how to win them back.
+
 ## After the call
 1. Pencil Freeman's calendar (remove the block if it's not happening).
 2. WhatsApp group with the partner. Send the video + testimonial.
@@ -225,4 +271,4 @@ Get the partner on. Check again: "Even without [partner], is this something you'
 5. Airtable row.
 
 ## Daily practice
-15-min role-play with Freeman every day until ads switch on. Use `/drill` for extra reps on the objections above.
+15–20 min with Freeman most days (call review + objection role-play). Ads are live, so constant self-training: know the objections in your sleep. Use `/drill` for extra reps on the objections above.
