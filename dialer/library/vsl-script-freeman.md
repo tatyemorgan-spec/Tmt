@@ -246,6 +246,13 @@ Finance is sensitive (and a lot of West African leads are sceptical of strangers
 > "Freeman always recommends being creative with cash flow, so you're not using all your hard cash. Do you have access to any credit, like a credit card with an extra £1–2k?"
 > "So about £5k cash plus £1,500 credit, about £6.5k in total you're prepared to invest. Have I got that right?"
 If they say they can "raise" it, ask what that means (savings? credit? family?).
+**If they push back on credit:**
+* "I don't want to pay interest" → "Totally fair, nobody wants to be paying interest. It's not about borrowing for the whole thing. It's a buffer for the set-up bits, so your cash goes on what matters. Freeman will go through the numbers with you on the call."
+* "I don't like debt" → "Respect that. Then we work with the [£X] you've got. That's exactly why the Management route exists: you don't pay the rent, bills or set-up."
+* "No credit" → "No problem at all. Let's work with the [£X]. Is that all savings, or is anything else tied up, like family helping out?"
+* "Is it worth it with the interest?" → "Right question, and it's one for Freeman. He'll show you the numbers for your situation. What I need to know now is what you're comfortable putting in."
+
+**Management, the follow-on lines:** "So it's all the perks of Airbnb without being financially responsible for the property. Same skills, and when you're ready you can move into rent-to-rent with the profit." Landlord asks why? "They get a professionally run property and usually more than a normal let, without doing the work. Freeman gives you the pitch and proposal."
 
 ### Assets: send ONE
 Only send the single video for the route you're leading with. Two assets (Management + rent-to-rent) is 30–40 minutes of content and confuses people. Ladder after that:
