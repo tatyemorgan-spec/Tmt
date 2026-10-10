@@ -273,6 +273,12 @@ Only send the single video for the route you're leading with. Two assets (Manage
 ### Coming up
 Daily 15–20 min sessions with Freeman (call review + objection role-play). 9 Oct, 10:30: post-call recovery, i.e. why people didn't close or book, and how to win them back.
 
+### "Not excited any more" / "We'll wait for the season" (Freeman, 10 Oct, on Victory's call)
+Leads who go quiet after a Freeman call often lead with emotion and price. Sell the timing, not the excitement. Three points, in order:
+1. **The offer is for now.** "The rate Freeman offered is for now, not forever. Later it would be at the standard rate, because he wants to back people who take action, not just when they feel like it. Did successful people start when they felt excited, or because they knew they had to?" (Confirm current terms with Freeman first. Never invent a discount.)
+2. **Take excitement out of it.** "When the business is big and the team's stressing you out, will you shut it down because you're not excited? What's more exciting: staying where you are, or starting something that could change things for your family? Hard? 110%. Uncomfortable? 120%. But you'll have someone who's been in your shoes. Business is boring: you show up and do what needs doing. The excitement is what it lets you do."
+3. **The season.** "Start in May: May–June learning, first property in July (most students take 6–8 weeks), set-up in August. You're live with 3–4 weeks of summer left. You don't prepare for winter in winter. Start now in the quiet season so you're live for the peak."
+
 ## After the call
 1. Pencil Freeman's calendar (remove the block if it's not happening).
 2. WhatsApp group with the partner. Send the video + testimonial.
