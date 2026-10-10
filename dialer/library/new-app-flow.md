@@ -12,6 +12,19 @@ Used by the hourly watcher routine, `/ack` and `/callplan` for fresh VSL applica
 * Send ONE video, for the route you're leading with. Never both.
 Coaching detail (intro, soft money question, management breakdown, asset ladder): library/vsl-script-freeman.md, "Freeman's coaching, 8 Oct".
 
+## 2c. Unqualified apps ("under £5,000, no credit"): Freeman's opener
+These people didn't get the booking link. Don't open like a normal app. Tell them straight that they didn't qualify to book in, then offer to see what we can still do. It makes the Freeman call feel earned, not automatic.
+
+> "Hi [Name], it's Tye from Freeman Richards' team. I can see you filled in an application to work with Freeman. Looking at your application, unfortunately you didn't qualify to book straight in for a one-to-one strategy session with Freeman. That's either because, from your answers, we felt you might not be looking for one-to-one mentorship and guidance, or because you might not have the capital to get started right now. But I wanted to see how I could still help you, or how we could still get Freeman to help you hit the goal you set out on your application, which is [their Q6, in their words]. Have you got 5 minutes to explore that, if it's still something you're interested in?"
+
+Then straight into money:
+> "Great, let's get straight into it. What have you actually got set aside that you've committed to, where you've said: this is me, I'm happy to invest this into my education, my training and getting my first property? What does that look like exactly?"
+
+Then:
+> "OK, that's not bad at all. I can see from your application you really tried, so I'm going to see what we can do. Let's see how this conversation goes, and at the end I'll let you know if you're eligible to be booked in with Freeman."
+
+Run the normal discovery (work, pain, goal, location, who's involved), then route: about £2.5k+ → Management (2-in-1 on ASA2) and book Freeman ("Good news, you're eligible"); less → offer/icp.md (Deal Sourcing, Blueprint or YouTube). Applies to both ASA2 and ATA1.
+
 ## 2b. What kind of lead?
 | Check | Means | Do |
 |---|---|---|

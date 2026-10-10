@@ -236,6 +236,9 @@ Ask what they do: "If you don't mind me asking, what do you do for work?" or "Ho
 ### Explaining Management simply (educate as you sell; most people don't watch the full video, it's an emotional video, not an education one)
 > "The traditional way of running an Airbnb is you pay the landlord a fixed rent and you're responsible for the bills. Guests pay you, say, £4,000, rent and bills are £2,000, and the £2,000 difference is your profit. With management, you go into partnership with the landlord instead. You don't pay the rent, the bills or the set-up. You still run it on Airbnb and you take a percentage."
 
+### Unqualified apps ("under £5,000, no credit", no booking link)
+Freeman's opener (10 Oct): tell them they didn't qualify to book straight in, offer to see how we can still help with their goal, go straight to what they've committed to invest, and say you'll tell them at the end if they're eligible for Freeman. Full wording: library/new-app-flow.md, section 2c.
+
 ### The 2-in-1 (ASA2 leads under £5k)
 > "Right now I'd be doing you a disservice getting you started in rent-to-rent, where you're financially responsible for everything. Management gets you all the perks of Airbnb without that. And in the mentorship Freeman teaches you both anyway. How does that sound?"
 
