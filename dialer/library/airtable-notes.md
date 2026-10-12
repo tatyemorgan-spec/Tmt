@@ -10,7 +10,7 @@ Keeps the **Notes** field in Freeman's Airtable up to date for every lead I'm wo
 ## Which leads
 - Every row dated **24 Sep 2026 onwards** (my start date). Skip test rows ("TEST PAYLOAD", "test lead", "Test"), agency rows (mentormedia) and "Spare".
 - On the daily run, only rewrite a note when something has changed in Close since the last run (new call, SMS, note, status change, or the row has no proper note yet). Leave the rest alone.
-- Match each row to Close by name, then email or phone if the name doesn't match. Known odd matches: Toyosi Omojayogbe = Close "Tatiana"; Olayinka Bello = Close "Ola"; Highrands Group = "Hyron".
+- Match each row to Close by name, then email or phone if the name doesn't match. Known odd matches: Toyosi Omojayogbe = Close "Tatiana"; Olayinka Bello = Close "Ola"; Highrands Group = "Hyron"; Airtable "Kenzy" = Close "K" (Kenzie, kmaafi07@).
 
 ## Which format
 **Had a full qualifying call** (a real conversation that covered money, goals and work: usually 6+ minutes, or Antoinette's qualifying notes) → the full note:
