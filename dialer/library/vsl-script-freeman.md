@@ -326,13 +326,21 @@ Leads who go quiet after a Freeman call often lead with emotion and price. Sell 
 
 **Every call ends with a fixed next touchpoint.** A specific day and time (not "I'll give you a call next week"), then send the confirmation SMS straight away (Tye — Spoke: Callback Confirmed, or Booked: Call Confirmation for a Freeman slot).
 
-Freeman's own calls (Mary, Ray's lead) are the model for this. Patterns from those go here once reviewed.
+### What Freeman's own calls show (Mary 12 Oct, Ben & Sienna 6 Oct)
+Full breakdown: library/freeman-closing-calls.md. The bits for my calls:
+- **He asks the same why question I should:** "Why are you even looking for a mentor? There's YouTube, Google, ChatGPT. Why are you on a call with us?" They sell themselves (accountability, misinformation online, someone who's done it).
+- **Goal in numbers, then raise it.** "How much a month would make this worth it?" If it's small, don't accept it: "That's a humble goal. Most students get their first property in 6–7 weeks."
+- **Future pace.** "Picture yourself making that. What's different in your life? What are you doing now?"
+- **Dig into their exact word.** "You said a *real* mentor. What would convince you?" "You said 'free'. Free from what?"
+- **Make them say it.** "How does that line up with what you're looking for?" … "How?"
+- **Isolate before the next step.** "Is there anything that would stop you from moving forward?"
+- **He relies on me for:** the video watched in full (Mary hadn't, and he had to re-explain), the exact liquid figure (he quoted mine and moved on), their why and goal in their words, who decides, and the objection they raised. That's what goes in the Notes for Freeman.
 
 ## After the call
 1. Pencil Freeman's calendar (remove the block if it's not happening).
 2. WhatsApp group with the partner. Send the video + testimonial.
 3. Close task: check-in call at the agreed day and time, and send the confirmation SMS (Tye — Spoke: Callback Confirmed).
-4. Close note (headline, based, work, **Goals**, **Why / pain / why now**, **Funds**, decision maker, video sent, provisional slot) → `/log`.
+4. Close note (headline, based, work, **Goals**, **Why / pain / why now**, **Funds**, decision maker, video sent, provisional slot) → `/log`. Before the Freeman call, the Notes for Freeman also need: goal in numbers, their exact words, video watched (yes / partly / no), the objection they raised.
 5. Airtable row.
 
 ## Daily practice
