@@ -39,6 +39,17 @@ Fill every [DAY] / [TIME] / [LINK] before sending.
 |---|---|
 | Instalment due, no answer | Tye — Instalment Check-in |
 
+## Locking the next touchpoint (Freeman, 12 Oct)
+Every call ends with a specific day and time, then a confirmation text straight away. Not "I'll call you next week".
+| When | Template |
+|---|---|
+| Agreed a check-in / callback time | Tye — Spoke: Callback Confirmed |
+| Booked a Freeman slot | Tye — Booked: Call Confirmation |
+
+**Where a why question fits a text** (missed check-in, video follow-up), add one line so they're already thinking about it before the call. Drafts, not yet in Close:
+- Check In After Videos: "…Keen to hear what you thought, and why you think it could work for you. When's good for a quick call?"
+- Callback Confirmed: "…Speak [DAY] at [TIME]. Have a think before then about why now's the right time for you. That's what we'll build the plan around."
+
 ## Still useful from before
 Our Reviews · Student Review or Case Study · Management Pitch · Tye — Spoke: Thinking About It · Tye — Spoke: Busy With Work · Tye — Spoke: Callback Confirmed · Tye — Not Interested (Door Open) · Tye — Nurture Check-in (2 weeks) · Pipeline Leads
 

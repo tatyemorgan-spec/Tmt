@@ -79,5 +79,8 @@ The Q numbers differ by funnel, so go by the question, not the number.
 | Money | Confirm the real figure early; credit-card offset; route correctly. Never payment plans. |
 | Time | See Q3. |
 
+## 3b. The why (Freeman, 12 Oct)
+The form tells you what they want. The call has to find out **why**. Turn their Q6 into a why question ("You said 'financially free'. Why does that matter so much right now?"), then use the ladder: why a mentor, why now, why not try it alone. Booking someone with money but no why is a receptionist call (Kenzie). Full ladder: library/vsl-script-freeman.md, "Freeman's coaching, 12 Oct".
+
 ## 4. The plan note
-Use library/call-plan-format.md. In WHERE THEY'RE AT, quote their Q6, Q3, Q7 and Q8 answers. APPROACH comes from Q3 + Q6. CONVERSATION FLOW opens with the Q6 hook. LIKELY CONCERNS lists the Q3/Q7/Q8 objections with the pre-empt line. Then the task due now and the ack text for Tye to send.
+Use library/call-plan-format.md. In WHERE THEY'RE AT, quote their Q6, Q3, Q7 and Q8 answers. APPROACH comes from Q3 + Q6. CONVERSATION FLOW opens with the Q6 hook and includes 2–3 why questions built from their answers. LIKELY CONCERNS lists the Q3/Q7/Q8 objections with the pre-empt line. Then the task due now and the ack text for Tye to send.

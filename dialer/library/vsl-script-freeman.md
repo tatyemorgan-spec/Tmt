@@ -5,6 +5,8 @@ Built from Freeman's role-play (29 Sep) and Tye's own write-up of it (1 Oct). Th
 **The mindset (Freeman's words):** "We only want PIFs. We don't want callbacks and follow-ups. The only way we get PIFs is people being as informed as possible. You are their best friend through the whole process. I only want to be moving forward. Minimal back and forth."
 Freeman should **never** have to educate someone on his call. If they're not informed, qualified and keen, they don't go in his diary.
 
+**Don't be a receptionist (Freeman, 12 Oct).** Confirming logistics (funds, slot, link) isn't qualifying. Every lead goes to Freeman with a clear **why**: their pain, their goal in their words, and why it has to be now. No why = no booking. See *The why* below.
+
 ## Before you dial (1 min)
 - Read all 10 application answers. Note: **funds (the X–Y range), timeline, blocker, dream, work**.
 - Have **Freeman's calendar open** with 2 slots in mind.
@@ -39,6 +41,13 @@ Never say "VSL" to a lead. That's our word.
 > "What are you looking to achieve out of this?"
 Write their words down. You'll use them again (booking, check-in, objections).
 
+**7b. The why (dig, don't confirm)**
+Don't take the first answer. Ask why, then why again, until you hit something they feel (a job they hate, time away from the kids, money stress, a deadline).
+> "Why are you looking for a mentor, rather than doing it yourself?"
+> "Why is now the right time?"
+> "What happens if nothing changes in the next 12 months?"
+Full ladder and challenges: *Freeman's coaching, 12 Oct* below.
+
 **8. Location**
 > "Whereabouts are you based?"
 Builds rapport ("we've helped someone near there"), and **Scotland doesn't work for rent-to-rent.**
@@ -65,8 +74,9 @@ Confirm it:
 
 **Don't mention payment plans.** That's Freeman's card to play on his call.
 
-**11. Why now**
+**11. Why now (lock it in before you book)**
 > "Now, just out of curiosity, why did you apply? Why now?"
+If the answer is flat ("just looking", "seemed interesting"), challenge it before booking: "So why not just carry on as you are?" Play their why back in one line: "So you want [goal] because [pain], and you want it started by [date]. Have I got that right?" If you can't say that line, they're not ready for Freeman yet.
 
 **12. Book**
 > "I think you'd be a great fit for the programme. Your characteristics, you're more than qualified, and I'm sure Freeman will take a really good liking to you."
@@ -76,6 +86,8 @@ Fit it round their life (work hours, shifts, kids). **Pencil the slot into Freem
 
 **13. Position the call**
 > "I really want to make sure this call with Freeman is the best use of your time, and that you have all the information to make a decision. Because the call isn't a consultation, it's not a chit-chat. **It's the next step.**"
+> "Freeman's going to map out a plan for your situation, built around [their why]. It's not a call to get a price."
+(Kenzie went in expecting a price quote, not a plan, and wasn't motivated. Set the expectation here.)
 
 **14. The video + "one rule"**
 > "So I've got a free training video that gives you a real insight into the Airbnb business: how you can start profiting, and how Freeman can help you. Does that sound like something that'll help you make that decision and actually take the next step?"
@@ -194,11 +206,23 @@ Still not watched by the day of Freeman's call: move the call. Don't send an uni
 **"I've gone a bit cold" / they're 80% there.**
 Bring back their own words: "When we spoke you said [goal / pain]. Has that changed?" Flag to Freeman in the Notes for Freeman that they're ~80%, not 100%.
 
+**"I watched it, it looks good" (but flat, no real why).**
+Don't book on a polite yes. Dig: "What made you think 'I could do this'? Why do you want a mentor for it rather than going it alone?" If you still can't hear a real why, don't book Freeman yet. Set a dated follow-up instead.
+
 ### Never say
 Guaranteed income, passive income, start with no money, quit your job, Freeman does it all for you, or "the call is just for info". Full list in offer/script-base.md.
 
 ## The check-in call (after they've watched)
 > "How'd you find the video? What did you like about the business model? What did you like about Freeman? Why do you think he's a good fit for you? Does it all make sense?"
+
+**Then the why questions (Freeman, 12 Oct).** This is where the check-in earns its place. Ask at least three, and let them talk:
+> "Why are you looking for a mentor, rather than figuring it out yourself?"
+> "Why is now the right time, and not in six months?"
+> "Why not just try it with [a friend's / family member's property, or on your own]?" (use whatever alternative they've mentioned)
+> "You said you want [their goal]. Why does that matter to you?"
+> "What happens if you don't do this, and you're in the same spot this time next year?"
+Play it back before you move on: "So you want [goal] because [pain], and now's the time because [reason]. Have I got that right?"
+
 > "So how excited are you for [the day]?"
 > "As promised, here's [client], who reminds me of you. I had this exact conversation with them this time last year: same position, a job they didn't like, long hours. They finally made the change. I want that to be you, [Name]."
 Get the partner on. Check again: "Even without [partner], is this something you're willing to do?" and "When you start seeing results, what do you think [partner] is going to say?"
@@ -279,11 +303,36 @@ Leads who go quiet after a Freeman call often lead with emotion and price. Sell 
 2. **Take excitement out of it.** "When the business is big and the team's stressing you out, will you shut it down because you're not excited? What's more exciting: staying where you are, or starting something that could change things for your family? Hard? 110%. Uncomfortable? 120%. But you'll have someone who's been in your shoes. Business is boring: you show up and do what needs doing. The excitement is what it lets you do."
 3. **The season.** "Start in May: May–June learning, first property in July (most students take 6–8 weeks), set-up in August. You're live with 3–4 weeks of summer left. You don't prepare for winter in winter. Start now in the quiet season so you're live for the peak."
 
+## Freeman's coaching, 12 Oct: the why (Kenzie debrief)
+
+**What went wrong.** Kenzie's call was a "receptionist" call: it confirmed logistics but didn't qualify. No pain or urgency came up, the goals weren't defined, and nobody asked why they wanted mentorship. Kenzie went into the high-ticket call unmotivated and expecting a price quote, not a bespoke plan. That's a wasted call for Freeman.
+
+**The fix: qualify emotionally, not just financially.** Money tells you they *can* start. The why tells you they *will*. Challenge with "why" questions to surface the pain and the urgency, so they're emotionally invested before they meet Freeman.
+
+**The why ladder** (ask, listen, then go one level deeper with their own words):
+1. "Why are you looking for a mentor?"
+2. "Why is now the right time?"
+3. "Why not just try it with [your friend's properties / on your own / YouTube]?" (challenge the easy alternative they've mentioned)
+4. "Why does [their goal] matter so much to you?"
+5. "What happens if nothing changes?"
+
+**How to ask it** (Freeman's style):
+* Curious, not confrontational. "Can I ask you something…" or "Out of curiosity…" in front of it.
+* Never accept the first answer. "Extra income" → "Why do you want the extra income? What would it change?"
+* Silence after the question. Let them fill it.
+* Write the why down in their words. It goes in the Notes for Freeman, the check-in and every objection.
+
+**The test before you book.** Can you say: "[Name] wants [goal] because [pain], and it has to be now because [reason]"? If yes, book. If no, keep digging, or set a check-in instead of a Freeman slot.
+
+**Every call ends with a fixed next touchpoint.** A specific day and time (not "I'll give you a call next week"), then send the confirmation SMS straight away (Tye — Spoke: Callback Confirmed, or Booked: Call Confirmation for a Freeman slot).
+
+Freeman's own calls (Mary, Ray's lead) are the model for this. Patterns from those go here once reviewed.
+
 ## After the call
 1. Pencil Freeman's calendar (remove the block if it's not happening).
 2. WhatsApp group with the partner. Send the video + testimonial.
-3. Close task: check-in call at the agreed time.
-4. Close note (headline, based, work, **Goals**, **Funds**, decision maker, video sent, provisional slot) → `/log`.
+3. Close task: check-in call at the agreed day and time, and send the confirmation SMS (Tye — Spoke: Callback Confirmed).
+4. Close note (headline, based, work, **Goals**, **Why / pain / why now**, **Funds**, decision maker, video sent, provisional slot) → `/log`.
 5. Airtable row.
 
 ## Daily practice

@@ -23,6 +23,7 @@ Bad time → "No worries, when's better, later today or tomorrow morning?" → l
 
 **3. Fill the gaps (only ask what they haven't told you)**
 - Goal: "And what would that actually mean for you, if it worked?"
+- Why (don't skip, Freeman 12 Oct): "Why are you looking for a mentor?" · "Why now?" · "Why not just try it on your own?" Don't take the first answer. Go one level deeper until you hear the pain.
 - Funds: "On the form you put [X]. Is that ready to go, or would you look at a payment plan if it was right?"
 - Who decides: "Is this just you, or is someone doing it with you?"
 - Ready: "If it all makes sense on the call with Freeman, is this something you'd want to act on now, or more looking for info at this stage?"
