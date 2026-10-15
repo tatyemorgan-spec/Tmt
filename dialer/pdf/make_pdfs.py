@@ -610,237 +610,66 @@ daily = [
     ("p", "<b>Chante Hemans:</b> hot lead, keen, researching lots. Waiting on voluntary severance pay. Discussed R2R + shown Management video. Follow up around <b>11 Oct</b>."),
 ]
 
-flow = [
-    ("title", "VSL Call Script: Freeman's Way"),
-    ("sub", "Tye's version of Freeman's role-plays (29 Sep + 8 Oct). <b>Only PIFs. Move forward, minimal back and forth. You're their best friend through the process.</b> Freeman should never have to educate someone on his call."),
-    ("tip", "<b>Don't be a receptionist (Freeman, 12 Oct).</b> Confirming funds, slot and link isn't qualifying. Every lead goes to Freeman with a clear <b>why</b>: their pain, their goal in their words, and why it has to be now. <b>No why = no booking.</b>"),
-    ("h2", "Before you dial"),
-    ("bullets", [
-        "Read all 10 answers: funds (the X–Y range) · timeline · blocker · dream · work.",
-        "Freeman's calendar open, 2 slots in mind.",
-        "Which funnel? <b>ASA2 = rent-to-rent</b> (under £5k: Management via the 2-in-1). <b>ATA1 = Management only.</b>",
-        "Pick the testimonial that matches them, ready for the end.",
-        "<b>Stand up. Energy up, and keep it up to the last line.</b>",
-    ]),
-    ("h2", "1. Open"),
-    ("say", "Hi [Name], it's Tye from Freeman Richards' team. You made an application about starting your Airbnb business. Have I got the right person? Got five minutes?"),
-    ("warn", "Say “rent-to-rent”, “management” or “serviced accommodation” in the opener. Fresh leads won't remember the jargon."),
-    ("h3", "Unqualified apps (\u201cunder £5,000, no credit\u201d): use this opener instead"),
-    ("say", "Hi [Name], it's Tye from Freeman Richards' team. I can see you filled in an application to work with Freeman. Looking at your application, unfortunately you didn't qualify to book straight in for a one-to-one strategy session with Freeman, either because from your answers we felt you might not be looking for one-to-one mentorship, or because you might not have the capital right now. But I wanted to see how I could still help you, or how we could still get Freeman to help you hit your goal, which is [their goal]. Have you got 5 minutes to explore that?"),
-    ("say", "Great, let's get straight into it. What have you actually got set aside that you've committed to investing in your education, your training and your first property? What does that look like exactly?"),
-    ("say", "OK, that's not bad at all. I can see you really tried with your application, so I'm going to see what we can do. Let's see how this goes, and at the end I'll let you know if you're eligible to be booked in with Freeman."),
-    ("p", "About £2.5k+ → Management (2-in-1 on ASA2) + book Freeman (\u201cgood news, you're eligible\u201d). Less → ICP routing."),
-    ("h2", "2. Frame it"),
-    ("say", "Have you got five minutes? I want to make sure this is a good fit for you, and explain a bit about how we could support you."),
-    ("h2", "3. The video"),
-    ("say", "Thank you for filling out the application first of all. Alongside that there was a video to watch. Did you manage to watch it through, so you've got a basic understanding of what the business model looks like?"),
-    ("h2", "4. The model"),
-    ("say", "So rent-to-rent: you take a property from a landlord, then let it out night by night on Airbnb. All make sense?"),
-    ("p", "Never say “VSL”. Need more? Use <b>Explaining the model</b> below."),
-    ("h2", "5. How long + the hold-up"),
-    ("say", "So how long have you been looking to get started in property? Just started researching, been interested for a while, or already started?"),
-    ("say", "What's been the hold-up? (New to it: Why now?)"),
-    ("h2", "6. Work"),
-    ("say", "If you don't mind me asking, what do you do for work? How long have you been doing that? What are the shifts like, 8, 10, 12 hours? Is that something you see yourself doing long term?"),
-    ("p", "Dig into the pain. Without the job you can't feel the pain, and without the pain the goal is just a number."),
-    ("h2", "7. Goals"),
-    ("say", "What are you looking to achieve out of this?"),
-    ("p", "Write their words down. You'll use them at booking, the check-in and on objections."),
-    ("h2", "7b. The why (dig, don't confirm)"),
-    ("p", "Don't take the first answer. Ask why, then why again, until you hit something they feel (a job they hate, time away from the kids, money stress, a deadline)."),
-    ("say", "Why are you looking for a mentor, rather than doing it yourself?"),
-    ("say", "Why is now the right time?"),
-    ("say", "What happens if nothing changes in the next 12 months?"),
-    ("p", "Full ladder: <b>The why (Freeman's coaching, 12 Oct)</b> below."),
-    ("h2", "8. Location"),
-    ("say", "Whereabouts are you based?"),
-    ("p", "Rapport (“we've helped someone near there”) + <b>Scotland doesn't work for rent-to-rent.</b>"),
-    ("h2", "9. Who's involved"),
-    ("say", "Are you doing this alone, or with a life partner or business partner?"),
-    ("p", "<b>Alone:</b> “So you'd be making the final decision yourself?”"),
-    ("say", "Partner: How serious is that conversation? Is it more that you'd go all in with or without them, or very much something you'd do together? Are they aware of this application, or have you done this on your own?"),
-    ("h2", "10. Money: soft, not a bank manager"),
-    ("p", "Finance is sensitive, and a lot of leads are sceptical of strangers on the phone. Keep it light and use the form."),
-    ("say", "I can see on the form you've put about [X–Y] aside. Is that just sitting in your bank doing nothing right now?"),
-    ("p", "Playful. They'll usually laugh and say yes."),
-    ("say", "Are you closer to [X] or [Y]?"),
-    ("h3", "Bring in credit"),
-    ("say", "Freeman always recommends being creative with cash flow, so you're not putting all your hard cash in. Do you have access to any credit, like a credit card with an extra £1–2k on it?"),
-    ("say", "So about [£cash] in cash plus [£credit] in credit. That's roughly [£total] in total you're prepared to invest. Have I got that right?"),
-    ("p", "Said they can “raise” it? Ask what that means: savings, credit, family?"),
-    ("h3", "If they push back on credit"),
-    ("table", [
-        ["They say", "You say"],
-        ["“I don't want to pay credit card interest”", "“Totally fair, nobody wants to be paying interest. It's not about borrowing for the whole thing. It's a buffer for the set-up bits, so your cash goes on what matters. Freeman will go through the numbers with you on the call.”"],
-        ["“I don't like debt”", "“Respect that. Then we work with the [£X] you've got. That's exactly why the Management route exists: you don't pay the rent, bills or set-up.”"],
-        ["“I don't have any credit”", "“No problem at all. Let's work with the [£X]. Is that all savings, or is anything else tied up, like family helping out?”"],
-        ["“Is it worth it with the interest?”", "“Good question to ask, and it's the right one for Freeman. He'll show you the numbers for your situation so you can decide. What I need to know now is what you're comfortable putting in.”"],
-    ]),
-    ("say", "So just to confirm, you've got [£X] that you're comfortable investing?"),
-    ("warn", "Mention payment plans. That's Freeman's card to play on his call."),
-    ("h2", "11. Why now (lock it in before you book)"),
-    ("say", "Now, just out of curiosity, why did you apply? Why now?"),
-    ("p", "Flat answer (“just looking”, “seemed interesting”)? Challenge it before booking: “So why not just carry on as you are?”"),
-    ("say", "So you want [goal] because [pain], and you want it started by [date]. Have I got that right?"),
-    ("p", "If you can't say that line, they're not ready for Freeman yet."),
-    ("h2", "12. Book"),
-    ("say", "I think you'd be a great fit for the programme. Your characteristics, you're more than qualified, and I'm sure Freeman will take a really good liking to you. I've got his calendar in front of me, and he does have some availability this week for you. When works?"),
-    ("p", "Fit it round their life → <b>pencil the slot in Freeman's calendar</b> (remove it if it falls through)."),
-    ("h2", "13. Position the call"),
-    ("say", "I really want to make sure this call with Freeman is the best use of your time, and that you have all the information to make a decision. Because the call isn't a consultation, it's not a chit-chat. It's the next step."),
-    ("say", "Freeman's going to map out a plan for your situation, built around [their why]. It's not a call to get a price."),
-    ("p", "Kenzie went in expecting a price quote, not a plan, and wasn't motivated. Set the expectation here."),
-    ("h2", "14. The video + “one rule”"),
-    ("say", "So I've got a free training video that gives you a real insight into the Airbnb business: how you can start profiting, and how Freeman can help you. Does that sound like something that'll help you make that decision and actually take the next step?"),
-    ("say", "One rule though. Before you get on that call with Freeman, I want to make sure you've watched that video. It's about 25 minutes. When do you think you could give it a watch?"),
-    ("h2", "15. Book the check-in"),
-    ("say", "OK, great. So let's say [time]. I'm going to give you a call, and a bit of homework, haha, to make sure you understand the video. I'll ask a few questions and make sure you're the right fit. You might say “this isn't for me”, or “this is the right fit, I love the business model”. How does that sound?"),
-    ("p", "Check-in <b>outside work hours</b> (not their lunch break)."),
-    ("h2", "16. Confirm the call"),
-    ("p", "“I'll book that in now.” Confirm date, time and link: <b>Google Meet</b>. On a phone, download the Meet app. On a laptop, click the link in the email."),
-    ("h2", "17. Tease the proof"),
-    ("say", "Actually, I'll do you one better. I'll also send you [testimonial that fits them] so you can see their results. Sound good? Great, I'll reach out at [time]."),
+import re
 
-    ("h2", "Explaining the model (when they need more than one line)"),
-    ("p", "Keep checking in (“does that make sense so far?”). Don't lecture."),
-    ("h3", "Rent-to-rent"),
-    ("say", "There are two different ways to get into this. Rent-to-rent needs about £6–8k. That covers all your set-up costs, with the mentorship included. When I say set-up costs, I mean signing the lease with the landlord: first month's rent, deposit, furnishing, and any minor maintenance you do yourself. Then you let it out night by night on Airbnb, and you keep the difference between the landlord's rent and what you bring in on Airbnb. Does that make sense so far?"),
-    ("h3", "Be honest about the risk, then bring in Freeman"),
-    ("say", "That's the model where you earn the most. But if you've got no idea, it can be a lot of stress, because you've got that rent to pay every month. You need to know how to keep it full, make a profit, scale. That's where the mentorship comes in. He teaches you the right proposal, the right wording and pitch for landlords, and how to get landlords coming to you instead of you going to them."),
-    ("h3", "Management: Freeman's simple breakdown (8 Oct)"),
-    ("p", "Most people don't watch the full video (it's an emotional video, not an education one), so educate as you sell. Three beats, check in after each."),
-    ("say", "1. The traditional way of running an Airbnb is you pay the landlord a fixed rent and you're responsible for the bills. Say guests pay you £4,000 in a month, and rent and bills are £2,000. The £2,000 difference is your profit. Make sense?"),
-    ("say", "2. With management, you go into partnership with the landlord instead. You don't pay the rent, the bills or the set-up. You still run it on Airbnb, and you take a percentage of what it makes."),
-    ("say", "3. So it's all the perks of Airbnb without being financially responsible for the property. You learn exactly the same skills, and when you're ready you can move into rent-to-rent with the profit. Does that make sense?"),
-    ("h3", "Why would a landlord say yes?"),
-    ("say", "Because they get a professionally run property and usually more than a normal let, without doing any of the work. Freeman gives you the pitch and the proposal to take to them."),
-    ("h3", "The 2-in-1 (ASA2 leads under £5k)"),
-    ("say", "Right now I'd be doing you a disservice getting you started in rent-to-rent, where you're financially responsible for everything. Management gets you all the perks of Airbnb without that. And in the mentorship Freeman teaches you both anyway. How does that sound?"),
-    ("table", [
-        ["Funnel / funds", "Route"],
-        ["ASA2, £7k+", "Rent-to-rent only. Never mention Management"],
-        ["ASA2, £5–7k", "Rent-to-rent. Management only if they're nervous about the lease"],
-        ["ASA2, under £5k", "Management via the 2-in-1"],
-        ["ATA1, any funds", "Management only. Under-funded: be more direct"],
-        ["Scotland", "Management only"],
-        ["Under ~£2.5k", "See ICP routing (Deal Sourcing / Blueprint / YouTube)"],
-    ]),
-    ("h3", "Send ONE asset"),
-    ("p", "Only the video for the route you're leading with. Two videos is 30–40 minutes and confuses people. Then: call back same day (“How did you find it? Why do you think it's a good fit?”) → a relatable student story (Amara, Victoria) → Trustpilot → Megan's number (Hail Mary only)."),
 
-    ("h2", "Objection handling: Freeman's way (challenge, don't fold)"),
-    ("steps", [
-        "<b>Never accept the first answer.</b> “I need to think about it” is a cover. Find the real reason.",
-        "<b>Question, don't argue.</b> Challenge with a question, then shut up.",
-        "<b>Use their own words.</b> Their goal, pain and “why now” from earlier.",
-        "<b>Isolate it.</b> “Apart from [X], anything else stopping you?” No? Solve X and book.",
-        "<b>Always move forward.</b> End with a booked slot, a booked check-in, or a clear no. Never “I'll get back to you”.",
-        "<b>Challenge with respect.</b> “Can I be honest with you?” Genuine no (no funds, Scotland + R2R only, not UK)? Let them go nicely: DQ + YouTube.",
-    ]),
-    ("p", "<b>First call</b>"),
-    ("table", [
-        ["They say", "You say"],
-        ["“I need to think about it”", "“What is it you want to think over? The money, the time, or whether it'll work?” Vague? “Can I be honest? You've been looking at this for [a year] and want [goal]. What'll be different after you've thought about it? Freeman's call is where you get those answers. Let's pencil it in.”"],
-        ["“I need to speak to my partner”", "“Love that. Are they aware you've applied? Let's get them on the call with Freeman so they hear it first-hand. What time works for you both?” → WhatsApp group. “Even if they weren't keen, would you still do it?”"],
-        ["“I haven't got the money”", "“You put [X–Y] on the form. Has that changed?” → credit card for set-up → still short of R2R? Route to Management. “If money's the only thing, anything else stopping you?” <b>Never a payment plan or discount.</b>"],
-        ["“How much is it?”", "“Depends which route fits, and that's what Freeman works out with you. What I need to know is you've got the [£X] to get set up. Still right?” Don't quote prices."],
-        ["“I haven't got time”", "“Most of Freeman's people work full-time. Could you give it 3–5 hours a week?” “You said [goal]. If nothing changes, where are you in a year?” Shift workers: Amara."],
-        ["“Maybe in a few months”", "“What'll be different then?” Real reason (visa, health, move)? Date + task. Vague? “Can I be honest? In three months you'll be in the same spot, just three months later.”"],
-        ["“Just send me info”", "“I'll send the video. But info isn't the problem. You've done the research. Freeman's call is the next step. Let's get it in the diary.”"],
-        ["“Is this legit / a scam?”", "“Good question. Don't take my word for it: Trustpilot and student stories coming now. Freeman runs Airbnbs himself, and you can ask him anything on the call. Can I book you in while I send them?”"],
-        ["“I'll learn it on YouTube”", "“How long have you been watching? What's it got you so far? The difference is someone checking your deals and contracts before you sign a lease. That's where people lose money.”"],
-        ["“Done a course before”", "“What did you learn, and where did it fall down? So you're missing [gap]. A course gives you info. Freeman holds your hand doing it.”"],
-        ["“Booked another mentor”", "“Smart. Before you decide, jump on with Freeman too so you can compare like for like.”"],
-        ["“R2R's risky / winter?”", "“Right question. That's why you don't do it without a mentor: the right area, pricing, year-round guests (contractors, NHS, families).” Still nervous? Management."],
-        ["“Landlords won't say yes”", "“Until they see the numbers. They get their rent, or more, and someone looking after their place. Freeman gives you the proposal and pitch, and gets landlords coming to you.”"],
-        ["“I'd rather own first”", "“Owning ties up a mortgage deposit and stamp duty. R2R gets you earning now. Buy later with the profit.”"],
-    ]),
-    ("h3", "The check-in (after the video)"),
-    ("table", [
-        ["They say", "You say"],
-        ["“Haven't watched it yet”", "“No stress. Remember the one rule? When can you sit down with it today?” Rebook the check-in. Still not watched by call day? Move Freeman's call."],
-        ["“Not sure it's for me”", "“Appreciate the honesty. What part made you unsure?” Answer it, route it, or a polite no."],
-        ["Gone cold / 80% there", "“When we spoke you said [goal]. Has that changed?” Flag ~80% to Freeman in the Notes for Freeman."],
-        ["“I watched it, it looks good” (flat, no real why)", "Don't book on a polite yes. “What made you think ‘I could do this’? Why do you want a mentor for it rather than going it alone?” Still no real why? Don't book Freeman yet. Set a dated follow-up."],
-    ]),
-    ("h3", "“Not excited any more” / “We'll wait for the season” (Freeman, 10 Oct)"),
-    ("p", "Sell the timing, not the excitement. Three points, in order:"),
-    ("steps", [
-        "<b>The offer is for now.</b> “Freeman wants to back people who take action, not just when they feel like it. Did successful people start when they felt excited, or because they knew they had to?” (Confirm current terms with Freeman first. Never invent a discount.)",
-        "<b>Take excitement out of it.</b> “What's more exciting: staying where you are, or starting something that could change things for your family? Hard? 110%. But you'll have someone who's been in your shoes. Business is boring: you show up and do what needs doing. The excitement is what it lets you do.”",
-        "<b>The season.</b> “Start in May: learning May–June, first property in July (most students take 6–8 weeks), set-up in August, and you're live with 3–4 weeks of summer left. You don't prepare for winter in winter. Start now in the quiet season so you're live for the peak.”",
-    ]),
-    ("warn", "Say: guaranteed income, passive income, start with no money, quit your job, Freeman does it all, or “the call is just for info”."),
+def _inline(s):
+    s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+    s = re.sub(r"(?<![\w*])[*_](?!\s)(.+?)(?<!\s)[*_](?![\w*])", r"<i>\1</i>", s)
+    s = re.sub(r"`(.+?)`", r"\1", s)
+    return s
 
-    ("h2", "The check-in call"),
-    ("say", "How'd you find the video? What did you like about the business model? About Freeman? Why do you think he's a good fit?"),
-    ("p", "<b>Then the why questions (Freeman, 12 Oct).</b> This is where the check-in earns its place. Ask at least three, and let them talk:"),
-    ("bullets", [
-        "“Why are you looking for a mentor, rather than figuring it out yourself?”",
-        "“Why is now the right time, and not in six months?”",
-        "“Why not just try it with [a friend's / family member's property, or on your own]?” (whatever alternative they've mentioned)",
-        "“You said you want [their goal]. Why does that matter to you?”",
-        "“What happens if you don't do this, and you're in the same spot this time next year?”",
-    ]),
-    ("say", "So you want [goal] because [pain], and now's the time because [reason]. Have I got that right?"),
-    ("say", "So how excited are you for [the day]?"),
-    ("say", "Here's [client], who reminds me of you: same position this time last year, a job they didn't like, long hours. They made the change. I want that to be you."),
-    ("p", "Partner on the call? Check: “Even without them, is this something you'd do?” and “When you start seeing results, what do you think they'll say?”"),
-    ("h2", "Freeman's fixes from your first run"),
-    ("table", [
-        ["Don't", "Do"],
-        ["Say “VSL”", "“the video on the page”"],
-        ["Skip checking they watched", "Steps 3–4 every call"],
-        ["Slow to get to money", "“I can see on the form you put X…”"],
-        ["Offer payment plans", "Never. Freeman's card"],
-        ["Full sentences, robotic", "Short, casual, react to them"],
-        ["Energy fades", "Keep it up to the end"],
-        ["Check in on their lunch", "After work / free time"],
-        ["No dates", "Provisional slot on the first call"],
-        ["Forget location", "Always ask (Scotland!)"],
-        ["Same style for all", "Basic and warm with an auntie, “bro” with a young guy"],
-    ]),
-    ("h2", "The why (Freeman's coaching, 12 Oct, Kenzie debrief)"),
-    ("p", "<b>What went wrong.</b> Kenzie's call was a “receptionist” call: it confirmed logistics but didn't qualify. No pain or urgency, no defined goals, and nobody asked why they wanted mentorship. Kenzie went into the call unmotivated and expecting a price quote, not a plan."),
-    ("p", "<b>The fix: qualify emotionally, not just financially.</b> Money tells you they <i>can</i> start. The why tells you they <i>will</i>."),
-    ("h3", "The why ladder (ask, listen, go one level deeper with their own words)"),
-    ("steps", [
-        "“Why are you looking for a mentor?”",
-        "“Why is now the right time?”",
-        "“Why not just try it with [your friend's properties / on your own / YouTube]?”",
-        "“Why does [their goal] matter so much to you?”",
-        "“What happens if nothing changes?”",
-    ]),
-    ("h3", "How to ask it"),
-    ("bullets", [
-        "Curious, not confrontational. “Can I ask you something…” or “Out of curiosity…” in front of it.",
-        "Never accept the first answer. “Extra income” → “Why do you want the extra income? What would it change?”",
-        "Silence after the question. Let them fill it.",
-        "Write the why down in their words: Notes for Freeman, the check-in, every objection.",
-    ]),
-    ("tip", "<b>The test before you book:</b> can you say “[Name] wants [goal] because [pain], and it has to be now because [reason]”? Yes → book. No → keep digging, or set a check-in instead of a Freeman slot."),
-    ("p", "<b>Every call ends with a fixed next touchpoint:</b> a specific day and time, then the confirmation SMS straight away (Tye — Spoke: Callback Confirmed, or Booked: Call Confirmation for a Freeman slot)."),
 
-    ("h2", "What Freeman's own calls show (Mary 12 Oct, Ben & Sienna 6 Oct)"),
-    ("bullets", [
-        "<b>The same why question:</b> “Why are you even looking for a mentor? There's YouTube, Google, ChatGPT. Why are you on a call with us?” They sell themselves.",
-        "<b>Goal in numbers, then raise it.</b> “How much a month would make this worth it?” Small? “That's a humble goal. Most students get their first property in 6–7 weeks.”",
-        "<b>Future pace.</b> “Picture yourself making that. What's different in your life?”",
-        "<b>Dig into their exact word.</b> “You said a <i>real</i> mentor. What would convince you?”",
-        "<b>Make them say it.</b> “How does that line up with what you're looking for?” … “How?”",
-        "<b>Isolate before the next step.</b> “Is there anything that would stop you from moving forward?”",
-        "<b>He relies on me for:</b> video watched in full, the exact liquid figure, their why and goal in their words, who decides, and the objection they raised.",
-    ]),
+def md_blocks(path):
+    """Turn a library markdown file into PDF blocks, so the PDF always matches the .md."""
+    blocks, bullets, steps, table = [], [], [], []
 
-    ("h2", "After the call"),
-    ("steps", [
-        "Pencil Freeman's calendar",
-        "WhatsApp group with the partner + send video and testimonial",
-        "Close task: check-in at the agreed day and time + send the confirmation SMS",
-        "Close note (Goals, <b>Why / pain / why now</b>, Funds, decision maker…) → /log. Before Freeman's call the Notes for Freeman also need: goal in numbers, their exact words, video watched (yes / partly / no), the objection they raised",
-        "Airtable row",
-    ]),
-]
+    def flush():
+        nonlocal bullets, steps, table
+        if bullets:
+            blocks.append(("bullets", bullets)); bullets = []
+        if steps:
+            blocks.append(("steps", steps)); steps = []
+        if table:
+            blocks.append(("table", table)); table = []
+
+    for raw in open(path, encoding="utf-8").read().split("\n"):
+        line = raw.rstrip()
+        if line.startswith("|"):
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            if not all(set(c) <= set("-: ") for c in cells):
+                table.append([_inline(c) for c in cells])
+            continue
+        if line.startswith("- "):
+            bullets.append(_inline(line[2:])); continue
+        m = re.match(r"\d+\. (.*)", line)
+        if m:
+            steps.append(_inline(m.group(1))); continue
+        flush()
+        if not line:
+            continue
+        if line.startswith("# "):
+            blocks.append(("title", _inline(line[2:])))
+        elif line.startswith("## "):
+            blocks.append(("h2", _inline(line[3:])))
+        elif line.startswith("### "):
+            blocks.append(("h3", _inline(line[4:])))
+        elif line.startswith("> **Don't:** "):
+            blocks.append(("warn", _inline(line[13:])))
+        elif line.startswith("> **Tip:** "):
+            blocks.append(("tip", _inline(line[11:])))
+        elif line.startswith("> "):
+            blocks.append(("say", _inline(line[2:])))
+        elif line.startswith("_") and line.endswith("_") and len(blocks) == 1:
+            blocks.append(("sub", _inline(line[1:-1])))
+        else:
+            blocks.append(("p", _inline(line)))
+    flush()
+    return blocks
+
+
+flow = md_blocks("/home/user/Tmt/dialer/library/vsl-script-freeman.md")
 
 OUT = "/home/user/Tmt/dialer/pdf"
 os.makedirs(OUT, exist_ok=True)

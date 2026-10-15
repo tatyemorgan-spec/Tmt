@@ -48,7 +48,7 @@ One short, personal text that references something specific to them (their goal,
 ```
 
 ## The why (Freeman, 12 Oct): every plan has it
-A call that only confirms logistics is a "receptionist" call. Every plan must have 2–3 why questions written for that lead, using what they've already said, from Freeman's ladder (library/vsl-script-freeman.md, "Freeman's coaching, 12 Oct"):
+A call that only confirms logistics is a "receptionist" call. Every plan must have 2–3 why questions written for that lead, using what they've already said, from Freeman's ladder (library/vsl-coaching-notes.md, "Freeman's coaching, 12 Oct"):
 - "Why are you looking for a mentor?"
 - "Why is now the right time?"
 - "Why not just try it with [the alternative they mentioned: a friend's property, on your own, YouTube]?"

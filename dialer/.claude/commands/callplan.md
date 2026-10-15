@@ -12,7 +12,7 @@ Target: $ARGUMENTS
 For each lead:
 1. Skip it if it already has a note titled "Next call plan" created in the last 3 days, unless there's been new activity since (a call, SMS or note after the plan).
 2. Read everything: fetch_lead (application answers, Calendly info), activity_search for the lead (calls, notes, SMS, status changes), and the task text.
-3. Read offer/icp.md (routing) and library/vsl-script-freeman.md (flow + objection handling).
+3. Read offer/icp.md (routing), library/vsl-script-freeman.md (flow, why ladder, management, time objection) and library/vsl-coaching-notes.md (full objection bank).
 4. Write the note with create_note in exactly the format in library/call-plan-format.md. Freeman can see these notes, so keep it professional.
 5. Never send texts or emails, and never change statuses. Notes and task times only.
 
