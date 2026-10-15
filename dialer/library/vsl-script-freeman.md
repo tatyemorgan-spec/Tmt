@@ -46,6 +46,11 @@ Three leads have thought I was Freeman. Say "I work alongside Freeman" every tim
 If they're out, driving, or there's noise:
 > Sounds like you're out and about. This is your business we're talking about, so I'd rather do it properly. When are you back somewhere quiet today?
 
+If they push back on the questions ("just tell me how to get started"):
+> That's exactly what Freeman maps out with you on the call. My job right now is to check you're a fit, because he only takes on people he's sure he can get results for. Five minutes, fair?
+
+> **Don't:** Never open with "I'm quite busy today" or "sorry if I've disturbed you". They applied. A fresh app is the priority.
+
 ### 3. The video: prove it, don't ask it
 > Before we get into it, you watched Freeman's video on the page. What stood out to you?
 > In the most basic way possible, could you explain back to me how the Airbnb model works?
@@ -83,6 +88,18 @@ Ask, then shut up. Write their exact words down. Then go one level deeper with t
 > What happens if nothing changes, and you're in the same spot this time next year?
 
 **The method: isolate one word and flip it back.** Pick the word that carries the feeling ("free", "stuck", "tired", "family") and ask about that word only. Then: "And why does that matter so much to you?" Then silence. Keep going until you hear something they *feel*: a job they hate, time away from their kids, money stress, a deadline.
+
+> **Don't:** Never answer it for them. "I'm guessing you want to buy your time back and spend it with people you value, is that right?" gets a "yeah" every time, and a "yeah" is my why, not theirs. Ask open, then count to five.
+
+**The pain ladder.** Don't move to money until I've heard level 3 in their words.
+
+1. **The fact:** "I work 12-hour shifts." (Most calls stop here.)
+2. **The cost:** "What's that costing you? What does it look like day to day? Who else does it affect?"
+3. **The feeling and the stakes:** "How long have you felt like that? What happens if you're in the same spot next year?"
+
+> **Tip:** When they hand me pain ("barely surviving", "my back's hurting", "always stressed", "don't want to wait till 2028"), stop. Don't say "I get that" and move on to work. Say their word back: "Barely surviving. What does that look like?" That pain is what the call is for.
+
+If they've only got five minutes, ask the why first and book the rest. Funds and location take thirty seconds next time.
 
 ### Follow-up questions to the why: what they say → what I ask
 
@@ -269,9 +286,85 @@ If no: solve time and book. If yes: that's the real objection. Handle that one i
 
 Every time objection ends with a booked time: the video, the check-in or Freeman's call. Never "I'll get back to you".
 
+## Extra 3: the objections that keep coming up
+
+From my own calls, 1 to 15 October (full review: library/call-review-oct.md). Same pattern every time: **ask before answering, isolate it, tie it back to their why, end with a time I chose.**
+
+### "How much is it?" / "Just tell me the price"
+The most common one, and quoting a number cost us Wilson, Chris, Tina and Ajaratu.
+> Fair question. Honestly, I couldn't give you a number even if I wanted to. Freeman builds it around where you are and where you want to get to. What I can tell you is it's paid one-to-one mentorship, it's not free, and he goes through every bit of it on the call. If the investment made sense for you, is this something you'd want to do?
+
+If they push:
+> I get it, nobody wants to waste their time. That's why I asked what you've got set aside. Freeman will know that before you get on.
+
+If they won't book without a number:
+> Then honestly, now might not be the right time, and that's OK. This is for people who want to see if it's the right fit, not to shop around for a number.
+
+### "I'm not ready" / "When I'm ready, I'll reach out"
+> Totally fair. Can I ask, what does ready actually look like for you? What has to be in place?
+> And when will that be in place?
+> And if it's still the same this time next year, what's that cost you?
+> Let's do this: I'll call you on [day] at [time]. If you're ready, great. If not, I'll leave you be. Fair?
+
+If they said the same last time (Moo said it in April and again in October): "You said the same back in April. What's changed since then?"
+
+### "I need to talk to my partner" / "My partner said no"
+> Makes sense, it's a joint decision. What exactly did they say? What were they worried about?
+> If that was sorted, would they be on board?
+> That's exactly why I want them on Freeman's call, so they hear it first-hand rather than second-hand from you. Saturday or Sunday afternoon?
+
+If the partner has already said "put it on hold", **don't let the call go ahead without them** (Stella).
+
+### "Can I pay in instalments?" / "Is there any wiggle room?"
+> That's one for Freeman, he goes through all of that with you on the call. What I need to know is: if the numbers worked, are you in?
+
+> **Don't:** Never offer instalments, splitting it, wiggle room or "use a credit card and pay monthly", even after Freeman's call. Log what they said and tell Freeman.
+
+### "Is this a scam?" / "The advert said it was free"
+> Honestly, I'd be worried if you weren't careful. What would you need to see to feel comfortable?
+
+Then: testimonials, Freeman's YouTube, the call is on Google Meet with cameras on, and they pay nothing on my call.
+
+If the advert said it was free:
+> The video and the training on the page are free, yes. Working with Freeman one-to-one is paid. That's why I say it upfront, so there are no surprises. Is that a problem for you?
+
+### "I'm looking at other mentors"
+> Good, you should compare. What did you like about them? And what's stopping you going with them?
+
+Listen. Then match what they want (one-to-one support, a plan built around their hours) to Freeman. Never knock the other person.
+
+### "I've got no time for another intro call" (Chris)
+> I get it. This isn't another intro call: it's where Freeman maps out your plan, built around your hours. 45 minutes. If it's not for you after that, no hard feelings.
+
+### "My interest has cooled" / "The excitement's gone"
+> When you applied, something made you fill that form in. What was going on for you then?
+> Has that changed, or has life just got busy?
+
+If the reason is still there, the interest is too. Book the video for a set time.
+
+### "Easier said than done"
+> Which part feels the hardest?
+
+Answer that one part, then isolate it: "If that part was sorted, is there anything else?"
+
+### "My area isn't good for Airbnb" / "The videos are all London"
+> What makes you think that?
+
+Ask first, then answer. Freeman looks at their area with them on the call. **Scotland: Management only.**
+
+### "I'll call you" / "Ring me next week"
+> I appreciate that. I'd rather lock it in, though, so I'm not chasing you. Tuesday at 6 or Wednesday at 10?
+
+### Visa or sponsorship questions
+> Good question. That's one Freeman will go through with you on the call, so you get the right answer.
+
+Never guess.
+
 ## Never say
 
 > **Don't:** Prices, payment plans or discounts. "VSL". Guaranteed income, passive income, start with no money, quit your job, Freeman does it all for you, "the call is just for info", or anything that lets them think I'm Freeman.
+
+> **Don't:** Any range ("maximum 3K", "low four figures"). "It's only profit with management." Per-property earnings. Unconfirmed stats about Freeman. Guesses on visas. "Sorry if I've disturbed you." "No worries, no stress" as the last line of a call.
 
 ## After every call
 

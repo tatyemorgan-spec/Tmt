@@ -670,6 +670,7 @@ def md_blocks(path):
 
 
 flow = md_blocks("/home/user/Tmt/dialer/library/vsl-script-freeman.md")
+review = md_blocks("/home/user/Tmt/dialer/library/call-review-oct.md")
 
 OUT = "/home/user/Tmt/dialer/pdf"
 os.makedirs(OUT, exist_ok=True)
@@ -684,6 +685,7 @@ docs = [
     ("8-Links-Calendars-Proof.pdf", "Links", links),
     ("9-Daily-Workflow-Chat-Structure.pdf", "Daily Workflow", daily),
     ("10-VSL-Call-Script-Freeman.pdf", "VSL Call Script (Freeman)", flow),
+    ("11-Call-Review-October.pdf", "Call Review: October", review),
 ]
 for fn, title, blocks in docs:
     build(os.path.join(OUT, fn), title, blocks)

@@ -15,7 +15,7 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 - Every brief ends with ONE clear next step (book / close / callback date).
 
 ## VSL calls
-**Follow library/vsl-script-freeman.md (rebuilt 15 Oct from Freeman's 14 Oct coaching). It overrides older scripts.** Qualify hard: real why, video proved not asked, decision maker on the call, or no Freeman slot. Only PIFs. Book provisionally on the first call, video + "one rule" + check-in, partner in a WhatsApp group, never mention payment plans, never say "VSL", always ask location (Scotland doesn't work for R2R).
+**Follow library/vsl-script-freeman.md (rebuilt 15 Oct from Freeman's 14 Oct coaching). It overrides older scripts.** Qualify hard: real why, video proved not asked, decision maker on the call, or no Freeman slot. My own call patterns and the recurring objections (from 1–15 Oct calls): library/call-review-oct.md. Never answer the why for them; climb the pain ladder before money. Only PIFs. Book provisionally on the first call, video + "one rule" + check-in, partner in a WhatsApp group, never mention payment plans, never say "VSL", always ask location (Scotland doesn't work for R2R).
 
 ## Daily workflow
 **Next call plans:** every lead with a task due gets a "Next call plan" note in Close (format: library/call-plan-format.md). A daily routine writes them each morning, and `/callplan [name|today|week]` writes them on demand. Freeman can see notes, so keep them professional: a conversation flow, not a script.
