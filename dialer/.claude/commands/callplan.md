@@ -16,8 +16,20 @@ For each lead:
 4. Write the note with create_note in exactly the format in library/call-plan-format.md. Freeman can see these notes, so keep it professional.
 5. Never send texts or emails, and never change statuses. Notes and task times only.
 
+## First, sort today's list (Tye, 19 Oct)
+Only these stay on today's list:
+1. **A call today or tomorrow**: a Freeman call, a pre-call or check-in tied to one, or a client's first session.
+2. **New apps**: applied in the last 3 days and not properly spoken to yet.
+3. **Agreed today**: the lead said to call today, or Tye agreed a time today ("call me Monday morning", "after 6").
+4. **Recent no-shows**: missed a Freeman call in the last 7 days.
+5. **Money**: a payment that's been promised but isn't confirmed. Not on Tye's list, but kept so it isn't missed.
+
+Everything else is **backlog**: move it to the next working day, date only (no time), medium priority, with no new plan note. It isn't lost. Each morning, sort again: anything in the backlog that now fits 1–5 (e.g. their Freeman call is tomorrow) comes back onto the list, and the rest rolls forward one more day. Never complete or delete a backlog task.
+
+At the end of the summary, list the backlog under **"If you have time"** in this order: next Freeman call soonest, then hottest by funds, then oldest. Lead, why it's warm, in a few words.
+
 ## Then time and prioritise the tasks (every "today" run)
-After the plans are written, give every task in the run a real time slot with update_task, so Close shows them in call order:
+After the plans are written, give every task on today's list a real time slot with update_task, so Close shows them in call order:
 1. **Keep fixed times.** Leave alone any time a lead agreed ("6pm", "after 6:30"), any time Tye set himself today, and pre-call check-ins tied to a Freeman call (they must land before the call).
 2. **Find when each lead picks up.** Use activity_search (calls + SMS + WhatsApp, direction inbound) for the leads in the run, and note the times they replied or called back, plus anything in notes or task text ("at work", "construction", "after class", "nurse", "evenings", "Wednesdays"). Close times are UTC; BST = UTC+1.
 3. **Slot them** using library/daily-workflow.md (times BST):
@@ -28,6 +40,6 @@ After the plans are written, give every task in the run a real time slot with up
    - If a lead's pickup times clearly differ from their block, use their times.
 4. **Spread them out.** 10–15 minutes apart, never two tasks at the same minute (except two tasks on the same lead, which share a slot). Don't set a time that has already passed: the earliest slot is the next quarter hour.
 5. **Priority:** set `high` on booked/New Opportunity pre-calls, same-day Freeman check-ins, payment checks and brand-new apps. Leave everything else `medium`.
-6. Date-only tasks ("Follow up" with no time) always get a time.
+6. Date-only tasks ("Follow up" with no time) on today's list always get a time. Backlog tasks stay date-only.
 
 Finish with a short list in chat, in time order: time (BST) · lead · aim in a few words, with high-priority ones marked.
