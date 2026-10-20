@@ -30,7 +30,7 @@ Calls set for Fri 23 Oct: Daniel N, Chinedu, Olanipekun, Jordan, Olubunmi, Pasch
 
 > Hi, thanks for the report. Updates from sales:
 >
-> **Outstanding outcomes:** I've updated 5 in Airtable. Halimat, Joseph and Leon attended and are in progress (Leon's decision call is 27 Oct, Joseph's is 21 Oct). Olaide and Blessing were cancelled because we couldn't reach them. Chukwuebuka (new funnel, 19 Oct) is still waiting on Freeman. Ade, Abiola and Prince are today.
+> **Outstanding outcomes:** I've updated 9 in Airtable. Halimat, Joseph and Leon attended and are in progress (Leon's decision call is 27 Oct, Joseph's is 21 Oct). Olaide, Blessing, Chukwuebuka (new funnel, 19 Oct), and today's Ade, Abiola and Prince (new funnel) were all no-shows or cancelled with no response.
 >
 > **Possible booking-page issue:** a couple of applicants gave answers that should qualify but never booked. Alomgir Khan (new funnel, 14 Oct, £3–5k plus credit) and Andrew Ailenonkhuoria (9 Oct, £3–5k plus credit) both said they were ready to start soon. Others with the same funding answer (Halimat, Loretta) did book. Could you check whether Alomgir and Andrew reached the booking page, and whether they dropped off there?
 >
