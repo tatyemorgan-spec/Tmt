@@ -29,16 +29,18 @@ APPROACH
 Tone + one or two things to be mindful of (e.g. nervous, prefers text, sensitive personal situation).
 
 CONVERSATION FLOW
-1. Reconnect: one natural opening line
-2. Check-in on what's changed / the video
-3. Their situation + goals (the questions still unanswered)
-4. The why: 2–3 "why" questions written for this lead (see below)
-5. Money: confirm from what they've said before
-6. Why now: play their why back in one line before booking
-7. Next step: book Freeman / check-in, on a specific day and time + confirmation SMS
+1. Frame: opening line + "this is to see if you're a good fit for Freeman; at the end I'll let you know if it makes sense to book you in"
+2. Check-in on what's changed / the video (can they explain the strategy back?)
+3. Their situation + goals (the questions still unanswered), including one "sell yourself" question
+4. The why: 2–3 "why" questions written for this lead, with a level-2 and level-3 follow-up for their likely answer (see below)
+5. Mentorship: why a mentor rather than doing it alone, open to investing in themselves if the plan's right (no figures), who else decides
+6. Money: confirm from what they've said before
+7. Why now: play their why back in one line
+8. Sell the call + commitment: what Freeman's call is, then "can you commit to being there, on time, video watched, [partner] on the call?" Book only on a clear yes, on a day and time they pick + confirmation SMS
 
 LIKELY CONCERNS
 * Concern → how to handle it (one line each, Freeman's challenge style)
+* Always include their most likely vague why answer ("more income", "time with family", "freedom") → the follow-up that takes it deeper
 
 NEXT STEP
 Book Freeman + video + check-in, OR a dated follow-up, OR NGMI/DQ.
@@ -46,6 +48,9 @@ Book Freeman + video + check-in, OR a dated follow-up, OR NGMI/DQ.
 IF NO ANSWER (text, Tye approves before sending)
 One short, personal text that references something specific to them (their goal, what they said last time, the video). Ends with one easy question. Never more than one text per call attempt.
 ```
+
+## The qualifying frame (Tye, 21 Oct): every plan has it
+They applied to us, so they qualify for Freeman, not the other way round. Every plan sets the frame in step 1, tests the strategy (can they explain it back?), tests the mentorship (why a mentor, open to investing in themselves, who decides), and ends with a spoken commitment to the call. Willing to let them go if they can't commit. Full steps, lines and the vague-answer follow-up bank: library/qualifying-frame.md.
 
 ## The why (Freeman, 12 Oct): every plan has it
 A call that only confirms logistics is a "receptionist" call. Every plan must have 2–3 why questions written for that lead, using what they've already said, from Freeman's ladder (library/vsl-coaching-notes.md, "Freeman's coaching, 12 Oct"):
