@@ -12,7 +12,13 @@ Close has no send-SMS tool here, and CLAUDE.md says texts are never sent without
    - **Already acknowledged**: an outbound SMS starting "Hey <name>, thank you so much for taking the time to watch our Airbnb video" exists. Skip it and say so.
    - **Booked Call**: status is New Opportunity (a Calendly booking moves it there automatically) OR it has an opportunity "New Deal - Call Booked". Use template **Tye — Acknowledgement: Booked Call** (smstmpl_5157pyEZoYTfdYxIteysW0).
    - **New App**: anything else. Use template **Tye — Acknowledgement: New App** (smstmpl_40N2Eeda74Nr4RQLGIb1Vh).
-   - Fetch the template text live (`fetch_sms_template`) so wording changes in Close are picked up. Swap `{{ contact.first_name }}` for the contact's first name (tidy the capitalisation; if the name is a company or blank, use "Hey there").
+   - Fetch the template text live (`fetch_sms_template`) so wording changes in Close are picked up. If that fails (it currently errors on the output schema), use the wording below.
+   - Booked Call wording (Tye's version, 22 Oct, for self-bookers):
+     > Hey {{ contact.first_name }}, thank you so much for applying for Freeman's 1:1 Airbnb mentorship and for watching the video! Your call with Freeman is booked, but it's not confirmed yet. We'll need a quick chat beforehand to make sure you're the right fit for the programme, and that Freeman's the right fit for you too. It also helps us understand your current situation and your goals, so you get the most out of the call.
+     > Warm regards, Tye
+   - New App wording:
+     > Hey {{ contact.first_name }}, thank you so much for taking the time to watch our Airbnb video! I'll be in touch with you soon for a quick chat to understand your current situation and your goals, and to see how we can help you achieve them, whether that's starting, growing or scaling your Airbnb business.
+     > Warm regards, Tye Swap `{{ contact.first_name }}` for the contact's first name (tidy the capitalisation; if the name is a company or blank, use "Hey there").
 3. Output one block per lead:
    `Name · phone · status · TEMPLATE: <name>`
    then the rendered text, ready to paste.
