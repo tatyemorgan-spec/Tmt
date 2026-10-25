@@ -43,5 +43,13 @@ Both formats:
 - If the row already had a handwritten note from me or Antoinette, keep it underneath as `Previous note: ...`.
 - Short. One or two lines per heading.
 
+## Freeman's meeting notes (Tye, 25 Oct): every lead Freeman has had a call with
+Freeman writes his own note in Close after each call (by Freeman Richards: "CRM Summary", "CRM Note", "Meeting Purpose", "Next Steps"). Ignore his notes that are only the copied application answers ("Where are you on your property journey…").
+- On every run, check for new Freeman notes (`find_notes` with Freeman's user ID `user_biI7njoZpqjJ7jKTFxZyoPyOqd1Ey75s6BsQAHYkXn1`, created since the last run) and add them to that lead's row, including Ray's leads.
+- Add a `Freeman's call notes (D Mon):` section above `Next step:`, one dated line or two per call: what was agreed, the outcome, key facts about them (background, goal, who decides, concerns), first session date and the actions for me or Ray. Update `Next step:` to match.
+- Leave out prices, payment plans, instalments, discounts and interest even though Freeman's note has them. "Signed up (Management)" or "first payment by Mon 8pm" is fine; the amounts are not.
+- Check his dates against the calendar (e.g. "Monday 27 Oct" when 27 Oct is a Tuesday) and flag any that don't match.
+- Rows with no Airtable entry (some DM/Instagram leads): mention them in the chat reply instead.
+
 ## After the run
 Reply in chat with: how many rows updated, who moved forward today (booked, qualified, closed), and anything that needs my attention (payment not confirmed, Freeman outcome missing, wrong numbers).
