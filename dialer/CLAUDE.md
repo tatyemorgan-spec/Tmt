@@ -15,6 +15,7 @@ Pay: £500/month base + 7% high ticket / 10% low ticket commission.
 - Every brief ends with ONE clear next step (book / close / callback date).
 
 ## VSL calls
+**First calls on new apps: Freeman's five-minute flow (library/five-minute-flow.md, 30 Oct).** Get the vital info fast, route, and let the training video do the talking. The why, the partner and the Freeman booking happen at the check-in after the video.
 **Follow library/vsl-script-freeman.md (rebuilt 15 Oct from Freeman's 14 Oct coaching). It overrides older scripts.** Qualify hard: real why, video proved not asked, decision maker on the call, or no Freeman slot. My own call patterns and the recurring objections (from 1–15 Oct calls): library/call-review-oct.md. Never answer the why for them; climb the pain ladder before money. **They applied to us:** set the qualifying frame, test the strategy and the mentorship, and get a spoken commitment to the call (library/qualifying-frame.md, which also has the follow-ups for vague whys). Only PIFs. Book provisionally on the first call, video + "one rule" + check-in, partner in a WhatsApp group, never mention payment plans, never say "VSL", always ask location (Scotland doesn't work for R2R).
 
 ## Daily workflow

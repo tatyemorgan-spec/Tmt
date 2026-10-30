@@ -29,6 +29,7 @@ APPROACH
 Tone + one or two things to be mindful of (e.g. nervous, prefers text, sensitive personal situation).
 
 CONVERSATION FLOW
+(First call on a new app: use the 8 steps in library/five-minute-flow.md instead of the list below, filled in from their application. The list below is for check-ins and later calls.)
 1. Frame: opening line + "this is to see if you're a good fit for Freeman; at the end I'll let you know if it makes sense to book you in"
 2. Check-in on what's changed / the video (can they explain the strategy back?)
 3. Their situation + goals (the questions still unanswered), including one "sell yourself" question
