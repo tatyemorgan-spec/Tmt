@@ -67,5 +67,9 @@ Our Reviews · Student Review or Case Study · Management Pitch · Tye — Spoke
 | Disqualified | Email: Tye — DQ: Thank You + YouTube |
 
 
+## Black Friday Accelerator (added 12 Nov, private; don't send before Freeman signs off on Mon 16 Nov)
+Which one when, plus the script: library/bf-accelerator-script.md
+Tye — BF: Spoke to Freeman (Reopen) · Tye — BF: Budget Was the Blocker · Tye — BF: Went Quiet (Curiosity) · Tye — BF: Webinar Invite · Tye — BF: Webinar Registered (Acknowledgement) · Tye — BF: Missed Call 1 · Tye — BF: Missed Call 2 (Last Try) · Tye — BF: After Call (Overview + Next Step) · Tye — BF: Freeman 25-min Call Booked
+
 ## 29 Sep: Freeman's warmer wording applied to
 Acknowledgement: New App · Acknowledgement: Booked Call · VSL Follow Up 1 · VSL Follow Up 2 ("might have missed my message") · VSL Follow Up 3 ("third time's a charm").
